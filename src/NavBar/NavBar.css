@@ -32,7 +32,7 @@
     .navItems a {
         text-align: left;
         font-variant: small-caps;
-        font-family: $Font1;
+        font-family: 'Source Sans Pro', sans-serif;
         color: black;
         font-weight: 500;
         font-size: 20px;
@@ -52,7 +52,7 @@
     }
 
     #navContact {
-        font-family: $Font1;
+        font-family: 'Source Sans Pro', sans-serif;
         font-size: 11px;
         text-align: left;
         color: black;
@@ -63,6 +63,7 @@
     #navContact a {
         color: black;
         padding-bottom: 50px;
+        text-decoration: none;
     }
 
     li a:hover, #navContact a:hover {

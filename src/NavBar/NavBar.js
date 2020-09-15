@@ -3,9 +3,9 @@ import LogoSelfPortrait from "../Images/LogoSelfPortrait.jpg"
 import LogoPicture from "../Images/LogoPicture.jpg"
 import "./NavBar.css"
 import {
-	BrowserRouter as Router,
-	Link
-} from 'react-router-dom'
+  BrowserRouter as Router,
+  Link
+} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
 	faFacebookSquare,
@@ -15,19 +15,19 @@ import {
 
 const NavBar = props => {
 	return(
-		<div id="navigation" class="navigation">
-		    <img class="weblogo" src={LogoSelfPortrait} />
-		    <img class="mobilelogo" src={LogoPicture} />
-		    <Router>
-			    <div class="navItems">
+		<div id="navigation" className="navigation">
+		    <img className="weblogo" src={LogoSelfPortrait} />
+		    <img className="mobilelogo" src={LogoPicture} />
+		    <div className="navItems">
+			    <Router>
 			        <ul>
-			            <li><Link to="/Illustration" >illustration </Link></li>
-			            <li><Link to="/Design" >design</Link></li>
-			            <li><Link to="/About" >about</Link></li>
+			            <li><Link to="/Illustration">illustration </Link></li>
+			            <li><Link to="/Design">design</Link></li>
+			            <li><Link to="/About">about</Link></li>
 			        </ul>
-			    </div>
-		    </Router>
-
+		        </Router>
+		    </div>
+		    
 
 		    <div id="navIcons">
 		        <a href="https://www.linkedin.com/in/kaitlin-yang-98447386/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size='2x' /></a>
