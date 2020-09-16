@@ -1,0 +1,76 @@
+.page {
+    margin-left: 250px; }
+.contentPage {
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  max-width: 900px; }
+.contentHMH {
+  column-count: 2;
+  max-width: 1000px; }
+.contentPage h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  margin-top: 5%;
+  letter-spacing: 2px;
+  padding-bottom: 5%; }
+#rapBattlePage {
+  max-width: 500px; }
+#rapLink {
+  color: #5ea1a9;
+  text-decoration: none; }
+#portraitPage {
+  max-width: 700px; }
+#hiddenPage {
+  max-width: 500px; }
+.contentImage {
+  width: 100%;
+  display: block;
+  margin-bottom: 50px; }
+#issuu {
+  margin-bottom: 50px; }
+.contentText {
+  font-size: 18px;
+  padding-bottom: 3%;
+  letter-spacing: 1px;
+  line-height: 150%; }
+.contentTextHMH {
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px; }
+.contentTextHMH2 {
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 0px;
+  font-family: "Crimson Text", serif;
+  font-size: 11px; }
+.contentTextHMHTitle {
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0px; }
+.row {
+  display: table;
+  clear: both; }
+.column {
+  float: left;
+  width: 45%;
+  padding: 2%; }
+.bballcolumn {
+  float: left;
+  width: 33.33%;
+  padding: 10px; }
+.chocolateText {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  text-align: center; }
+.ItalicText{
+  font-style: italic;
+}
