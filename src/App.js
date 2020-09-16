@@ -20,6 +20,17 @@ import SherlockBones from './Components/Design/SherlockBones.js'
 import Strength from './Components/Design/Strength.js'
 import TimeForAndrew from './Components/Design/TimeForAndrew.js'
 
+import BasketballAnimals from './Components/Illustration/BasketballAnimals.js'
+import ChristmasCard from './Components/Illustration/ChristmasCard.js'
+import Emperor from './Components/Illustration/Emperor.js'
+import IDEO from './Components/Illustration/IDEO.js'
+import LittleRedRidingHood from './Components/Illustration/LittleRedRidingHood.js'
+import RapBattle from './Components/Illustration/RapBattle.js'
+import SecretSantaSociety from './Components/Illustration/SecretSantaSociety.js'
+import StarvingPanda from './Components/Illustration/StarvingPanda.js'
+import VeggieAnimals from './Components/Illustration/VeggieAnimals.js'
+
+
 function App() {
 
   return (
@@ -44,6 +55,16 @@ function App() {
 			<Route path="/Design/SherlockBones" component={SherlockBones} />
 			<Route path="/Design/Strength" component={Strength} />
 			<Route path="/Design/TimeForAndrew" component={TimeForAndrew} />
+
+			<Route path="/Illustration/BasketballAnimals" component={BasketballAnimals} />
+			<Route path="/Illustration/ChristmasCard" component={ChristmasCard} />
+			<Route path="/Illustration/Emperor" component={Emperor} />
+			<Route path="/Illustration/IDEO" component={IDEO} />
+			<Route path="/Illustration/LittleRedRidingHood" component={LittleRedRidingHood} />
+			<Route path="/Illustration/RapBattle" component={RapBattle} />
+			<Route path="/Illustration/SecretSantaSociety" component={SecretSantaSociety} />
+			<Route path="/Illustration/StarvingPanda" component={StarvingPanda} />
+			<Route path="/Illustration/VeggieAnimals" component={VeggieAnimals} />
 
 	    </Switch>
     </Router>

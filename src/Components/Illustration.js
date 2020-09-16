@@ -22,7 +22,7 @@ const Illustration = props => {
 	        </div>
 	        <div className="illustrationOverlay" id="secretSantaOverlay">
 	            <h3>children's book</h3>
-	            <Link to="/Illustration/SecretSanta">Secret Santa Society</Link>
+	            <Link to="/Illustration/SecretSantaSociety">Secret Santa Society</Link>
 	        </div>
 
 	        <div id="rapBattle" className="illustrationProject">
@@ -70,7 +70,7 @@ const Illustration = props => {
 	        </div>
 	        <div className="illustrationOverlay" id="veggieOverlay">
 	            <h3>Personal Project</h3>
-	            <Link to="/Illustration/Veggie">Veggie Animal</Link>
+	            <Link to="/Illustration/VeggieAnimals">Veggie Animals</Link>
 	        </div>
 
 	        <div id="bear" className="imageOverlay">
