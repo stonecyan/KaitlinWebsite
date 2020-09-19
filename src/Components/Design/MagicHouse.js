@@ -17,7 +17,7 @@ import final from '../../Images/Design/MagicHouse/magic house-final poster.jpg'
 function MagicHouse(){
 	return(
 		<div class="page">
-		    <div class="contentPage">
+		    <div class="designContentPage">
 		        <h2>The Magic House</h2>
 		        <p class="contentText">I created an activity workbook for children visiting the St. Louis Children’s Museum, the Magic House. After conducting several interviews onsite, I developed my concept based on solving the lack of interaction between children and the educational materials in each room. The collectable stickers give them the incentive to explore, learn, and complete questions and tasks with the help of their guardians. </p>
 		        <p class="contentText">The individual stickers prompt the children to visualize themselves in different roles and careers. The artwork is less realistic and more open to interpretation, which make it more accessible and understandable to the children. I also include different ethnicities and genders to broaden the user’s perspective on the world. The second part of the project serves as a memory documentation that the children and their parents can work on and look back together. </p>

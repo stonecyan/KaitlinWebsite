@@ -6,7 +6,7 @@ import Andrew from '../../Images/Design/HMHBooks/TimeForAndrew.jpg'
 function TimeForAndrew(){
 	return(
 		<div class="page">
-		    <div class="contentPage">
+		    <div class="designContentPageBook">
 		        <div class="contentHMH">
 		            <img class="contentImage" src={Andrew} />
 		            <p class="contentTextHMHTitle">TIME FOR ANDREW</p>

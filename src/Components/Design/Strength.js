@@ -13,7 +13,7 @@ import eight from '../../Images/Design/Strength/8.jpg'
 function Strength(){
 	return(
 		<div class="page">
-		    <div class="contentPage">
+		    <div class="designContentPage">
 		        <h2>Strength Magazine</h2>
 		        <p class="contentText">I worked as the lead Graphic Designer for Strength magazine, an annual publication for all members of the Annie Wright Schools and the Tacoma community. The magazine includes articles about educational trends, stories about students and alumni, updates on the evolving history of the school, student and faculty achievement, and more. I had the opportunity to develop the entire publication from content developing, brainstorming, designing all the way to print production and distributing. </p>
 		        <p class="contentText">Since the overarching theme for this issue is the topic of IB, I used a lot of geometric shapes and bold colors to bring more visual interest to the intellectual topic. Another goal of mine was highlighting the candid photos of the beautiful campus and students. </p>

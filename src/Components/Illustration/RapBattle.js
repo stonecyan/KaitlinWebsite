@@ -16,7 +16,7 @@ import mockup from '../../Images/Illustration/RapBattle/Poster_Mockup.jpg'
 function RapBattle(){
     return(
     	<div class="page">
-		    <div class="contentPage" id="rapBattlePage">
+		    <div class="illustrationContentPage" id="rapBattlePage">
 		        <h2>Autumn Moon Rap Battle Poster</h2>
 		        <p class="contentText">Commissioned to illustrate and design a promotional poster for an annual event <a id="rapLink" href="https://franklin.ucbtheatre.com/show/6398">“An Autumn Moon Rap Battle”</a> presented by Asian AF and Dopetown 3000. The poster was hung around town and event venue for the month of the event.  </p>
 		        <img class="contentImage" src={poster} />

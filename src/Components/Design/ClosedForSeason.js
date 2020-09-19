@@ -7,7 +7,7 @@ import Closed from '../../Images/Design/HMHBooks/ClosedForTheSeason.jpg'
 function ClosedForSeason(){
 	return(
 		<div class="page">
-		    <div class="contentPage">
+		    <div class="designContentPageBook">
 		        <div class="contentHMH">
 		            <img class="contentImage" src={Closed} />
 

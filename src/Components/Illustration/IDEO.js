@@ -8,7 +8,7 @@ import IDEOCover from '../../Images/Illustration/IDEO.jpg'
 function IDEO(){
     return(
     	<div class="page">
-		    <div class="contentPage" id="ideoPage">
+		    <div class="illustrationContentPage" id="ideoPage">
 		        <h2>EC Book Challenge</h2>
 		        <p class="contentText">
 		            Earlier this year, OpenIDEO and William Penn Foundation launched the #ECBookChallenge, an open call for children’s book manuscripts.

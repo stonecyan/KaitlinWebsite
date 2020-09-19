@@ -6,7 +6,7 @@ import Sherlock from '../../Images/Design/HMHBooks/SherlockBones.jpg'
 function SherlockBones(){
 	return(
 		<div class="page">
-		    <div class="contentPage">
+		    <div class="designContentPageBook">
 		        <div class="contentHMH">
 		            <img class="contentImage" src={Sherlock} />
 

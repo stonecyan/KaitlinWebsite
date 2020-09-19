@@ -9,7 +9,7 @@ import four from '../../Images/Illustration/Veggie Animals/veggie animal 4.jpg'
 function VeggieAnimals(){
     return(
     	<div class="page">
-		    <div class="contentPage">
+		    <div class="illustrationContentPage">
 		        <h2>Veggie Animals</h2>
 		        <p class="contentText"></p>
 		        <img class="contentImage" src={one} />

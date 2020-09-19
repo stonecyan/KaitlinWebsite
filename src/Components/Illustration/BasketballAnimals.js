@@ -14,7 +14,7 @@ import giraffe from '../../Images/Illustration/Basketball Animal Series/giraffe 
 function BasketballAnimals(){
     return(
     	<div class="page">
-		    <div class="contentPage">	
+		    <div class="illustrationContentPage">	
 		        <h2>Basketball + Animal Series</h2>
 		        <img class="contentImage" src={one} />
 		        <div class="row">

@@ -6,7 +6,7 @@ import Ghost from '../../Images/Design/HMHBooks/GhostofCrutchfieldHall.jpg'
 function GhostCrutchfield(){
 	return(
 		<div class="page">
-		    <div class="contentPage">
+		    <div class="designContentPageBook">
 		        <div class="contentHMH">
 		            <img class="contentImage" src={Ghost} />
 		            <p class="contentTextHMHTitle">THE GHOST OF CRUTCHFIELD HALL</p>

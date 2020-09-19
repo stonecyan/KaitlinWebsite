@@ -7,7 +7,7 @@ import Jacket from '../../Images/Design/HMHBooks/LightsonWonderRockJacket.jpg'
 function LightsWonderRock(){
 	return(
 		<div class="page">
-		    <div class="contentPage">
+		    <div class="designContentPageBook">
 		        <div class="contentHMH">
 		            <img class="contentImage" src={Lights} />
 		            <p class="contentTextHMHTitle">LIGHTS ON WONDER ROCK</p>

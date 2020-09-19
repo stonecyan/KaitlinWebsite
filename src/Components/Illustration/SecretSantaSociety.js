@@ -16,7 +16,7 @@ import eleven from '../../Images/Illustration/SecretSantaSociety/11.Highlighted 
 function LittleRedRidingHood(){
     return(
     	<div class="page">
-		    <div class="contentPage">
+		    <div class="illustrationContentPage">
 		        <h2>Secret Santa Society</h2>
 		        <p class="contentText">Worked as the illustrator for Michella Hatherill's picture book, "Secret Santa Society with Sonny and Ray", released in December 2018.</p>
 		        <img class="contentImage" src={one} />

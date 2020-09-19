@@ -7,7 +7,7 @@ import Card from '../../Images/Illustration/Christmas Card/ChristmasCard.jpg'
 function ChristmasCard(){
     return(
     	<div class="page">
-		    <div class="contentPage">
+		    <div class="illustrationContentPage">
 		        <h2>Christmas Card</h2>
 		        <p class="contentText"></p>
 		        <img class="contentImage" src={Christmas} />

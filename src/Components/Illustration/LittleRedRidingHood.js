@@ -18,7 +18,7 @@ import twentysix from '../../Images/Illustration/Little Red Riding Hood/Scene 26
 function LittleRedRidingHood(){
     return(
     	<div class="page">
-		    <div class="contentPage">
+		    <div class="illustrationContentPage">
 		        <h2>Little Red Riding Hood</h2>
 		        <p class="contentText">Worked as a contractor for Gakko Inc, an educational technology start-up that thrives to create meaningful experiences for early learners. I illustrated and assisted with animating the classic story, Little Red Riding Hood, for an expansion of their existing smart phone and tablet app, Moji Moji. </p>
 		        <p class="contentText">Highlighted Spreads:</p>

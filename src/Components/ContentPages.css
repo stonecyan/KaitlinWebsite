@@ -1,19 +1,24 @@
 .page {
     margin-left: 250px; }
-.contentPage {
+.illustrationContentPage, .designContentPage {
   height: 100%;
   margin: auto;
   text-align: center;
   max-width: 900px; }
-.contentHMH {
-  column-count: 2;
-  max-width: 1000px; }
-.contentPage h2 {
+.illustrationContentPage h2, .designContentPage h2 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   margin-top: 5%;
   letter-spacing: 2px;
-  padding-bottom: 5%; }
+  padding-bottom: 1%; }
+
+.designContentPageBook {
+  margin-top: 5%;
+}
+
+.contentHMH {
+  column-count: 2;
+  max-width: 1000px; }
 #rapBattlePage {
   max-width: 500px; }
 #rapLink {

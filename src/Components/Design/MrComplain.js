@@ -7,7 +7,7 @@ import Jacket from '../../Images/Design/HMHBooks/MrComplainJacket.jpg'
 function MagicHouse(){
 	return(
 		<div class="page">
-		    <div class="contentPage">
+		    <div class="designContentPageBook">
 		        <div class="contentHMH">
 		            <img class="contentImage" src={Complain} />
 		            <p class="contentTextHMHTitle">MR. COMPLAIN TAKES THE TRAIN</p>

@@ -6,7 +6,7 @@ import OfFeather from '../../Images/Design/HMHBooks/OfAFeather.jpg'
 function Feather(){
 	return(
 		<div class="page">
-		    <div class="contentPage">
+		    <div class="designContentPageBook">
 		        <div class="contentHMH">
 		            <img class="contentImage" src={OfFeather} />
 		            <p class="contentTextHMHTitle">OF A FEATHER</p>

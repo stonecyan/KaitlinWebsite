@@ -7,7 +7,7 @@ import Doll from '../../Images/Design/HMHBooks/DollintheGarden.jpg'
 function DollGarden(){
 	return(
 		<div class="page">
-		    <div class="contentPage">
+		    <div class="designContentPageBook">
 		        <div class="contentHMH">
 		            <img class="contentImage" src={Doll}/>
 		            <p class="contentTextHMHTitle">THE DOLL IN THE GARDEN</p>
