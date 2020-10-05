@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import finalCover from '../../Images/Design/Chocolate/final cover.jpg'
 import asdf from '../../Images/Design/Chocolate/9780544175662_lres-1.gif'

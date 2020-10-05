@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import Christmas from '../../Images/Illustration/ChristmasCard.jpg'
 import Card from '../../Images/Illustration/Christmas Card/ChristmasCard.jpg'

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import OfFeather from '../../Images/Design/HMHBooks/OfAFeather.jpg'
 

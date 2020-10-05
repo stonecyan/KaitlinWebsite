@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import Complain from '../../Images/Design/HMHBooks/MrComplain.jpg'
 import Jacket from '../../Images/Design/HMHBooks/MrComplainJacket.jpg'

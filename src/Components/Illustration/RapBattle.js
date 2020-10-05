@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import poster from '../../Images/Illustration/RapBattle/Poster V6.jpg'
 import one from '../../Images/Illustration/RapBattle/Scan.jpeg'

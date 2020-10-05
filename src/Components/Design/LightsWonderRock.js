@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import Lights from '../../Images/Design/HMHBooks/LightsonWonderRock.jpg'
 import Jacket from '../../Images/Design/HMHBooks/LightsonWonderRockJacket.jpg'

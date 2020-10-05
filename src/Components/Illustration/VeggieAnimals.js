@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import one from '../../Images/Illustration/Veggie Animals/veggie animal 1.jpg'
 import two from '../../Images/Illustration/Veggie Animals/veggie animal 2.jpg'

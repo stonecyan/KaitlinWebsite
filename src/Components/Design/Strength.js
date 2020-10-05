@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import one from '../../Images/Design/Strength/1.jpg'
 import two from '../../Images/Design/Strength/2.jpg'

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import onea from '../../Images/Design/Podcast/1a.jpg'
 import oneb from '../../Images/Design/Podcast/1b.jpg'

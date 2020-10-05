@@ -1,0 +1,200 @@
+@media (min-width: 451px){
+    .topnav, .mobileDesign, .mobileIllustration, #navLogo, img.mobilelogo{
+        display: none;
+    }
+
+    .navigation {
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        padding-top: 20px;
+        background-color: white;
+    }
+
+    img.weblogo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 250px;
+    }
+
+    .navItems a {
+        text-align: left;
+        font-variant: small-caps;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: black;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 2px;
+        display: block;
+        text-decoration: none;
+        padding-left: 68px;
+        padding-bottom: 6px;
+    }
+
+    #navIcons {
+        margin-left: 68px;
+    }
+
+    i {
+        padding-right: 5px;
+    }
+
+    #navContact {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 11px;
+        text-align: left;
+        color: black;
+        text-decoration: none;
+        padding-left: 68px;
+    }
+
+    #navContact a {
+        color: black;
+        padding-bottom: 50px;
+        text-decoration: none;
+    }
+
+    li a:hover, #navContact a:hover {
+        color: #5ea1a9;
+        text-decoration: none;
+    }
+
+    #navIcons a{
+        color: black;
+    }
+
+    #navIcons a:hover {
+        color: #5ea1a9;
+    }
+}
+
+
+
+@media (max-width: 450px){
+    .topnav{
+    display: block;
+    background-color: white;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    }
+
+    .topnav i{
+        color: black;
+        text-decoration:none;
+    }
+
+    .topnavresponsive i{
+        color: #5ea1a9;
+        text-decoration:none;
+    }
+
+    .navigation {
+        margin-top: 13%;
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        padding-top: 20px;
+        background-color: white;
+    }
+
+    img.weblogo{
+        display:none;
+    }
+
+    img.mobilelogo {
+        display: block;
+        margin: auto;
+        width: 60%;
+        margin-bottom: 7%;
+    }
+    .mobileNavLeft {
+        float: left;
+        width: 13%;
+    }
+
+    .mobileNavCenter {
+        display: inline-block;
+        margin: 0 auto;
+        width: 87%;
+    }
+
+    #navLogo {
+        width: 45%;
+        height: auto;
+        display: block;
+        margin-left: 14%;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navItems a {
+        text-align: center;
+        font-variant: small-caps;
+        font-family: "Source Sans Pro", sans-serif;
+        color: black;
+        font-weight: 500;
+        font-size: 30px;
+        letter-spacing: 2px;
+        display: block;
+        text-decoration: none;
+        margin: 0 auto;
+        padding-bottom: 4%;
+    }
+
+    #navIcons{
+        padding-left: 35%;
+    }
+
+    i {
+        padding-right: 5px;
+    }
+
+    #navContact {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 11px;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        margin: 0 auto;
+    }
+
+    #navContact a {
+        color: black;
+        padding-bottom: 50px;
+    }
+
+    li a:hover, #navContact a:hover {
+        color: #5ea1a9;
+        text-decoration: none;
+    }
+
+    #navIcons i {
+        color: black;
+        font-size: 250%;
+    }
+
+    #navIcons i:hover {
+        color: #5ea1a9;
+    }
+}

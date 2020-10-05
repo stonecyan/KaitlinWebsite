@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import Doll from '../../Images/Design/HMHBooks/DollintheGarden.jpg'
 

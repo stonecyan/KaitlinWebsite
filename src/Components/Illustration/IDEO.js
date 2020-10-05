@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import Cover from '../../Images/Illustration/IDEO/IDEOCover.jpg'
 import Page from '../../Images/Illustration/IDEO/IdeoPage2.jpg'

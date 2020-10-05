@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import one from '../../Images/Illustration/Little Red Riding Hood/Scene 1.jpg'
 import onea from '../../Images/Illustration/Little Red Riding Hood/Scene 1(2).jpg'

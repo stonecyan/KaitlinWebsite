@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import Logo from '../../Images/Design/Boba/Current Logo.jpg'
 import one from '../../Images/Design/Boba/static1.squarespace.jpg'

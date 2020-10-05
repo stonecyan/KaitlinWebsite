@@ -1,40 +1,67 @@
-.aboutDescription {
-    margin-left: 250px;
-    padding-right: 10%;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 17px;
-    letter-spacing: 1px;
-    line-height: 150%; }
-  .aboutColumn {
-    float: left;
-    width: 50%; }
-  #aboutImage {
-    display: block;
-    width: 70%;
-    margin-left: 25%;
-    margin-right: 5%; }
-  .aboutColumn a{
-    display: block;
-    text-align: center;
-    padding-left: 20%;
-    padding-top: 1%;
-    text-decoration: none;
-    color: grey;
-    font-variant: small-caps;
-    letter-spacing: 2px;
-    font-size: 18px; }
-  .aboutColumn a:hover {
-    color: #5ea1a9; }
-  #aboutDescription a {
-    text-decoration: none;
-    color: grey; }
-  #aboutDescription a:hover {
-    color: #5ea1a9;
-    text-decoration: none; }
-  .aboutTitle {
-    text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    margin-top: 5%;
-    padding-bottom: 5%;
-    font-weight: 600;
-    letter-spacing: 1px; }
+@media (max-width: 450px){
+    #resumeDownload {
+      display: none; }
+    .aboutTitle {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 3%;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 600;
+      letter-spacing: 1%; }
+    .aboutDescription {
+      display: block;
+      margin-top: 0;
+      font-family: "Source Sans Pro", sans-serif; }
+    #aboutDescription {
+      margin-left: 5%;
+      margin-right: 5%; }
+    #aboutImage{
+      margin-left: 5%;
+      margin-right: 5%;
+      width: 90%;
+      height: auto;
+      margin-bottom: 5%; }
+}
+
+@media (min-width: 451px){
+    .aboutDescription {
+        margin-left: 250px;
+        padding-right: 10%;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 17px;
+        letter-spacing: 1px;
+        line-height: 150%; }
+    .aboutColumn {
+        float: left;
+        width: 50%; }
+    #aboutImage {
+        display: block;
+        width: 70%;
+        margin-left: 25%;
+        margin-right: 5%; }
+    .aboutColumn a{
+        display: block;
+        text-align: center;
+        padding-left: 20%;
+        padding-top: 1%;
+        text-decoration: none;
+        color: grey;
+        font-variant: small-caps;
+        letter-spacing: 2px;
+        font-size: 18px; }
+    .aboutColumn a:hover {
+        color: #5ea1a9; }
+    #aboutDescription a {
+        text-decoration: none;
+        color: grey;} 
+    #aboutDescription a:hover {
+        color: #5ea1a9;
+        text-decoration: none; }
+    .aboutTitle {
+        text-align: center;
+        font-family: "Source Sans Pro", sans-serif;
+        margin-top: 5%;
+        padding-bottom: 5%;
+        font-weight: 600;
+        letter-spacing: 1px; }
+}

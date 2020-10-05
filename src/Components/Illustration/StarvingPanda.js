@@ -1,5 +1,5 @@
 import React from 'react';
-import '../ContentPages.css'
+import '../Desktop.css'
 
 import Panda from '../../Images/Illustration/StarvingPanda.jpg'
 

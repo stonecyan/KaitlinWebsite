@@ -1,116 +1,140 @@
-.illustration-grid-container {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(6, minmax(250px, max-content));
-  grid-gap: 10px;
-  margin-left: 250px; }
-.illustrationOverlay a {
-  color: white;
-  font-family: "Source Sans Pro", sans-serif;
-  margin: auto;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  font-size: 2vw;
-  text-align: center; }
-.illustrationOverlay a:hover {
-  color: white;
-  text-decoration: none; }
-.gridImage, .illustrationOverlay {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  cursor: pointer; }
-.illustrationOverlay {
-  opacity: 0;
-  z-index: 1;
-  color: white; }
-.illustrationOverlay:hover {
-  opacity: 1;
-  transition-duration: 500ms; }
-.illustrationOverlay h3 {
-  padding-left: 7%;
-  padding-top: 4%;
-  font-size: 1vw;
-  font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 700; }
-#christmas, #christmasOverlay {
-  grid-column: 1/7;
-  grid-row: 1/2; }
-#christmasOverlay {
-  background-color: #7bc79f; }
-#christmasOverlay a {
-  padding-top: 13%; }
-#panda, #pandaOverlay {
-  grid-column: 11/-5;
-  grid-row: 1/2; }
-#pandaOverlay {
-  background-color: #fddbd1; }
-#pandaOverlay a {
-  padding-top: 20%; }
-#emperor, #emperorOverlay {
-  grid-column: 1/6;
-  grid-row: 2/3; }
-#emperorOverlay {
-  background-color: #9cced4; }
-#emperorOverlay a {
-  padding-top: 20%;
-  line-height: 100%; }
-#redriding, #redridingOverlay {
-  grid-column: 11/-6;
-  grid-row: 2/3; }
-#redridingOverlay {
-  background-color: #be442c; }
-#redridingOverlay a {
-  padding-top: 20%; }
-#secretSanta, #secretSantaOverlay {
-  grid-column: 1/7;
-  grid-row: 3/4; }
-#secretSantaOverlay {
-  background-color: #eec3b3; }
-#secretSantaOverlay a {
-  padding-top: 20%; }
-#ideo, #ideoOverlay {
-  grid-column: 11/-5;
-  grid-row: 3/4; }
-#ideoOverlay {
-  background-color: #20343b; }
-#ideoOverlay a {
-  padding-top: 33%; }
-#buddha, #buddhaOverlay {
-  grid-column: 1/6;
-  grid-row: 4/5; }
-#buddhaOverlay {
-  background-color: #f0aeaf; }
-#buddhaOverlay a {
-  padding-top: 20%; }
-#rapBattle, #rapBattleOverlay {
-  grid-column: 11/-6;
-  grid-row: 4/6; }
-#rapBattleOverlay {
-  background-color: #25323c; }
-#rapBattleOverlay a {
-  padding-top: 50%; }
-#sick, #sickOverlay {
-  grid-column: 1/6;
-  grid-row: 5/6; }
-#sickOverlay {
-  background-color: #aaa9a9; }
-#sickOverlay a {
-  padding-top: 20%; }
-#bear, #bearOverlay {
-  grid-column: 1/6;
-  grid-row: 5/6; }
-#bearOverlay {
-  background-color: #97c4af; }
-#bearOverlay a {
-  padding-top: 20%; }
-#veggie, #veggieOverlay {
-  grid-column: 1/6;
-  grid-row: 6/7; }
-#veggieOverlay {
-  background-color: #e9c36a; }
-#veggieOverlay a {
-  padding-top: 20%; }
+@media (max-width: 450px){
+	.illustration-grid-container {
+    	display: none; 
+    }
+    .illustration-mobile{
+    	display: block;
+    }
+  	.gridImage {
+	    margin-left: 5%;
+	    margin-right: 5%;
+	    width: 90%;
+	    height: auto;
+	    margin-bottom: 5%; 
+	}
+	.illustrationOverlay{
+		display: none;
+	}
+}
+
+@media (min-width: 451px){
+	.illustration-mobile{
+		display:none;
+	}
+	.illustration-grid-container {
+	  display: grid;
+	  grid-template-columns: repeat(10, 1fr);
+	  grid-template-rows: repeat(6, minmax(250px, max-content));
+	  grid-gap: 10px;
+	  margin-left: 250px; }
+	.illustrationOverlay a {
+	  color: white;
+	  font-family: "Source Sans Pro", sans-serif;
+	  margin: auto;
+	  display: inline-block;
+	  width: 100%;
+	  height: 100%;
+	  font-size: 2vw;
+	  text-align: center; }
+	.illustrationOverlay a:hover {
+	  color: white;
+	  text-decoration: none; }
+	.gridImage, .illustrationOverlay {
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	  cursor: pointer; }
+	.illustrationOverlay {
+	  opacity: 0;
+	  z-index: 1;
+	  color: white; }
+	.illustrationOverlay:hover {
+	  opacity: 1;
+	  transition-duration: 500ms; }
+	.illustrationOverlay h3 {
+	  padding-left: 7%;
+	  padding-top: 4%;
+	  font-size: 1vw;
+	  font-family: "Open Sans", sans-serif;
+	  text-transform: uppercase;
+	  letter-spacing: 2px;
+	  font-weight: 700; }
+	#christmas, #christmasOverlay {
+	  grid-column: 1/7;
+	  grid-row: 1/2; }
+	#christmasOverlay {
+	  background-color: #7bc79f; }
+	#christmasOverlay a {
+	  padding-top: 13%; }
+	#panda, #pandaOverlay {
+	  grid-column: 11/-5;
+	  grid-row: 1/2; }
+	#pandaOverlay {
+	  background-color: #fddbd1; }
+	#pandaOverlay a {
+	  padding-top: 20%; }
+	#emperor, #emperorOverlay {
+	  grid-column: 1/6;
+	  grid-row: 2/3; }
+	#emperorOverlay {
+	  background-color: #9cced4; }
+	#emperorOverlay a {
+	  padding-top: 20%;
+	  line-height: 100%; }
+	#redriding, #redridingOverlay {
+	  grid-column: 11/-6;
+	  grid-row: 2/3; }
+	#redridingOverlay {
+	  background-color: #be442c; }
+	#redridingOverlay a {
+	  padding-top: 20%; }
+	#secretSanta, #secretSantaOverlay {
+	  grid-column: 1/7;
+	  grid-row: 3/4; }
+	#secretSantaOverlay {
+	  background-color: #eec3b3; }
+	#secretSantaOverlay a {
+	  padding-top: 20%; }
+	#ideo, #ideoOverlay {
+	  grid-column: 11/-5;
+	  grid-row: 3/4; }
+	#ideoOverlay {
+	  background-color: #20343b; }
+	#ideoOverlay a {
+	  padding-top: 33%; }
+	#buddha, #buddhaOverlay {
+	  grid-column: 1/6;
+	  grid-row: 4/5; }
+	#buddhaOverlay {
+	  background-color: #f0aeaf; }
+	#buddhaOverlay a {
+	  padding-top: 20%; }
+	#rapBattle, #rapBattleOverlay {
+	  grid-column: 11/-6;
+	  grid-row: 4/6; }
+	#rapBattleOverlay {
+	  background-color: #25323c; }
+	#rapBattleOverlay a {
+	  padding-top: 50%; }
+	#sick, #sickOverlay {
+	  grid-column: 1/6;
+	  grid-row: 5/6; }
+	#sickOverlay {
+	  background-color: #aaa9a9; }
+	#sickOverlay a {
+	  padding-top: 20%; }
+	#bear, #bearOverlay {
+	  grid-column: 1/6;
+	  grid-row: 5/6; }
+	#bearOverlay {
+	  background-color: #97c4af; }
+	#bearOverlay a {
+	  padding-top: 20%; }
+	#veggie, #veggieOverlay {
+	  grid-column: 1/6;
+	  grid-row: 6/7; }
+	#veggieOverlay {
+	  background-color: #e9c36a; }
+	#veggieOverlay a {
+	  padding-top: 20%; }
+}
