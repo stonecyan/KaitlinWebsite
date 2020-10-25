@@ -61,6 +61,9 @@
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 0px; }
+  .centered{
+    text-align: center;
+  }
   .row {
     display: table;
     clear: both; }
