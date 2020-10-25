@@ -26,6 +26,9 @@
 	    grid-gap: 10px;
 	}
 
+	.design-mobile{
+		display: none;
+	}
 
 	.designProject{
 	    position: relative;
