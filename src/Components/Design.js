@@ -163,19 +163,26 @@ const Design = props => {
 			</div>
 
 			<div className="design-mobile">
+				<a href="/BookDesign/WinterborneHomeVV"><img className="designImage"src={WinterborneHome1} /></a>
+				<a href="/BookDesign/WinterborneHomeMM"><img className="designImage"src={WinterborneHome2} /></a>
+				<a href="/BookDesign/LakeWild"><img className="designImage"src={RescueLakeWild} /></a>
 				<a href="/BookDesign/OfAFeather"><img className="designImage"src={Feather} /></a>
+				<a href="/BookDesign/ASingleShard"><img className="designImage"src={ASingleShard} /></a>
+				<a href="/BookDesign/OneSmartSheep"><img className="designImage"src={OneSmartSheep} /></a>
 				<a href="/BookDesign/SherlockBones"><img className="designImage"src={SherlockBones} /></a>
+				<a href="/BookDesign/SherlockBonesSeaCreature"><img className="designImage"src={SherlockBonesSeaCreature} /></a>
+				<a href="/BookDesign/MrWalker"><img className="designImage"src={MrWalker} /></a>
 				<a href="/BookDesign/MrComplain"><img className="designImage"src={MrComplain} /></a>
 				<a href="/BookDesign/LightsWonderRock"><img className="designImage"src={LightsWonderRock} /></a>
 				<a href="/BookDesign/GhostCrutchfield"><img className="designImage"src={GhostCrutchfield} /></a>
 				<a href="/BookDesign/ClosedForSeason"><img className="designImage"src={ClosedForSeason} /></a>
 				<a href="/BookDesign/TimeForAndrew"><img className="designImage"src={TimeForAndrew} /></a>
 				<a href="/BookDesign/DollGarden"><img className="designImage"src={DollGarden} /></a>
-				<a href="/BookDesign/Chocolate"><img className="designImage"src={Chocolate} /></a>
+				{/*<a href="/BookDesign/Chocolate"><img className="designImage"src={Chocolate} /></a>
 				<a href="/BookDesign/Strength"><img className="designImage"src={Strength} /></a>
 				<a href="/BookDesign/MagicHouse"><img className="designImage"src={MagicHouse} /></a>
 				<a href="/BookDesign/Podcast"><img className="designImage"src={Podcast} /></a>
-				<a href="/BookDesign/BubbleTea"><img className="designImage"src={BubbleTea} /></a>
+				<a href="/BookDesign/BubbleTea"><img className="designImage"src={BubbleTea} /></a>*/}
 			</div>
 		</div>
 
