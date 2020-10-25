@@ -7,6 +7,14 @@ import Design from './Components/Design.js'
 import About from './Components/About.js'
 import { setDefaultBreakpoints } from 'react-socks';
 
+import EvenOdd from './Components/Design/EvenOdd.js'
+import SherlockBonesSeaCreature from './Components/Design/SherlockBonesSeaCreature.js'
+import MrWalker from './Components/Design/MrWalker.js'
+import OneSmartSheep from './Components/Design/OneSmartSheep.js'
+import LakeWild from './Components/Design/RescueLakeWild.js'
+import ASingleShard from './Components/Design/ASingleShard.js'
+import WinterborneHome1 from './Components/Design/WinterborneHome1.js'
+import WinterborneHome2 from './Components/Design/WinterborneHome2.js'
 import BubbleTea from './Components/Design/BubbleTea.js'
 import Chocolate from './Components/Design/Chocolate.js'
 import ClosedForSeason from './Components/Design/ClosedForSeason.js'
@@ -39,22 +47,30 @@ function App() {
 		    <Switch>
 		    	<Route exact path="/" component={Illustration} />
 			    <Route exact path="/Illustration" component={Illustration} />
-				<Route exact path="/Design" component={Design} />
+				<Route exact path="/BookDesign" component={Design} />
 				<Route path="/About" component={About} />
 
-				<Route path="/Design/BubbleTea" component={BubbleTea} />
-				<Route path="/Design/Chocolate" component={Chocolate} />
-				<Route path="/Design/ClosedForSeason" component={ClosedForSeason} />
-				<Route path="/Design/DollGarden" component={DollGarden} />
-				<Route path="/Design/OfAFeather" component={Feather} />
-				<Route path="/Design/GhostCrutchfield" component={GhostCrutchfield} />
-				<Route path="/Design/LightsWonderRock" component={LightsWonderRock} />
-				<Route path="/Design/MagicHouse" component={MagicHouse} />
-				<Route path="/Design/MrComplain" component={MrComplain} />
-				<Route path="/Design/Podcast" component={Podcast} />
-				<Route path="/Design/SherlockBones" component={SherlockBones} />
-				<Route path="/Design/Strength" component={Strength} />
-				<Route path="/Design/TimeForAndrew" component={TimeForAndrew} />
+				<Route path="/BookDesign/EvenOdd" component={EvenOdd} />
+				<Route path="/BookDesign/SherlockBonesSeaCreature" component={SherlockBonesSeaCreature} />
+				<Route path="/BookDesign/MrWalker" component={MrWalker} />
+				<Route path="/BookDesign/OneSmartSheep" component={OneSmartSheep} />
+				<Route path="/BookDesign/LakeWild" component={LakeWild} />
+				<Route path="/BookDesign/ASingleShard" component={ASingleShard} />
+				<Route path="/BookDesign/WinterborneHomeVV" component={WinterborneHome1} />
+				<Route path="/BookDesign/WinterborneHomeMM" component={WinterborneHome2} />
+				<Route path="/BookDesign/BubbleTea" component={BubbleTea} />
+				<Route path="/BookDesign/Chocolate" component={Chocolate} />
+				<Route path="/BookDesign/ClosedForSeason" component={ClosedForSeason} />
+				<Route path="/BookDesign/DollGarden" component={DollGarden} />
+				<Route path="/BookDesign/OfAFeather" component={Feather} />
+				<Route path="/BookDesign/GhostCrutchfield" component={GhostCrutchfield} />
+				<Route path="/BookDesign/LightsWonderRock" component={LightsWonderRock} />
+				<Route path="/BookDesign/MagicHouse" component={MagicHouse} />
+				<Route path="/BookDesign/MrComplain" component={MrComplain} />
+				<Route path="/BookDesign/Podcast" component={Podcast} />
+				<Route path="/BookDesign/SherlockBones" component={SherlockBones} />
+				<Route path="/BookDesign/Strength" component={Strength} />
+				<Route path="/BookDesign/TimeForAndrew" component={TimeForAndrew} />
 
 				<Route path="/Illustration/BasketballAnimals" component={BasketballAnimals} />
 				<Route path="/Illustration/ChristmasCard" component={ChristmasCard} />

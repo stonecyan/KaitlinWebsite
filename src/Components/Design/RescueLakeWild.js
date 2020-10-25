@@ -1,20 +1,20 @@
 import React from 'react';
 import '../Desktop.css'
 
-import OfFeather from '../../Images/Design/HMHBooks/OfAFeather.jpg'
-import Jacket from '../../Images/Design/HMHBooks/OfAFeatherJacket.jpg'
+import LakeWild from '../../Images/Design/HMHBooks/RescueAtLakeWild.jpg'
+import Jacket from '../../Images/Design/HMHBooks/RescueAtLakeWildJacket.jpg'
 
-function Feather(){
+function RescueLakeWild(){
 	return(
 		<div class="page">
 		    <div class="designContentPageBook">
 		        <div class="contentHMH">
-		            <img class="contentImage" src={OfFeather} />
-		            <p class="contentTextHMHTitle">OF A FEATHER</p>
+		            <img class="contentImage" src={LakeWild} />
+		            <p class="contentTextHMHTitle">Rescue at Lake Wild</p>
 		            <p class="contentTextHMH">HMH Books for Young Readers</p>
 		            <p class="contentTextHMH ItalicText" > Art direction, title lettering, design</p>
 		            <br />
-		            <p class="contentTextHMH2 ItalicText" > Illustration by Izzy Burton</p>
+		            <p class="contentTextHMH2 ItalicText" > Illustration by Maike Plenzke</p>
 		        </div>
 		        <br />
 		        <img class="contentImage" src={Jacket} />
@@ -23,4 +23,4 @@ function Feather(){
 	)
 }
 
-export default Feather
+export default RescueLakeWild

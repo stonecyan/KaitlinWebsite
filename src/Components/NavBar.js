@@ -29,7 +29,7 @@ class NavBar extends Component{
 				    <Router>
 				        <ul>
 				            <li><a href="/Illustration">illustration</a></li>
-				            <li><a href="/Design">design</a></li>
+				            <li><a href="/BookDesign">book design</a></li>
 				            <li><a href="/About">about</a></li>
 				        </ul>
 			        </Router>
