@@ -44,9 +44,10 @@
 
     #navIcons {
         margin-left: 68px;
+        padding-bottom: 15px
     }
 
-    i {
+    #navIcons a {
         padding-right: 5px;
     }
 
@@ -83,11 +84,15 @@
 
 @media (max-width: 450px){
     .topnav{
-    display: block;
-    background-color: white;
-    padding-top: 4%;
-    padding-bottom: 3%;
-    padding-left: 5%;
+        display: block;
+        margin-top: 100px;
+        background-color: white;
+        padding-top: 4%;
+        padding-bottom: 3%;
+        padding-left: 5%;
+    }
+    .navigation{
+        display: none;
     }
 
     .topnav i{

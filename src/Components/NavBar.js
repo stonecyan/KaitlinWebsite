@@ -36,14 +36,14 @@ class NavBar extends Component{
 			    </div>
 			    
 
+			    <br />
+			    <br />
+			    
 			    <div id="navIcons">
-			        <a href="https://www.linkedin.com/in/kaitlin-yang-98447386/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size='2x' /></a>
-			        <a href="https://www.instagram.com/kaitlin.y.draws/" target="_blank"><FontAwesomeIcon icon={faInstagram} size='2x' /></a>
-			    	<a href="https://www.facebook.com/kaitlin.y.draws/" target="_blank"><FontAwesomeIcon icon={faFacebookSquare} size='2x' /></a>
+			        <a href="https://www.linkedin.com/in/kaitlin-yang-98447386/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size='1x' /></a>
+			        <a href="https://www.instagram.com/kaitlin.k.draws/" target="_blank"><FontAwesomeIcon icon={faInstagram} size='1x' /></a>
 			    </div>
 
-			    <br />
-			    <br />
 			    <div id="navContact">
 			        <a href="mailto:kaitlin.k.yang@gmail.com">kaitlin.k.yang@gmail.com</a>
 			        <p id="navNumber">(626) 818-8078</p>
