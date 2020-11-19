@@ -3,6 +3,7 @@ import '../Desktop.css'
 
 import Complain from '../../Images/Design/HMHBooks/MrComplain.jpg'
 import Jacket from '../../Images/Design/HMHBooks/MrComplainJacket.jpg'
+import Interior from '../../Images/Design/HMHBooks/MrWalkerInterior.jpg'
 
 function MagicHouse(){
 	return(
@@ -17,6 +18,8 @@ function MagicHouse(){
 
 		        <br />
 		        <img class="contentImage" src={Jacket} />
+		        <img class="contentImage" src={Interior} />
+
 		    </div>
 
 		</div>

@@ -3,6 +3,8 @@ import '../Desktop.css'
 
 import Walker from '../../Images/Design/HMHBooks/MrWalkerStepsOut.jpg'
 import Jacket from '../../Images/Design/HMHBooks/MrWalkerStepsOutJacket.jpg'
+import Case from '../../Images/Design/HMHBooks/MrWalkerCase.jpg'
+import Interior from '../../Images/Design/HMHBooks/MrWalkerInterior.jpg'
 
 function MrWalker(){
 	return(
@@ -17,7 +19,11 @@ function MrWalker(){
 		            <p class="contentTextHMH2 ItalicText" > Illustration by Christophe Jacques</p>
 		        </div>
 		        <br />
+		        <br />
+		        <img class="contentImage" src={Case} />
 		        <img class="contentImage" src={Jacket} />
+		        <img class="contentImage" src={Interior} />
+		        
 		    </div>
 		</div>
 	)
