@@ -24,6 +24,7 @@ import Strength from '../Images/Design/Strength Magazine Design.jpg'
 import MagicHouse from '../Images/Design/The Magic House Design.jpg'
 import Podcast from '../Images/Design/Podcast Book Design.jpg'
 import BubbleTea from '../Images/Design/St. Louis Bubble Tea Rebrand.jpg'
+import Wayward from '../Images/Design/WaywardCreaturesBookCover.jpg'
 
 const Design = props => {
 	return(
@@ -48,23 +49,26 @@ const Design = props => {
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={Feather} />
-		    		<div class="designOverlay">
-		    			<a href="/BookDesign/OfAFeather">Of a Feather</a>
-		    		</div>
-		    	</div>
-		    	<div class="designProject">
 		    		<img className="designImage"src={ASingleShard} />
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/ASingleShard">A Single Shard</a>
 		    		</div>
 		    	</div>
+		    	
 		    	<div class="designProject">
-		    		<img className="designImage"src={OneSmartSheep} />
+		    		<img className="designImage"src={Wayward} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/OneSmartSheep">One Smart Sheep</a>
+		    			<a href="/BookDesign/WaywardCreatures">Wayward Creatures</a>
 		    		</div>
 		    	</div>
+
+		    	<div class="designProject">
+		    		<img className="designImage"src={Feather} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/OfAFeather">Of a Feather</a>
+		    		</div>
+		    	</div>
+		    	
 		    	<div class="designProject">
 		    		<img className="designImage"src={SherlockBones} />
 		    		<div class="designOverlay">
@@ -89,7 +93,12 @@ const Design = props => {
 		    			<a href="/BookDesign/MrComplain">Mr. Complain Takes the Train</a>
 		    		</div>
 		    	</div>
-		    	
+		    	<div class="designProject">
+		    		<img className="designImage"src={OneSmartSheep} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/OneSmartSheep">One Smart Sheep</a>
+		    		</div>
+		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={LightsWonderRock} />
 		    		<div class="designOverlay">
