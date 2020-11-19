@@ -33,106 +33,106 @@ const Design = props => {
 				<div class="designProject">
 		    		<img className="designImage"src={WinterborneHome1} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/WinterborneHomeVV">Winterborne Home for Vengeance and Valor</a>
+		    			<a href="/BookDesign/WinterborneHomeVV"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={WinterborneHome2} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/WinterborneHomeMM">Winterborne Home for Mayhem and Mystery</a>
+		    			<a href="/BookDesign/WinterborneHomeMM"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={RescueLakeWild} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/LakeWild">Rescue at Lake Wild</a>
+		    			<a href="/BookDesign/LakeWild"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={ASingleShard} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/ASingleShard">A Single Shard</a>
+		    			<a href="/BookDesign/ASingleShard"></a>
 		    		</div>
 		    	</div>
 		    	
 		    	<div class="designProject">
 		    		<img className="designImage"src={Wayward} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/WaywardCreatures">Wayward Creatures</a>
+		    			<a href="/BookDesign/WaywardCreatures"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
 		    		<img className="designImage"src={Feather} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/OfAFeather">Of a Feather</a>
+		    			<a href="/BookDesign/OfAFeather"></a>
 		    		</div>
 		    	</div>
 		    	
 		    	<div class="designProject">
 		    		<img className="designImage"src={SherlockBones} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/SherlockBones">Sherlock Bones</a>
+		    			<a href="/BookDesign/SherlockBones"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={SherlockBonesSeaCreature} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/SherlockBonesSeaCreature">Sherlock Bones and the Sea Creature Feature</a>
+		    			<a href="/BookDesign/SherlockBonesSeaCreature"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={MrWalker} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/MrWalker">Mr. Walker Steps Out</a>
+		    			<a href="/BookDesign/MrWalker"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={MrComplain} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/MrComplain">Mr. Complain Takes the Train</a>
+		    			<a href="/BookDesign/MrComplain"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={OneSmartSheep} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/OneSmartSheep">One Smart Sheep</a>
+		    			<a href="/BookDesign/OneSmartSheep"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={LightsWonderRock} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/LightsWonderRock">Lights on Wonder Rock</a>
+		    			<a href="/BookDesign/LightsWonderRock"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={EvenOdd} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/EvenOdd">Even and Odd</a>
+		    			<a href="/BookDesign/EvenOdd"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={GhostCrutchfield} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/GhostCrutchfield">The Ghost of Crutchfield Hall</a>
+		    			<a href="/BookDesign/GhostCrutchfield"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={ClosedForSeason} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/ClosedForSeason">Closed for the Season</a>
+		    			<a href="/BookDesign/ClosedForSeason"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={TimeForAndrew} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/TimeForAndrew">Time for Andrew</a>
+		    			<a href="/BookDesign/TimeForAndrew"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={DollGarden} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/DollGarden">The Doll in the Garden</a>
+		    			<a href="/BookDesign/DollGarden"></a>
 		    		</div>
 		    	</div>
 
