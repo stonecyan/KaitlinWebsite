@@ -3,7 +3,7 @@ import '../Desktop.css'
 
 import Complain from '../../Images/Design/HMHBooks/MrComplain.jpg'
 import Jacket from '../../Images/Design/HMHBooks/MrComplainJacket.jpg'
-import Interior from '../../Images/Design/HMHBooks/MrWalkerInterior.jpg'
+import Interior from '../../Images/Design/HMHBooks/MrComplainInterior.jpg'
 
 function MagicHouse(){
 	return(
