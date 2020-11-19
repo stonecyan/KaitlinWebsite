@@ -28,6 +28,7 @@ import Podcast from './Components/Design/Podcast.js'
 import SherlockBones from './Components/Design/SherlockBones.js'
 import Strength from './Components/Design/Strength.js'
 import TimeForAndrew from './Components/Design/TimeForAndrew.js'
+import WaywardCreatures from './Components/Design/WaywardCreatures.js'
 
 import BasketballAnimals from './Components/Illustration/BasketballAnimals.js'
 import ChristmasCard from './Components/Illustration/ChristmasCard.js'
@@ -45,7 +46,7 @@ function App() {
 	    <Router>
 	    	<NavBar />    
 		    <Switch>
-		    	<Route exact path="/" component={Illustration} />
+		    	<Route exact path="/" component={Design} />
 			    <Route exact path="/Illustration" component={Illustration} />
 				<Route exact path="/BookDesign" component={Design} />
 				<Route path="/About" component={About} />
@@ -71,6 +72,7 @@ function App() {
 				<Route path="/BookDesign/SherlockBones" component={SherlockBones} />
 				<Route path="/BookDesign/Strength" component={Strength} />
 				<Route path="/BookDesign/TimeForAndrew" component={TimeForAndrew} />
+				<Route path="/BookDesign/WaywardCreatures" component={WaywardCreatures} />
 
 				<Route path="/Illustration/BasketballAnimals" component={BasketballAnimals} />
 				<Route path="/Illustration/ChristmasCard" component={ChristmasCard} />
