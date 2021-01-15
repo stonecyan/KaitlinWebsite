@@ -39,6 +39,7 @@ import RapBattle from './Components/Illustration/RapBattle.js'
 import SecretSantaSociety from './Components/Illustration/SecretSantaSociety.js'
 import StarvingPanda from './Components/Illustration/StarvingPanda.js'
 import VeggieAnimals from './Components/Illustration/VeggieAnimals.js'
+import Buddha from './Components/Illustration/Buddha.js'
 
 
 function App() {
@@ -83,6 +84,7 @@ function App() {
 				<Route path="/Illustration/SecretSantaSociety" component={SecretSantaSociety} />
 				<Route path="/Illustration/StarvingPanda" component={StarvingPanda} />
 				<Route path="/Illustration/VeggieAnimals" component={VeggieAnimals} />
+				<Route path="/Illustration/Buddha" component={Buddha} />
 
 		    </Switch>
 	    </Router>
