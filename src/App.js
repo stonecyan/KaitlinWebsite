@@ -29,6 +29,10 @@ import SherlockBones from './Components/Design/SherlockBones.js'
 import Strength from './Components/Design/Strength.js'
 import TimeForAndrew from './Components/Design/TimeForAndrew.js'
 import WaywardCreatures from './Components/Design/WaywardCreatures.js'
+import PrincessUnlimited from './Components/Design/PrincessUnlimited.js'
+import Graceling from './Components/Design/Graceling.js'
+import WTBFB from './Components/Design/WTBFB.js'
+import HNTFIL from './Components/Design/HNTFIL.js'
 
 import BasketballAnimals from './Components/Illustration/BasketballAnimals.js'
 import ChristmasCard from './Components/Illustration/ChristmasCard.js'
@@ -74,6 +78,11 @@ function App() {
 				<Route path="/BookDesign/Strength" component={Strength} />
 				<Route path="/BookDesign/TimeForAndrew" component={TimeForAndrew} />
 				<Route path="/BookDesign/WaywardCreatures" component={WaywardCreatures} />
+				<Route path="/BookDesign/PrincessUnlimited" component={PrincessUnlimited} />
+				<Route path="/BookDesign/Graceling" component={Graceling} />
+				<Route path="/BookDesign/WhereTheBlackFlowersBloom" component={WTBFB} />
+				<Route path="/BookDesign/HowNotToFallinLove" component={HNTFIL} />
+
 
 				<Route path="/Illustration/BasketballAnimals" component={BasketballAnimals} />
 				<Route path="/Illustration/ChristmasCard" component={ChristmasCard} />

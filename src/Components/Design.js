@@ -25,11 +25,17 @@ import MagicHouse from '../Images/Design/The Magic House Design.jpg'
 import Podcast from '../Images/Design/Podcast Book Design.jpg'
 import BubbleTea from '../Images/Design/St. Louis Bubble Tea Rebrand.jpg'
 import Wayward from '../Images/Design/WaywardCreaturesBookCover.jpg'
+import PrincessUnlimited from '../Images/Design/PrincessUnlimitedBookCover.jpg'
+import Graceling from '../Images/Design/GracelingBookCover.jpg'
+import WTBFB from '../Images/Design/WTBFBBookCover.jpg'
+import HNTFIL from '../Images/Design/HNTFILBookCover.jpg'
+
 
 const Design = props => {
 	return(
 		<div>
 			<div class="design-grid-container">
+
 				<div class="designProject">
 		    		<img className="designImage"src={WinterborneHome1} />
 		    		<div class="designOverlay">
@@ -68,7 +74,30 @@ const Design = props => {
 		    			<a href="/BookDesign/OfAFeather"></a>
 		    		</div>
 		    	</div>
-		    	
+		    	<div class="designProject">
+		    		<img className="designImage"src={Graceling} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/Graceling"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={WTBFB} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/WhereTheBlackFlowersBloom"></a>
+		    		</div>
+		    	</div>
+				<div class="designProject">
+		    		<img className="designImage"src={PrincessUnlimited} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/PrincessUnlimited"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={HNTFIL} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/HowNotToFallinLove"></a>
+		    		</div>
+		    	</div>
 		    	<div class="designProject">
 		    		<img className="designImage"src={SherlockBones} />
 		    		<div class="designOverlay">
@@ -136,8 +165,6 @@ const Design = props => {
 		    		</div>
 		    	</div>
 
-
-
 		    	
 		    	{/* <div class="designProject">
 		    		<img className="designImage"src={Chocolate} />
@@ -175,13 +202,18 @@ const Design = props => {
 				<a href="/BookDesign/WinterborneHomeVV"><img className="designImage"src={WinterborneHome1} /></a>
 				<a href="/BookDesign/WinterborneHomeMM"><img className="designImage"src={WinterborneHome2} /></a>
 				<a href="/BookDesign/LakeWild"><img className="designImage"src={RescueLakeWild} /></a>
-				<a href="/BookDesign/OfAFeather"><img className="designImage"src={Feather} /></a>
 				<a href="/BookDesign/ASingleShard"><img className="designImage"src={ASingleShard} /></a>
-				<a href="/BookDesign/OneSmartSheep"><img className="designImage"src={OneSmartSheep} /></a>
+				<a href="/BookDesign/WaywardCreatures"><img className="designImage"src={Wayward} /></a>
+				<a href="/BookDesign/OfAFeather"><img className="designImage"src={Feather} /></a>
+				<a href="/BookDesign/Graceling"><img className="designImage"src={Graceling} /></a>
+				<a href="/BookDesign/WhereTheBlackFlowersBloom"><img className="designImage"src={WTBFB} /></a>
+				<a href="/BookDesign/PrincessUnlimited"><img className="designImage"src={PrincessUnlimited} /></a>
+				<a href="/BookDesign/HowNotToFallinLove"><img className="designImage"src={HNTFIL} /></a>
 				<a href="/BookDesign/SherlockBones"><img className="designImage"src={SherlockBones} /></a>
 				<a href="/BookDesign/SherlockBonesSeaCreature"><img className="designImage"src={SherlockBonesSeaCreature} /></a>
 				<a href="/BookDesign/MrWalker"><img className="designImage"src={MrWalker} /></a>
 				<a href="/BookDesign/MrComplain"><img className="designImage"src={MrComplain} /></a>
+				<a href="/BookDesign/OneSmartSheep"><img className="designImage"src={OneSmartSheep} /></a>
 				<a href="/BookDesign/LightsWonderRock"><img className="designImage"src={LightsWonderRock} /></a>
 				<a href="/BookDesign/GhostCrutchfield"><img className="designImage"src={GhostCrutchfield} /></a>
 				<a href="/BookDesign/ClosedForSeason"><img className="designImage"src={ClosedForSeason} /></a>
