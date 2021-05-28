@@ -21,7 +21,7 @@ function About(){
 		            one day, and I wish to facilitate the exchange of cultures, emotions, and beliefs through my illustrations, 
 		            one book at a time. </p>
 		        <p> I graduated from Washington University in St. Louis in 2018 with a BFA in Communication Design. I currently 
-		            work as an associate designer at HMH Books for Young Readers in New York City.</p>
+		            work as a designer at Penguin Books in New York City.</p>
 		        <p>
 		            If you have a project in mind, I'd like to hear about it :)
 		            <br />Get in touch! <a href="mailto:kaitlin.k.yang@gmail.com">kaitlin.k.yang@gmail.com</a>

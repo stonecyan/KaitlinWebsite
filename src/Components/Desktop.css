@@ -82,6 +82,9 @@
   .ItalicText{
     font-style: italic;
   }
+  .buddhaStatues{
+    column-count: 3;
+  }
 }
 @media (max-width: 450px){
     .illustrationContentPage h2 {

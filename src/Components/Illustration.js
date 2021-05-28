@@ -13,6 +13,15 @@ import VeggieAnimal from '../Images/Illustration/VeggieAnimal.jpg'
 import BearBasketball from '../Images/Illustration/BearBasketball.jpg'
 import ChristmasCard from '../Images/Illustration/ChristmasCard.jpg'
 import StarvingPanda from '../Images/Illustration/StarvingPanda.jpg'
+import PotatoChips from '../Images/Illustration/PotatoChips.jpg'
+import Covid from '../Images/Illustration/Covid.jpg'
+import MedSchool from '../Images/Illustration/MedSchool.jpg'
+import MinnieGary from '../Images/Illustration/MinnieGary.jpg'
+import YogaTiger from '../Images/Illustration/YogaTiger.jpg'
+import GirlStickers from '../Images/Illustration/GirlStickers.jpg'
+import RabbitStickers from '../Images/Illustration/RabbitStickers.jpg'
+import MiniBuddha from '../Images/Illustration/MiniBuddha.png'
+
 
 const Illustration = props => {
 	return(
@@ -97,6 +106,76 @@ const Illustration = props => {
 		            <h3>Commission</h3>
 		            <Link to="/Illustration/StarvingPanda">Starving Panda</Link>
 		        </div>
+
+
+
+
+
+		        <div id="potatochips" className="imageOverlay">
+		            <img className="gridImage" src={PotatoChips} />
+		        </div>
+		        <div className="illustrationOverlay" id="potatochipsOverlay">
+		            <h3>Personal Work</h3>
+		            <Link to="/Illustration/PotatoChips">Potato Chips GIF</Link>
+		        </div>
+
+				<div id="covid" className="imageOverlay">
+		            <img className="gridImage" src={Covid} />
+		        </div>
+		        <div className="illustrationOverlay" id="covidOverlay">
+		            <h3>Personal Work</h3>
+		            <Link to="/Illustration/COVID">COVID Inspired Illustration</Link>
+		        </div>
+
+		        <div id="medschool" className="imageOverlay">
+		            <img className="gridImage" src={MedSchool} />
+		        </div>
+		        <div className="illustrationOverlay" id="medschoolOverlay">
+		            <h3>Commission</h3>
+		            <Link to="/Illustration/SlamPoetry">Slam Poetry Cover</Link>
+		        </div>
+
+		        <div id="minniegary" className="imageOverlay">
+		            <img className="gridImage" src={MinnieGary} />
+		        </div>
+		        <div className="illustrationOverlay" id="minniegaryOverlay">
+		            <h3>Commission</h3>
+		            <Link to="/Illustration/MinnieGary">Customized Couple Sticker</Link>
+		        </div>
+
+		        <div id="yogatiger" className="imageOverlay">
+		            <img className="gridImage" src={YogaTiger} />
+		        </div>
+		        <div className="illustrationOverlay" id="yogatigerOverlay">
+		            <h3>Personal Work</h3>
+		            <Link to="/Illustration/TigerYoga">Tiger Yoga</Link>
+		        </div>
+
+		        <div id="girlsticker" className="imageOverlay">
+		            <img className="gridImage" src={GirlStickers} />
+		        </div>
+		        <div className="illustrationOverlay" id="girlstickerOverlay">
+		            <h3>Personal Work</h3>
+		            <Link to="/Illustration/GirlCharacterSamples">Girl Character Samples</Link>
+		        </div>
+
+		        <div id="rabbitsticker" className="imageOverlay">
+		            <img className="gridImage" src={RabbitStickers} />
+		        </div>
+		        <div className="illustrationOverlay" id="rabbitstickerOverlay">
+		            <h3>Personal Work</h3>
+		            <Link to="/Illustration/RabbitCharacterSamples">Rabbit Character Samples</Link>
+		        </div>
+
+		        <div id="minibuddha" className="imageOverlay">
+		            <img className="gridImage" src={MiniBuddha} />
+		        </div>
+		        <div className="illustrationOverlay" id="minibuddhaOverlay">
+		            <h3>Commission</h3>
+		            <Link to="/Illustration/BuddhaStatues">Buddha Statues</Link>
+		        </div>
+
+
 		    </div>
 	    	<div className="illustration-mobile">
 	    		<Link to="/Illustration/ChristmasCard"><img className="gridImage" src={ChristmasCard} /></Link>
