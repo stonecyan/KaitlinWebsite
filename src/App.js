@@ -44,6 +44,14 @@ import SecretSantaSociety from './Components/Illustration/SecretSantaSociety.js'
 import StarvingPanda from './Components/Illustration/StarvingPanda.js'
 import VeggieAnimals from './Components/Illustration/VeggieAnimals.js'
 import Buddha from './Components/Illustration/Buddha.js'
+import COVID from './Components/Illustration/Covid.js'
+import GirlStickers from './Components/Illustration/GirlStickers.js'
+import MedSchool from './Components/Illustration/MedSchool.js'
+import MinnieGary from './Components/Illustration/MinnieGary.js'
+import PotatoChips from './Components/Illustration/PotatoChips.js'
+import TigerYoga from './Components/Illustration/TigerYoga.js'
+import BuddhaStatues from './Components/Illustration/MiniBuddha.js'
+import RabbitStickers from './Components/Illustration/RabbitStickers.js'
 
 
 function App() {
@@ -94,6 +102,14 @@ function App() {
 				<Route path="/Illustration/StarvingPanda" component={StarvingPanda} />
 				<Route path="/Illustration/VeggieAnimals" component={VeggieAnimals} />
 				<Route path="/Illustration/Buddha" component={Buddha} />
+				<Route path="/Illustration/COVID" component={COVID} />
+				<Route path="/Illustration/GirlCharacterSamples" component={GirlStickers} />
+				<Route path="/Illustration/SlamPoetry" component={MedSchool} />
+				<Route path="/Illustration/MinnieGary" component={MinnieGary} />
+				<Route path="/Illustration/PotatoChips" component={PotatoChips} />
+				<Route path="/Illustration/TigerYoga" component={TigerYoga} />
+				<Route path="/Illustration/BuddhaStatues" component={BuddhaStatues} />
+				<Route path="/Illustration/RabbitCharacterSamples" component={RabbitStickers} />
 
 		    </Switch>
 	    </Router>
