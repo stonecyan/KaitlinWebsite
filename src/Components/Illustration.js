@@ -184,10 +184,19 @@ const Illustration = props => {
 	    		<Link to="/Illustration/LittleRedRidingHood"><img className="gridImage" src={LittleRed} /></Link>
 	    		<Link to="/Illustration/SecretSantaSociety"><img className="gridImage" src={SecretSantaSociety} /></Link>
 	    		<Link to="/Illustration/IDEO"><img className="gridImage" src={IDEO} /></Link>
+	    		<Link to="/Illustration/PotatoChips"><img className="gridImage" src={PotatoChips} /></Link>
+	    		<Link to="/Illustration/COVID"><img className="gridImage" src={Covid} /></Link>
 	    		<Link to="/Illustration/Buddha"><img className="gridImage" src={MomBuddha} /></Link>
+	    		<Link to="/Illustration/GirlCharacterSamples"><img className="gridImage" src={GirlStickers} /></Link>
 	    		<Link to="/Illustration/BasketballAnimals"><img className="gridImage" src={BearBasketball} /></Link>
+	    		<Link to="/Illustration/RabbitCharacterSamples"><img className="gridImage" src={RabbitStickers} /></Link>
+	    		<Link to="/Illustration/MinnieGary"><img className="gridImage" src={MinnieGary} /></Link>
+	    		<Link to="/Illustration/SlamPoetry"><img className="gridImage" src={MedSchool} /></Link>
+	    		<Link to="/Illustration/BuddhaStatues"><img className="gridImage" src={MiniBuddha} /></Link>
+	    		<Link to="/Illustration/TigerYoga"><img className="gridImage" src={YogaTiger} /></Link>
 	    		<Link to="/Illustration/RapBattle"><img className="gridImage" src={RapBattle} /></Link>   
 	    		<Link to="/Illustration/VeggieAnimals"><img className="gridImage" src={VeggieAnimal} /></Link>
+
 	    	</div>
 		</div>
 		
