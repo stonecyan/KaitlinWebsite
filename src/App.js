@@ -2,10 +2,14 @@ import React from 'react';
 import  { Breakpoint, BreakpointProvider } from 'react-socks';
 import NavBar from "./Components/NavBar.js"
 import { BrowserRouter as Router, Switch, Route, withRouter} from 'react-router-dom';
+import { setDefaultBreakpoints } from 'react-socks';
+
 import Illustration from './Components/Illustration.js'
 import Design from './Components/Design.js'
 import About from './Components/About.js'
-import { setDefaultBreakpoints } from 'react-socks';
+import YoungAdult from './Components/YoungAdult.js'
+import MiddleGrade from './Components/MiddleGrade.js'
+import PictureBooks from './Components/PictureBooks.js'
 
 import EvenOdd from './Components/Design/EvenOdd.js'
 import SherlockBonesSeaCreature from './Components/Design/SherlockBonesSeaCreature.js'
@@ -33,6 +37,14 @@ import PrincessUnlimited from './Components/Design/PrincessUnlimited.js'
 import Graceling from './Components/Design/Graceling.js'
 import WTBFB from './Components/Design/WTBFB.js'
 import HNTFIL from './Components/Design/HNTFIL.js'
+import MicahSummers from './Components/Design/MicahSummers.js' 
+import BeautyandtheBesharam from './Components/Design/BeautyandtheBesharam.js' 
+import MostDazzlingGirlinBerlin from './Components/Design/MostDazzlingGirlinBerlin.js' 
+import RethinktheInternet from './Components/Design/RethinktheInternet.js' 
+import TheSeaKnowsmyName from './Components/Design/TheSeaKnowsmyName.js' 
+import TheVanishingDeep from './Components/Design/TheVanishingDeep.js' 
+import ZylaandKai from './Components/Design/ZylaandKai.js'
+import VeryBigFall from './Components/Design/VeryBigFall.js'
 
 import BasketballAnimals from './Components/Illustration/BasketballAnimals.js'
 import ChristmasCard from './Components/Illustration/ChristmasCard.js'
@@ -62,6 +74,9 @@ function App() {
 		    	<Route exact path="/" component={Design} />
 			    <Route exact path="/Illustration" component={Illustration} />
 				<Route exact path="/BookDesign" component={Design} />
+				<Route exact path="/YoungAdult" component={YoungAdult} />
+				<Route path="/MiddleGrade" component={MiddleGrade} />
+				<Route path="/PictureBooks" component={PictureBooks} />
 				<Route path="/About" component={About} />
 
 				<Route path="/BookDesign/EvenOdd" component={EvenOdd} />
@@ -90,7 +105,15 @@ function App() {
 				<Route path="/BookDesign/Graceling" component={Graceling} />
 				<Route path="/BookDesign/WhereTheBlackFlowersBloom" component={WTBFB} />
 				<Route path="/BookDesign/HowNotToFallinLove" component={HNTFIL} />
-
+				<Route path="/BookDesign/99BoyfriendsofMicahSummers" component={MicahSummers} />
+				<Route path="/BookDesign/BeautyandtheBesharam" component={BeautyandtheBesharam} />
+				<Route path="/BookDesign/MostDazzlingGirlinBerlin" component={MostDazzlingGirlinBerlin} />
+				<Route path="/BookDesign/RethinktheInternet" component={RethinktheInternet} />
+				<Route path="/BookDesign/TheSeaKnowsmyName" component={TheSeaKnowsmyName} />
+				<Route path="/BookDesign/TheVanishingDeep" component={TheVanishingDeep} />
+				<Route path="/BookDesign/ZylaandKai" component={ZylaandKai} />
+				<Route path="/BookDesign/MostDazzlingGirlinBerlin" component={MostDazzlingGirlinBerlin} />
+				<Route path="/BookDesign/VeryBigFall" component={VeryBigFall} />
 
 				<Route path="/Illustration/BasketballAnimals" component={BasketballAnimals} />
 				<Route path="/Illustration/ChristmasCard" component={ChristmasCard} />

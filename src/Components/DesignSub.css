@@ -18,9 +18,9 @@
 }
 
 @media (min-width: 451px){
-	.design-grid-container-main{
+	.design-grid-container{
 	    display: grid;
-	    grid-template-columns: repeat(auto-fit, minmax(400px, max-content));
+	    grid-template-columns: repeat(auto-fit, minmax(580px, max-content));
 	    grid-template-rows: repeat(1, max-content);
 	    margin-left: 250px;
 	    grid-gap: 10px;

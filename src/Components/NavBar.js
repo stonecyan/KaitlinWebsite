@@ -2,15 +2,11 @@ import React, {Component} from "react";
 import LogoSelfPortrait from "../Images/LogoSelfPortrait.jpg"
 import LogoPicture from "../Images/LogoPicture.jpg"
 import "./NavBar.css"
-import {withRouter} from 'react-router'
 import {
   BrowserRouter as Router,
-  Link
 } from "react-router-dom";
-import  { Breakpoint } from 'react-socks';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
-	faFacebookSquare,
 	faLinkedin,
 	faInstagram
 } from "@fortawesome/free-brands-svg-icons"
@@ -27,10 +23,16 @@ class NavBar extends Component{
 			    <img className="mobilelogo" src={LogoPicture} />
 			    <div className="navItems">
 				    <Router>
-				        <ul>
+				        <ul className="navItemsMain">
 				            <li><a href="/Illustration">illustration</a></li>
-				            <li><a href="/BookDesign">book design</a></li>
-				            <li><a href="/About">about</a></li>
+				            <li><a  href="/BookDesign">book design</a>
+					            <ul>
+					            <li><a href="/YoungAdult">young adult</a></li>
+					            <li><a href="/MiddleGrade">middle grade</a></li>
+					            <li><a href="/PictureBooks">picture books</a></li>
+					            </ul>
+				            </li>
+				            <li className="navItemsMain"><a href="/About">about</a></li>
 				        </ul>
 			        </Router>
 			    </div>
