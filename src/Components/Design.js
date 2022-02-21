@@ -36,6 +36,7 @@ import TheSeaKnowsmyName from '../Images/Design/TheSeaKnowsmyNameBookCover.jpg'
 import TheVanishingDeep from '../Images/Design/TheVanishingDeepBookCover.jpg'
 import ZylaandKai from '../Images/Design/ZylaandKaiBookCover.jpg'
 import MostDazzlingGirlinBerlin from '../Images/Design/MostDazzlingGirlinBerlinBookCover.jpg'
+import VeryBigFall from '../Images/Design/AVeryBigFallBookCover.jpg'
 
 const Design = props => {
 	return(
@@ -68,7 +69,13 @@ const Design = props => {
 		    		</div>
 		    	</div>
 
-		    	
+		    	<div class="designProject">
+		    		<img className="designImage"src={VeryBigFall} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/VeryBigFall"></a>
+		    		</div>
+		    	</div>
+
 		    	<div class="designProject">
 		    		<img className="designImage"src={Wayward} />
 		    		<div class="designOverlay">
@@ -257,6 +264,7 @@ const Design = props => {
 				<a href="/BookDesign/WinterborneHomeMM"><img className="designImage"src={WinterborneHome2} /></a>
 				<a href="/BookDesign/LakeWild"><img className="designImage"src={RescueLakeWild} /></a>
 				<a href="/BookDesign/ASingleShard"><img className="designImage"src={ASingleShard} /></a>
+				<a href="/BookDesign/VeryBigFall"><img className="designImage"src={VeryBigFall} /></a>
 				<a href="/BookDesign/WaywardCreatures"><img className="designImage"src={Wayward} /></a>
 				<a href="/BookDesign/OfAFeather"><img className="designImage"src={Feather} /></a>
 				<a href="/BookDesign/Graceling"><img className="designImage"src={Graceling} /></a>

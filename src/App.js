@@ -44,6 +44,7 @@ import RethinktheInternet from './Components/Design/RethinktheInternet.js'
 import TheSeaKnowsmyName from './Components/Design/TheSeaKnowsmyName.js' 
 import TheVanishingDeep from './Components/Design/TheVanishingDeep.js' 
 import ZylaandKai from './Components/Design/ZylaandKai.js'
+import VeryBigFall from './Components/Design/VeryBigFall.js'
 
 import BasketballAnimals from './Components/Illustration/BasketballAnimals.js'
 import ChristmasCard from './Components/Illustration/ChristmasCard.js'
@@ -112,6 +113,7 @@ function App() {
 				<Route path="/BookDesign/TheVanishingDeep" component={TheVanishingDeep} />
 				<Route path="/BookDesign/ZylaandKai" component={ZylaandKai} />
 				<Route path="/BookDesign/MostDazzlingGirlinBerlin" component={MostDazzlingGirlinBerlin} />
+				<Route path="/BookDesign/VeryBigFall" component={VeryBigFall} />
 
 				<Route path="/Illustration/BasketballAnimals" component={BasketballAnimals} />
 				<Route path="/Illustration/ChristmasCard" component={ChristmasCard} />
