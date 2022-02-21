@@ -28,7 +28,7 @@
         width: 250px;
     }
 
-    .navItems a {
+    .navItemsMain li{
         text-align: left;
         font-variant: small-caps;
         font-family: 'Source Sans Pro', sans-serif;
@@ -38,8 +38,23 @@
         letter-spacing: 2px;
         display: block;
         text-decoration: none;
-        padding-left: 68px;
+        padding-left: 0px;
         padding-bottom: 6px;
+    }
+
+    .navItemsMain li li{
+        text-align: left;
+        font-variant: small-caps;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: grey;
+        opacity:  0.75;
+        font-weight: 500;
+        font-size: 5px;
+        letter-spacing: 2px;
+        display: block;
+        text-decoration: none;
+        padding-left: 20px;
+        margin-top: -10px;
     }
 
     #navIcons {
