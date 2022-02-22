@@ -27,7 +27,7 @@ class NavBar extends Component{
 				            <li><a href="/Illustration">illustration</a></li>
 				            <li><a  href="/BookDesign">book design</a>
 					            <ul>
-					            <li><a href="/YoungAdult">young adult</a></li>
+					            <li id="youngAdult"><a href="/YoungAdult">young adult</a></li>
 					            <li><a href="/MiddleGrade">middle grade</a></li>
 					            <li><a href="/PictureBooks">picture books</a></li>
 					            </ul>
