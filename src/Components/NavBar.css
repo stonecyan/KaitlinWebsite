@@ -42,12 +42,16 @@
         padding-bottom: 6px;
     }
 
+    #youngAdult{
+        margin-top: -1px;
+    }
+
     .navItemsMain li li{
         text-align: left;
         font-variant: small-caps;
         font-family: 'Source Sans Pro', sans-serif;
         color: grey;
-        opacity:  0.75;
+        opacity:  0.5;
         font-weight: 500;
         font-size: 5px;
         letter-spacing: 2px;

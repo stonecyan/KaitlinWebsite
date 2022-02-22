@@ -19,18 +19,13 @@ import LakeWild from './Components/Design/RescueLakeWild.js'
 import ASingleShard from './Components/Design/ASingleShard.js'
 import WinterborneHome1 from './Components/Design/WinterborneHome1.js'
 import WinterborneHome2 from './Components/Design/WinterborneHome2.js'
-import BubbleTea from './Components/Design/BubbleTea.js'
-import Chocolate from './Components/Design/Chocolate.js'
 import ClosedForSeason from './Components/Design/ClosedForSeason.js'
 import DollGarden from './Components/Design/DollGarden.js'
 import Feather from './Components/Design/Feather.js'
 import GhostCrutchfield from './Components/Design/GhostCrutchfield.js'
 import LightsWonderRock from './Components/Design/LightsWonderRock.js'
-import MagicHouse from './Components/Design/MagicHouse.js'
 import MrComplain from './Components/Design/MrComplain.js'
-import Podcast from './Components/Design/Podcast.js'
 import SherlockBones from './Components/Design/SherlockBones.js'
-import Strength from './Components/Design/Strength.js'
 import TimeForAndrew from './Components/Design/TimeForAndrew.js'
 import WaywardCreatures from './Components/Design/WaywardCreatures.js'
 import PrincessUnlimited from './Components/Design/PrincessUnlimited.js'
@@ -87,18 +82,13 @@ function App() {
 				<Route path="/BookDesign/ASingleShard" component={ASingleShard} />
 				<Route path="/BookDesign/WinterborneHomeVV" component={WinterborneHome1} />
 				<Route path="/BookDesign/WinterborneHomeMM" component={WinterborneHome2} />
-				<Route path="/BookDesign/BubbleTea" component={BubbleTea} />
-				<Route path="/BookDesign/Chocolate" component={Chocolate} />
 				<Route path="/BookDesign/ClosedForSeason" component={ClosedForSeason} />
 				<Route path="/BookDesign/DollGarden" component={DollGarden} />
 				<Route path="/BookDesign/OfAFeather" component={Feather} />
 				<Route path="/BookDesign/GhostCrutchfield" component={GhostCrutchfield} />
 				<Route path="/BookDesign/LightsWonderRock" component={LightsWonderRock} />
-				<Route path="/BookDesign/MagicHouse" component={MagicHouse} />
 				<Route path="/BookDesign/MrComplain" component={MrComplain} />
-				<Route path="/BookDesign/Podcast" component={Podcast} />
 				<Route path="/BookDesign/SherlockBones" component={SherlockBones} />
-				<Route path="/BookDesign/Strength" component={Strength} />
 				<Route path="/BookDesign/TimeForAndrew" component={TimeForAndrew} />
 				<Route path="/BookDesign/WaywardCreatures" component={WaywardCreatures} />
 				<Route path="/BookDesign/PrincessUnlimited" component={PrincessUnlimited} />
