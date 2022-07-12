@@ -37,12 +37,64 @@ import TheVanishingDeep from '../Images/Design/TheVanishingDeepBookCover.jpg'
 import ZylaandKai from '../Images/Design/ZylaandKaiBookCover.jpg'
 import MostDazzlingGirlinBerlin from '../Images/Design/MostDazzlingGirlinBerlinBookCover.jpg'
 import VeryBigFall from '../Images/Design/AVeryBigFallBookCover.jpg'
+import WalkonBy from '../Images/Design/AsYouWalkonByBookCover.jpg'
+import BillionDollarGirl from '../Images/Design/BillionDollarGirlBookCover.jpg'
+import LosMonstruos from '../Images/Design/LosMonstruosBookCover.jpg'
+import HiddenDragon from '../Images/Design/TheHiddenDragonBookCover.jpg'
+import IslandsofElsewhere from '../Images/Design/TheIslandsofElsewhereBookCover.jpg'
+import YearMyLifeWentDowntheToilet from '../Images/Design/TheYearMyLifeWentDowntheToiletBookCover.jpg'
+import WhenYouWishUponaLantern from '../Images/Design/WhenYouWishUponaLanternBookCover.jpg'
 
 const Design = props => {
 	return(
 		<div>
 			<div class="design-grid-container-main">
-		    	<div class="designProject">
+				<div class="designProject">
+		    		<img className="designImage"src={WhenYouWishUponaLantern} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/WishUponLantern"></a>
+		    		</div>
+		    	</div>
+				<div class="designProject">
+		    		<img className="designImage"src={IslandsofElsewhere} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/IslandsofElsewhere"></a>
+		    		</div>
+		    	</div>
+				<div class="designProject">
+		    		<img className="designImage"src={WalkonBy} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/AsYouWalkonBy"></a>
+		    		</div>
+		    	</div>
+				<div class="designProject">
+		    		<img className="designImage"src={LosMonstruos} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/LosMonstruos"></a>
+		    		</div>
+		    	</div>
+				<div class="designProject">
+		    		<img className="designImage"src={YearMyLifeWentDowntheToilet} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/YearMyLifeWentDowntheToilet"></a>
+		    		</div>
+		    	</div>
+				<div class="designProject">
+		    		<img className="designImage"src={MicahSummers} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/99BoyfriendsofMicahSummers"></a>
+		    		</div>
+		    	</div>
+				
+				
+				<div class="designProject">
+		    		<img className="designImage"src={BillionDollarGirl} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/BillionDollarGirl"></a>
+		    		</div>
+		    	</div>
+				
+				<div class="designProject">
 		    		<img className="designImage"src={WinterborneHome2} />
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WinterborneHomeMM"></a>
@@ -54,14 +106,14 @@ const Design = props => {
 		    			<a href="/BookDesign/WinterborneHomeVV"></a>
 		    		</div>
 		    	</div>
-		    	<div class="designProject">
-		    		<img className="designImage"src={MicahSummers} />
+		    	
+		    	
+				<div class="designProject">
+		    		<img className="designImage"src={HiddenDragon} />
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/99BoyfriendsofMicahSummers"></a>
+		    			<a href="/BookDesign/HiddenDragon"></a>
 		    		</div>
 		    	</div>
-		    	
-
 		    	<div class="designProject">
 		    		<img className="designImage"src={RescueLakeWild} />
 		    		<div class="designOverlay">

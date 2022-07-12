@@ -40,6 +40,13 @@ import TheSeaKnowsmyName from './Components/Design/TheSeaKnowsmyName.js'
 import TheVanishingDeep from './Components/Design/TheVanishingDeep.js' 
 import ZylaandKai from './Components/Design/ZylaandKai.js'
 import VeryBigFall from './Components/Design/VeryBigFall.js'
+import WalkonBy from './Components/Design/WalkonBy.js'
+import BillionDollarGirl from './Components/Design/BillionDollarGirl.js'
+import LosMonstruos from './Components/Design/LosMonstruos.js'
+import HiddenDragon from './Components/Design/HiddenDragon.js'
+import IslandsofElsewhere from './Components/Design/IslandsofElsewhere'
+import YearMyLifeWentDowntheToilet from './Components/Design/YearMyLifeWentDowntheToilet.js'
+import WishUponLantern from './Components/Design/WishUponLantern.js'
 
 import BasketballAnimals from './Components/Illustration/BasketballAnimals.js'
 import ChristmasCard from './Components/Illustration/ChristmasCard.js'
@@ -104,6 +111,14 @@ function App() {
 				<Route path="/BookDesign/ZylaandKai" component={ZylaandKai} />
 				<Route path="/BookDesign/MostDazzlingGirlinBerlin" component={MostDazzlingGirlinBerlin} />
 				<Route path="/BookDesign/VeryBigFall" component={VeryBigFall} />
+				<Route path="/BookDesign/AsYouWalkonBy" component={WalkonBy} />
+				<Route path="/BookDesign/BillionDollarGirl" component={BillionDollarGirl} />
+				<Route path="/BookDesign/LosMonstruos" component={LosMonstruos} />
+				<Route path="/BookDesign/HiddenDragon" component={HiddenDragon} />
+				<Route path="/BookDesign/IslandsofElsewhere" component={IslandsofElsewhere} />
+				<Route path="/BookDesign/YearMyLifeWentDowntheToilet" component={YearMyLifeWentDowntheToilet} />
+				<Route path="/BookDesign/WishUponLantern" component={WishUponLantern} />
+
 
 				<Route path="/Illustration/BasketballAnimals" component={BasketballAnimals} />
 				<Route path="/Illustration/ChristmasCard" component={ChristmasCard} />

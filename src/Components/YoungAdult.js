@@ -12,12 +12,29 @@ import TheSeaKnowsmyName from '../Images/Design/TheSeaKnowsmyNameBookCover.jpg'
 import TheVanishingDeep from '../Images/Design/TheVanishingDeepBookCover.jpg'
 import ZylaandKai from '../Images/Design/ZylaandKaiBookCover.jpg'
 import MostDazzlingGirlinBerlin from '../Images/Design/MostDazzlingGirlinBerlinBookCover.jpg'
+import WalkonBy from '../Images/Design/AsYouWalkonByBookCover.jpg'
+import WishUponLantern from '../Images/Design/WhenYouWishUponaLanternBookCover.jpg'
+
 
 const YoungAdult = props => {
 	return(
 		<div>
 			<div class="design-grid-container">
-		    	<div class="designProject">
+				<div class="designProject">
+		    		<img className="designImage"src={WishUponLantern} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/WishUponLantern"></a>
+		    		</div>
+		    	</div>
+				<div class="designProject">
+		    		<img className="designImage"src={WalkonBy} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/AsYouWalkonBy"></a>
+		    		</div>
+		    	</div>
+				
+				
+				<div class="designProject">
 		    		<img className="designImage"src={MicahSummers} />
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/99BoyfriendsofMicahSummers"></a>

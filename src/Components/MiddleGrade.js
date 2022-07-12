@@ -37,11 +37,53 @@ import TheVanishingDeep from '../Images/Design/TheVanishingDeepBookCover.jpg'
 import ZylaandKai from '../Images/Design/ZylaandKaiBookCover.jpg'
 import MostDazzlingGirlinBerlin from '../Images/Design/MostDazzlingGirlinBerlinBookCover.jpg'
 
+import BillionDollarGirl from '../Images/Design/BillionDollarGirlBookCover.jpg'
+import LosMonstruos from '../Images/Design/LosMonstruosBookCover.jpg'
+import HiddenDragon from '../Images/Design/TheHiddenDragonBookCover.jpg'
+import IslandsofElsewhere from '../Images/Design/TheIslandsofElsewhereBookCover.jpg'
+import YearMyLifeWentDowntheToilet from '../Images/Design/TheYearMyLifeWentDowntheToiletBookCover.jpg'
+
+
+
 const MiddleGrade = props => {
 	return(
 		<div>
 			<div class="design-grid-container">
-		    	<div class="designProject">
+				<div class="designProject">
+		    		<img className="designImage"src={IslandsofElsewhere} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/IslandsofElsewhere"></a>
+		    		</div>
+		    	</div>
+				<div class="designProject">
+		    		<img className="designImage"src={LosMonstruos} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/LosMonstruos"></a>
+		    		</div>
+		    	</div>
+				<div class="designProject">
+		    		<img className="designImage"src={YearMyLifeWentDowntheToilet} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/YearMyLifeWentDowntheToilet"></a>
+		    		</div>
+		    	</div>
+				<div class="designProject">
+		    		<img className="designImage"src={BillionDollarGirl} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/BillionDollarGirl"></a>
+		    		</div>
+		    	</div>
+				
+				<div class="designProject">
+		    		<img className="designImage"src={HiddenDragon} />
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/HiddenDragon"></a>
+		    		</div>
+		    	</div>
+				
+				
+
+				<div class="designProject">
 		    		<img className="designImage"src={WinterborneHome2} />
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WinterborneHomeMM"></a>
