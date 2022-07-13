@@ -50,32 +50,32 @@ const MiddleGrade = props => {
 		<div>
 			<div class="design-grid-container">
 				<div class="designProject">
-		    		<img className="designImage"src={IslandsofElsewhere} />
+		    		<img className="designImage"src={IslandsofElsewhere} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/IslandsofElsewhere"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
-		    		<img className="designImage"src={LosMonstruos} />
+		    		<img className="designImage"src={LosMonstruos} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/LosMonstruos"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
-		    		<img className="designImage"src={YearMyLifeWentDowntheToilet} />
+		    		<img className="designImage"src={YearMyLifeWentDowntheToilet} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/YearMyLifeWentDowntheToilet"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
-		    		<img className="designImage"src={BillionDollarGirl} />
+		    		<img className="designImage"src={BillionDollarGirl} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/BillionDollarGirl"></a>
 		    		</div>
 		    	</div>
 				
 				<div class="designProject">
-		    		<img className="designImage"src={HiddenDragon} />
+		    		<img className="designImage"src={HiddenDragon} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/HiddenDragon"></a>
 		    		</div>
@@ -84,108 +84,108 @@ const MiddleGrade = props => {
 				
 
 				<div class="designProject">
-		    		<img className="designImage"src={WinterborneHome2} />
+		    		<img className="designImage"src={WinterborneHome2} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WinterborneHomeMM"></a>
 		    		</div>
 		    	</div>
 
 				<div class="designProject">
-		    		<img className="designImage"src={WinterborneHome1} />
+		    		<img className="designImage"src={WinterborneHome1} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WinterborneHomeVV"></a>
 		    		</div>
 		    	</div> 	
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={RescueLakeWild} />
+		    		<img className="designImage"src={RescueLakeWild} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/LakeWild"></a>
 		    		</div>
 		    	</div>
 		    	
 		    	<div class="designProject">
-		    		<img className="designImage"src={Wayward} />
+		    		<img className="designImage"src={Wayward} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WaywardCreatures"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={Feather} />
+		    		<img className="designImage"src={Feather} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/OfAFeather"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={ASingleShard} />
+		    		<img className="designImage"src={ASingleShard} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/ASingleShard"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={RethinktheInternet} />
+		    		<img className="designImage"src={RethinktheInternet} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/RethinktheInternet"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={WTBFB} />
+		    		<img className="designImage"src={WTBFB} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WhereTheBlackFlowersBloom"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={SherlockBones} />
+		    		<img className="designImage"src={SherlockBones} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/SherlockBones"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={SherlockBonesSeaCreature} />
+		    		<img className="designImage"src={SherlockBonesSeaCreature} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/SherlockBonesSeaCreature"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={OneSmartSheep} />
+		    		<img className="designImage"src={OneSmartSheep} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/OneSmartSheep"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={EvenOdd} />
+		    		<img className="designImage"src={EvenOdd} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/EvenOdd"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={GhostCrutchfield} />
+		    		<img className="designImage"src={GhostCrutchfield} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/GhostCrutchfield"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={ClosedForSeason} />
+		    		<img className="designImage"src={ClosedForSeason} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/ClosedForSeason"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={TimeForAndrew} />
+		    		<img className="designImage"src={TimeForAndrew} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/TimeForAndrew"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={DollGarden} />
+		    		<img className="designImage"src={DollGarden} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/DollGarden"></a>
 		    		</div>
@@ -194,20 +194,26 @@ const MiddleGrade = props => {
 
 
 			<div className="design-mobile">
-				<a href="/BookDesign/WinterborneHomeVV"><img className="designImage"src={WinterborneHome1} /></a>
-				<a href="/BookDesign/WinterborneHomeMM"><img className="designImage"src={WinterborneHome2} /></a>
-				<a href="/BookDesign/LakeWild"><img className="designImage"src={RescueLakeWild} /></a>
-				<a href="/BookDesign/ASingleShard"><img className="designImage"src={ASingleShard} /></a>
-				<a href="/BookDesign/WaywardCreatures"><img className="designImage"src={Wayward} /></a>
-				<a href="/BookDesign/OfAFeather"><img className="designImage"src={Feather} /></a>
-				<a href="/BookDesign/WhereTheBlackFlowersBloom"><img className="designImage"src={WTBFB} /></a>
-				<a href="/BookDesign/SherlockBones"><img className="designImage"src={SherlockBones} /></a>
-				<a href="/BookDesign/SherlockBonesSeaCreature"><img className="designImage"src={SherlockBonesSeaCreature} /></a>
-				<a href="/BookDesign/OneSmartSheep"><img className="designImage"src={OneSmartSheep} /></a>
-				<a href="/BookDesign/GhostCrutchfield"><img className="designImage"src={GhostCrutchfield} /></a>
-				<a href="/BookDesign/ClosedForSeason"><img className="designImage"src={ClosedForSeason} /></a>
-				<a href="/BookDesign/TimeForAndrew"><img className="designImage"src={TimeForAndrew} /></a>
-				<a href="/BookDesign/DollGarden"><img className="designImage"src={DollGarden} /></a>
+				<a href="/BookDesign/IslandsofElsewhere"><img className="designImage"src={IslandsofElsewhere} loading="lazy"/></a>
+				<a href="/BookDesign/LosMonstruos"><img className="designImage"src={LosMonstruos} loading="lazy"/></a>
+				<a href="/BookDesign/YearMyLifeWentDowntheToilet"><img className="designImage"src={YearMyLifeWentDowntheToilet} loading="lazy"/></a>
+				<a href="/BookDesign/BillionDollarGirl"><img className="designImage"src={BillionDollarGirl} loading="lazy"/></a>
+				<a href="/BookDesign/HiddenDragon"><img className="designImage"src={HiddenDragon} loading="lazy"/></a>
+
+				<a href="/BookDesign/WinterborneHomeVV"><img className="designImage"src={WinterborneHome1} loading="lazy"/></a>
+				<a href="/BookDesign/WinterborneHomeMM"><img className="designImage"src={WinterborneHome2} loading="lazy"/></a>
+				<a href="/BookDesign/LakeWild"><img className="designImage"src={RescueLakeWild} loading="lazy"/></a>
+				<a href="/BookDesign/ASingleShard"><img className="designImage"src={ASingleShard} loading="lazy"/></a>
+				<a href="/BookDesign/WaywardCreatures"><img className="designImage"src={Wayward} loading="lazy"/></a>
+				<a href="/BookDesign/OfAFeather"><img className="designImage"src={Feather} loading="lazy"/></a>
+				<a href="/BookDesign/WhereTheBlackFlowersBloom"><img className="designImage"src={WTBFB} loading="lazy"/></a>
+				<a href="/BookDesign/SherlockBones"><img className="designImage"src={SherlockBones} loading="lazy"/></a>
+				<a href="/BookDesign/SherlockBonesSeaCreature"><img className="designImage"src={SherlockBonesSeaCreature} loading="lazy"/></a>
+				<a href="/BookDesign/OneSmartSheep"><img className="designImage"src={OneSmartSheep} loading="lazy"/></a>
+				<a href="/BookDesign/GhostCrutchfield"><img className="designImage"src={GhostCrutchfield} loading="lazy"/></a>
+				<a href="/BookDesign/ClosedForSeason"><img className="designImage"src={ClosedForSeason} loading="lazy"/></a>
+				<a href="/BookDesign/TimeForAndrew"><img className="designImage"src={TimeForAndrew} loading="lazy"/></a>
+				<a href="/BookDesign/DollGarden"><img className="designImage"src={DollGarden} loading="lazy"/></a>
 			</div>
 		</div>
 

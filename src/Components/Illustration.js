@@ -28,7 +28,7 @@ const Illustration = props => {
 		<div>
 			<div className="illustration-grid-container">
 		        <div id="secretSanta" className="illustrationProject">
-		            <img className="gridImage" src={SecretSantaSociety} />
+		            <img className="gridImage" src={SecretSantaSociety} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="secretSantaOverlay">
 		            <h3>children's book</h3>
@@ -36,7 +36,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="rapBattle" className="illustrationProject">
-	            	<img className="gridImage" src={RapBattle} />
+	            	<img className="gridImage" src={RapBattle} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="rapBattleOverlay">
 	                <h3>Commission</h3>
@@ -44,7 +44,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="emperor" className="imageOverlay">
-		            <img className="gridImage" src={Emperor} />
+		            <img className="gridImage" src={Emperor} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="emperorOverlay">
 		            <h3>Children's Book</h3>
@@ -52,7 +52,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="redriding" className="imageOverlay">
-		            <img className="gridImage" src={LittleRed} />
+		            <img className="gridImage" src={LittleRed} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="redridingOverlay">
 		            <h3>children's book</h3>
@@ -60,7 +60,7 @@ const Illustration = props => {
 		        </div>
 
 	 	        <div id="buddha" className="imageOverlay">
-		            <img className="gridImage" src={MomBuddha} />
+		            <img className="gridImage" src={MomBuddha} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="buddhaOverlay">
 		            <h3>Personal Project</h3>
@@ -68,7 +68,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="ideo" className="imageOverlay">
-		            <img className="gridImage" src={IDEO} />
+		            <img className="gridImage" src={IDEO} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="ideoOverlay">
 		            <h3>Work for Hire</h3>
@@ -76,7 +76,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="veggie" className="imageOverlay">
-		            <img className="gridImage" src={VeggieAnimal} />
+		            <img className="gridImage" src={VeggieAnimal} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="veggieOverlay">
 		            <h3>Personal Project</h3>
@@ -84,7 +84,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="bear" className="imageOverlay">
-		            <img className="gridImage" src={BearBasketball} />
+		            <img className="gridImage" src={BearBasketball} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="bearOverlay">
 		            <h3>Personal Project</h3>
@@ -92,7 +92,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="christmas" className="imageOverlay">
-		            <img className="gridImage" src={ChristmasCard} />
+		            <img className="gridImage" src={ChristmasCard} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="christmasOverlay">
 		            <h3>Personal Project</h3>
@@ -100,7 +100,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="panda" className="imageOverlay">
-		            <img className="gridImage" src={StarvingPanda} />
+		            <img className="gridImage" src={StarvingPanda} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="pandaOverlay">
 		            <h3>Commission</h3>
@@ -112,7 +112,7 @@ const Illustration = props => {
 
 
 		        <div id="potatochips" className="imageOverlay">
-		            <img className="gridImage" src={PotatoChips} />
+		            <img className="gridImage" src={PotatoChips} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="potatochipsOverlay">
 		            <h3>Personal Work</h3>
@@ -120,7 +120,7 @@ const Illustration = props => {
 		        </div>
 
 				<div id="covid" className="imageOverlay">
-		            <img className="gridImage" src={Covid} />
+		            <img className="gridImage" src={Covid} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="covidOverlay">
 		            <h3>Personal Work</h3>
@@ -128,7 +128,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="medschool" className="imageOverlay">
-		            <img className="gridImage" src={MedSchool} />
+		            <img className="gridImage" src={MedSchool} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="medschoolOverlay">
 		            <h3>Commission</h3>
@@ -136,7 +136,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="minniegary" className="imageOverlay">
-		            <img className="gridImage" src={MinnieGary} />
+		            <img className="gridImage" src={MinnieGary} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="minniegaryOverlay">
 		            <h3>Commission</h3>
@@ -144,7 +144,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="yogatiger" className="imageOverlay">
-		            <img className="gridImage" src={YogaTiger} />
+		            <img className="gridImage" src={YogaTiger} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="yogatigerOverlay">
 		            <h3>Personal Work</h3>
@@ -152,7 +152,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="girlsticker" className="imageOverlay">
-		            <img className="gridImage" src={GirlStickers} />
+		            <img className="gridImage" src={GirlStickers} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="girlstickerOverlay">
 		            <h3>Personal Work</h3>
@@ -160,7 +160,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="rabbitsticker" className="imageOverlay">
-		            <img className="gridImage" src={RabbitStickers} />
+		            <img className="gridImage" src={RabbitStickers} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="rabbitstickerOverlay">
 		            <h3>Personal Work</h3>
@@ -168,7 +168,7 @@ const Illustration = props => {
 		        </div>
 
 		        <div id="minibuddha" className="imageOverlay">
-		            <img className="gridImage" src={MiniBuddha} />
+		            <img className="gridImage" src={MiniBuddha} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="minibuddhaOverlay">
 		            <h3>Commission</h3>
@@ -178,24 +178,24 @@ const Illustration = props => {
 
 		    </div>
 	    	<div className="illustration-mobile">
-	    		<Link to="/Illustration/ChristmasCard"><img className="gridImage" src={ChristmasCard} /></Link>
-	    		<Link to="/Illustration/StarvingPanda"><img className="gridImage" src={StarvingPanda} /></Link>
-	    		<Link to="/Illustration/Emperor"><img className="gridImage" src={Emperor} /></Link>
-	    		<Link to="/Illustration/LittleRedRidingHood"><img className="gridImage" src={LittleRed} /></Link>
-	    		<Link to="/Illustration/SecretSantaSociety"><img className="gridImage" src={SecretSantaSociety} /></Link>
-	    		<Link to="/Illustration/IDEO"><img className="gridImage" src={IDEO} /></Link>
-	    		<Link to="/Illustration/PotatoChips"><img className="gridImage" src={PotatoChips} /></Link>
-	    		<Link to="/Illustration/COVID"><img className="gridImage" src={Covid} /></Link>
-	    		<Link to="/Illustration/Buddha"><img className="gridImage" src={MomBuddha} /></Link>
-	    		<Link to="/Illustration/GirlCharacterSamples"><img className="gridImage" src={GirlStickers} /></Link>
-	    		<Link to="/Illustration/BasketballAnimals"><img className="gridImage" src={BearBasketball} /></Link>
-	    		<Link to="/Illustration/RabbitCharacterSamples"><img className="gridImage" src={RabbitStickers} /></Link>
-	    		<Link to="/Illustration/MinnieGary"><img className="gridImage" src={MinnieGary} /></Link>
-	    		<Link to="/Illustration/SlamPoetry"><img className="gridImage" src={MedSchool} /></Link>
-	    		<Link to="/Illustration/BuddhaStatues"><img className="gridImage" src={MiniBuddha} /></Link>
-	    		<Link to="/Illustration/TigerYoga"><img className="gridImage" src={YogaTiger} /></Link>
-	    		<Link to="/Illustration/RapBattle"><img className="gridImage" src={RapBattle} /></Link>   
-	    		<Link to="/Illustration/VeggieAnimals"><img className="gridImage" src={VeggieAnimal} /></Link>
+	    		<Link to="/Illustration/ChristmasCard"><img className="gridImage" src={ChristmasCard} loading="lazy"/></Link>
+	    		<Link to="/Illustration/StarvingPanda"><img className="gridImage" src={StarvingPanda} loading="lazy"/></Link>
+	    		<Link to="/Illustration/Emperor"><img className="gridImage" src={Emperor} loading="lazy"/></Link>
+	    		<Link to="/Illustration/LittleRedRidingHood"><img className="gridImage" src={LittleRed} loading="lazy"/></Link>
+	    		<Link to="/Illustration/SecretSantaSociety"><img className="gridImage" src={SecretSantaSociety} loading="lazy"/></Link>
+	    		<Link to="/Illustration/IDEO"><img className="gridImage" src={IDEO} loading="lazy"/></Link>
+	    		<Link to="/Illustration/PotatoChips"><img className="gridImage" src={PotatoChips} loading="lazy"/></Link>
+	    		<Link to="/Illustration/COVID"><img className="gridImage" src={Covid} loading="lazy"/></Link>
+	    		<Link to="/Illustration/Buddha"><img className="gridImage" src={MomBuddha} loading="lazy"/></Link>
+	    		<Link to="/Illustration/GirlCharacterSamples"><img className="gridImage" src={GirlStickers} loading="lazy"/></Link>
+	    		<Link to="/Illustration/BasketballAnimals"><img className="gridImage" src={BearBasketball} loading="lazy"/></Link>
+	    		<Link to="/Illustration/RabbitCharacterSamples"><img className="gridImage" src={RabbitStickers} loading="lazy"/></Link>
+	    		<Link to="/Illustration/MinnieGary"><img className="gridImage" src={MinnieGary} loading="lazy"/></Link>
+	    		<Link to="/Illustration/SlamPoetry"><img className="gridImage" src={MedSchool} loading="lazy"/></Link>
+	    		<Link to="/Illustration/BuddhaStatues"><img className="gridImage" src={MiniBuddha} loading="lazy"/></Link>
+	    		<Link to="/Illustration/TigerYoga"><img className="gridImage" src={YogaTiger} loading="lazy"/></Link>
+	    		<Link to="/Illustration/RapBattle"><img className="gridImage" src={RapBattle} loading="lazy"/></Link>   
+	    		<Link to="/Illustration/VeggieAnimals"><img className="gridImage" src={VeggieAnimal} loading="lazy"/></Link>
 
 	    	</div>
 		</div>

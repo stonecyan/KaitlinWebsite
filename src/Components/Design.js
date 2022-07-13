@@ -50,37 +50,37 @@ const Design = props => {
 		<div>
 			<div class="design-grid-container-main">
 				<div class="designProject">
-		    		<img className="designImage"src={WhenYouWishUponaLantern} />
+		    		<img className="designImage"src={WhenYouWishUponaLantern} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WishUponLantern"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
-		    		<img className="designImage"src={IslandsofElsewhere} />
+		    		<img className="designImage"src={IslandsofElsewhere} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/IslandsofElsewhere"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
-		    		<img className="designImage"src={WalkonBy} />
+		    		<img className="designImage"src={WalkonBy} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/AsYouWalkonBy"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
-		    		<img className="designImage"src={LosMonstruos} />
+		    		<img className="designImage"src={LosMonstruos} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/LosMonstruos"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
-		    		<img className="designImage"src={YearMyLifeWentDowntheToilet} />
+		    		<img className="designImage"src={YearMyLifeWentDowntheToilet} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/YearMyLifeWentDowntheToilet"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
-		    		<img className="designImage"src={MicahSummers} />
+		    		<img className="designImage"src={MicahSummers} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/99BoyfriendsofMicahSummers"></a>
 		    		</div>
@@ -88,20 +88,20 @@ const Design = props => {
 				
 				
 				<div class="designProject">
-		    		<img className="designImage"src={BillionDollarGirl} />
+		    		<img className="designImage"src={BillionDollarGirl} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/BillionDollarGirl"></a>
 		    		</div>
 		    	</div>
 				
 				<div class="designProject">
-		    		<img className="designImage"src={WinterborneHome2} />
+		    		<img className="designImage"src={WinterborneHome2} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WinterborneHomeMM"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
-		    		<img className="designImage"src={WinterborneHome1} />
+		    		<img className="designImage"src={WinterborneHome1} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WinterborneHomeVV"></a>
 		    		</div>
@@ -109,78 +109,78 @@ const Design = props => {
 		    	
 		    	
 				<div class="designProject">
-		    		<img className="designImage"src={HiddenDragon} />
+		    		<img className="designImage"src={HiddenDragon} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/HiddenDragon"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={RescueLakeWild} />
+		    		<img className="designImage"src={RescueLakeWild} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/LakeWild"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={VeryBigFall} />
+		    		<img className="designImage"src={VeryBigFall} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/VeryBigFall"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={Wayward} />
+		    		<img className="designImage"src={Wayward} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WaywardCreatures"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={Feather} />
+		    		<img className="designImage"src={Feather} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/OfAFeather"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={ASingleShard} />
+		    		<img className="designImage"src={ASingleShard} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/ASingleShard"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={MostDazzlingGirlinBerlin} />
+		    		<img className="designImage"src={MostDazzlingGirlinBerlin} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/MostDazzlingGirlinBerlin"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={ZylaandKai} />
+		    		<img className="designImage"src={ZylaandKai} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/ZylaandKai"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={BeautyandtheBesharam} />
+		    		<img className="designImage"src={BeautyandtheBesharam} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/BeautyandtheBesharam"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={RethinktheInternet} />
+		    		<img className="designImage"src={RethinktheInternet} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/RethinktheInternet"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject"> 
-		    		<img className="designImage"src={TheSeaKnowsmyName} />
+		    		<img className="designImage"src={TheSeaKnowsmyName} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/TheSeaKnowsmyName"></a>
 		    		</div>
 		    	</div>		    	
 		    	<div class="designProject">
-		    		<img className="designImage"src={TheVanishingDeep} />
+		    		<img className="designImage"src={TheVanishingDeep} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/TheVanishingDeep"></a>
 		    		</div>
@@ -188,91 +188,91 @@ const Design = props => {
 
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={Graceling} />
+		    		<img className="designImage"src={Graceling} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/Graceling"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={WTBFB} />
+		    		<img className="designImage"src={WTBFB} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WhereTheBlackFlowersBloom"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
-		    		<img className="designImage"src={PrincessUnlimited} />
+		    		<img className="designImage"src={PrincessUnlimited} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/PrincessUnlimited"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={HNTFIL} />
+		    		<img className="designImage"src={HNTFIL} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/HowNotToFallinLove"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={SherlockBones} />
+		    		<img className="designImage"src={SherlockBones} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/SherlockBones"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={SherlockBonesSeaCreature} />
+		    		<img className="designImage"src={SherlockBonesSeaCreature} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/SherlockBonesSeaCreature"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={MrWalker} />
+		    		<img className="designImage"src={MrWalker} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/MrWalker"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={MrComplain} />
+		    		<img className="designImage"src={MrComplain} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/MrComplain"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={OneSmartSheep} />
+		    		<img className="designImage"src={OneSmartSheep} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/OneSmartSheep"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={LightsWonderRock} />
+		    		<img className="designImage"src={LightsWonderRock} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/LightsWonderRock"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={EvenOdd} />
+		    		<img className="designImage"src={EvenOdd} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/EvenOdd"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={GhostCrutchfield} />
+		    		<img className="designImage"src={GhostCrutchfield} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/GhostCrutchfield"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={ClosedForSeason} />
+		    		<img className="designImage"src={ClosedForSeason} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/ClosedForSeason"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={TimeForAndrew} />
+		    		<img className="designImage"src={TimeForAndrew} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/TimeForAndrew"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={DollGarden} />
+		    		<img className="designImage"src={DollGarden} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/DollGarden"></a>
 		    		</div>
@@ -312,27 +312,35 @@ const Design = props => {
 			</div>
 
 			<div className="design-mobile">
-				<a href="/BookDesign/WinterborneHomeVV"><img className="designImage"src={WinterborneHome1} /></a>
-				<a href="/BookDesign/WinterborneHomeMM"><img className="designImage"src={WinterborneHome2} /></a>
-				<a href="/BookDesign/LakeWild"><img className="designImage"src={RescueLakeWild} /></a>
-				<a href="/BookDesign/ASingleShard"><img className="designImage"src={ASingleShard} /></a>
-				<a href="/BookDesign/VeryBigFall"><img className="designImage"src={VeryBigFall} /></a>
-				<a href="/BookDesign/WaywardCreatures"><img className="designImage"src={Wayward} /></a>
-				<a href="/BookDesign/OfAFeather"><img className="designImage"src={Feather} /></a>
-				<a href="/BookDesign/Graceling"><img className="designImage"src={Graceling} /></a>
-				<a href="/BookDesign/WhereTheBlackFlowersBloom"><img className="designImage"src={WTBFB} /></a>
-				<a href="/BookDesign/PrincessUnlimited"><img className="designImage"src={PrincessUnlimited} /></a>
-				<a href="/BookDesign/HowNotToFallinLove"><img className="designImage"src={HNTFIL} /></a>
-				<a href="/BookDesign/SherlockBones"><img className="designImage"src={SherlockBones} /></a>
-				<a href="/BookDesign/SherlockBonesSeaCreature"><img className="designImage"src={SherlockBonesSeaCreature} /></a>
-				<a href="/BookDesign/MrWalker"><img className="designImage"src={MrWalker} /></a>
-				<a href="/BookDesign/MrComplain"><img className="designImage"src={MrComplain} /></a>
-				<a href="/BookDesign/OneSmartSheep"><img className="designImage"src={OneSmartSheep} /></a>
-				<a href="/BookDesign/LightsWonderRock"><img className="designImage"src={LightsWonderRock} /></a>
-				<a href="/BookDesign/GhostCrutchfield"><img className="designImage"src={GhostCrutchfield} /></a>
-				<a href="/BookDesign/ClosedForSeason"><img className="designImage"src={ClosedForSeason} /></a>
-				<a href="/BookDesign/TimeForAndrew"><img className="designImage"src={TimeForAndrew} /></a>
-				<a href="/BookDesign/DollGarden"><img className="designImage"src={DollGarden} /></a>
+				<a href="/BookDesign/WishUponLantern"><img className="designImage"src={WhenYouWishUponaLantern} loading="lazy"/></a>
+				<a href="/BookDesign/IslandsofElsewhere"><img className="designImage"src={IslandsofElsewhere} loading="lazy"/></a>
+				<a href="/BookDesign/AsYouWalkonBy"><img className="designImage"src={WalkonBy} loading="lazy"/></a>
+				<a href="/BookDesign/LosMonstruos"><img className="designImage"src={LosMonstruos} loading="lazy"/></a>
+				<a href="/BookDesign/YearMyLifeWentDowntheToilet"><img className="designImage"src={YearMyLifeWentDowntheToilet} loading="lazy"/></a>
+				<a href="/BookDesign/99BoyfriendsofMicahSummers"><img className="designImage"src={MicahSummers} loading="lazy"/></a>
+				<a href="/BookDesign/BillionDollarGirl"><img className="designImage"src={BillionDollarGirl} loading="lazy"/></a>
+				<a href="/BookDesign/HiddenDragon"><img className="designImage"src={HiddenDragon} loading="lazy"/></a>
+				<a href="/BookDesign/WinterborneHomeVV"><img className="designImage"src={WinterborneHome1} loading="lazy"/></a>
+				<a href="/BookDesign/WinterborneHomeMM"><img className="designImage"src={WinterborneHome2} loading="lazy"/></a>
+				<a href="/BookDesign/LakeWild"><img className="designImage"src={RescueLakeWild} loading="lazy"/></a>
+				<a href="/BookDesign/ASingleShard"><img className="designImage"src={ASingleShard} loading="lazy"/></a>
+				<a href="/BookDesign/VeryBigFall"><img className="designImage"src={VeryBigFall} loading="lazy"/></a>
+				<a href="/BookDesign/WaywardCreatures"><img className="designImage"src={Wayward} loading="lazy"/></a>
+				<a href="/BookDesign/OfAFeather"><img className="designImage"src={Feather} loading="lazy"/></a>
+				<a href="/BookDesign/Graceling"><img className="designImage"src={Graceling} loading="lazy"/></a>
+				<a href="/BookDesign/WhereTheBlackFlowersBloom"><img className="designImage"src={WTBFB} loading="lazy"/></a>
+				<a href="/BookDesign/PrincessUnlimited"><img className="designImage"src={PrincessUnlimited} loading="lazy"/></a>
+				<a href="/BookDesign/HowNotToFallinLove"><img className="designImage"src={HNTFIL} loading="lazy"/></a>
+				<a href="/BookDesign/SherlockBones"><img className="designImage"src={SherlockBones} loading="lazy"/></a>
+				<a href="/BookDesign/SherlockBonesSeaCreature"><img className="designImage"src={SherlockBonesSeaCreature} loading="lazy"/></a>
+				<a href="/BookDesign/MrWalker"><img className="designImage"src={MrWalker} loading="lazy"/></a>
+				<a href="/BookDesign/MrComplain"><img className="designImage"src={MrComplain} loading="lazy"/></a>
+				<a href="/BookDesign/OneSmartSheep"><img className="designImage"src={OneSmartSheep} loading="lazy"/></a>
+				<a href="/BookDesign/LightsWonderRock"><img className="designImage"src={LightsWonderRock} loading="lazy"/></a>
+				<a href="/BookDesign/GhostCrutchfield"><img className="designImage"src={GhostCrutchfield} loading="lazy"/></a>
+				<a href="/BookDesign/ClosedForSeason"><img className="designImage"src={ClosedForSeason} loading="lazy"/></a>
+				<a href="/BookDesign/TimeForAndrew"><img className="designImage"src={TimeForAndrew} loading="lazy"/></a>
+				<a href="/BookDesign/DollGarden"><img className="designImage"src={DollGarden} loading="lazy"/></a>
 				{/*<a href="/BookDesign/Chocolate"><img className="designImage"src={Chocolate} /></a>
 				<a href="/BookDesign/Strength"><img className="designImage"src={Strength} /></a>
 				<a href="/BookDesign/MagicHouse"><img className="designImage"src={MagicHouse} /></a>

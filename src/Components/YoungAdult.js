@@ -21,13 +21,13 @@ const YoungAdult = props => {
 		<div>
 			<div class="design-grid-container">
 				<div class="designProject">
-		    		<img className="designImage"src={WishUponLantern} />
+		    		<img className="designImage"src={WishUponLantern} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WishUponLantern"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
-		    		<img className="designImage"src={WalkonBy} />
+		    		<img className="designImage"src={WalkonBy} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/AsYouWalkonBy"></a>
 		    		</div>
@@ -35,50 +35,50 @@ const YoungAdult = props => {
 				
 				
 				<div class="designProject">
-		    		<img className="designImage"src={MicahSummers} />
+		    		<img className="designImage"src={MicahSummers} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/99BoyfriendsofMicahSummers"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={MostDazzlingGirlinBerlin} />
+		    		<img className="designImage"src={MostDazzlingGirlinBerlin} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/MostDazzlingGirlinBerlin"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={ZylaandKai} />
+		    		<img className="designImage"src={ZylaandKai} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/ZylaandKai"></a>
 		    		</div>
 		    	</div>		    	
 		    	<div class="designProject">
-		    		<img className="designImage"src={BeautyandtheBesharam} />
+		    		<img className="designImage"src={BeautyandtheBesharam} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/BeautyandtheBesharam"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject"> 
-		    		<img className="designImage"src={TheSeaKnowsmyName} />
+		    		<img className="designImage"src={TheSeaKnowsmyName} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/TheSeaKnowsmyName"></a>
 		    		</div>
 		    	</div>		    	
 		    	<div class="designProject">
-		    		<img className="designImage"src={TheVanishingDeep} />
+		    		<img className="designImage"src={TheVanishingDeep} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/TheVanishingDeep"></a>
 		    		</div>
 		    	</div>
 		    	<div class="designProject">
-		    		<img className="designImage"src={HNTFIL} />
+		    		<img className="designImage"src={HNTFIL} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/HowNotToFallinLove"></a>
 		    		</div>
 		    	</div>
 
 		    	<div class="designProject">
-		    		<img className="designImage"src={Graceling} />
+		    		<img className="designImage"src={Graceling} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/Graceling"></a>
 		    		</div>
@@ -87,14 +87,17 @@ const YoungAdult = props => {
 		    </div>
 
 			<div className="design-mobile">
-				<a href="/BookDesign/99BoyfriendsofMicahSummers"><img className="designImage"src={MicahSummers} /></a>
-				<a href="/BookDesign/BeautyandtheBesharam"><img className="designImage"src={BeautyandtheBesharam} /></a>
-				<a href="/BookDesign/TheSeaKnowsmyName"><img className="designImage"src={TheSeaKnowsmyName} /></a>
-				<a href="/BookDesign/TheVanishingDeep"><img className="designImage"src={TheVanishingDeep} /></a>
-				<a href="/BookDesign/ZylaandKai"><img className="designImage"src={ZylaandKai} /></a>
-				<a href="/BookDesign/MostDazzlingGirlinBerlin"><img className="designImage"src={MostDazzlingGirlinBerlin} /></a>
-				<a href="/BookDesign/Graceling"><img className="designImage"src={Graceling} /></a>
-				<a href="/BookDesign/HowNotToFallinLove"><img className="designImage"src={HNTFIL} /></a>
+				<a href="/BookDesign/WishUponLantern"><img className="designImage"src={WishUponLantern} loading="lazy"/></a>
+				<a href="/BookDesign/AsYouWalkonBy"><img className="designImage"src={WalkonBy} loading="lazy"/></a>
+
+				<a href="/BookDesign/99BoyfriendsofMicahSummers"><img className="designImage"src={MicahSummers} loading="lazy"/></a>
+				<a href="/BookDesign/BeautyandtheBesharam"><img className="designImage"src={BeautyandtheBesharam} loading="lazy"/></a>
+				<a href="/BookDesign/TheSeaKnowsmyName"><img className="designImage"src={TheSeaKnowsmyName} loading="lazy"/></a>
+				<a href="/BookDesign/TheVanishingDeep"><img className="designImage"src={TheVanishingDeep} loading="lazy"/></a>
+				<a href="/BookDesign/ZylaandKai"><img className="designImage"src={ZylaandKai} loading="lazy"/></a>
+				<a href="/BookDesign/MostDazzlingGirlinBerlin"><img className="designImage"src={MostDazzlingGirlinBerlin} loading="lazy"/></a>
+				<a href="/BookDesign/Graceling"><img className="designImage"src={Graceling} loading="lazy"/></a>
+				<a href="/BookDesign/HowNotToFallinLove"><img className="designImage"src={HNTFIL} loading="lazy"/></a>
 			</div>
 		</div>
 
