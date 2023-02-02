@@ -48,7 +48,6 @@ class NavBar extends Component{
 
 			    <div id="navContact">
 			        <a href="mailto:kaitlin.k.yang@gmail.com">kaitlin.k.yang@gmail.com</a>
-			        <p id="navNumber">(626) 818-8078</p>
 			    </div> 
 			</div>
 		</div>
