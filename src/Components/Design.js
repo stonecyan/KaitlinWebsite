@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import {Link} from 'react-router-dom'
 import './Design.css'
 import {withRouter} from 'react-router'
+import Burger from './Hamburger.js'
+import MobileNavBar from './MobileNavBar.js'
 
 import WinterborneHome1 from '../Images/Design/WinterborneHome1BookCover.jpg'
 import WinterborneHome2 from '../Images/Design/WinterborneHome2BookCover.jpg'
@@ -45,7 +47,9 @@ import IslandsofElsewhere from '../Images/Design/TheIslandsofElsewhereBookCover.
 import YearMyLifeWentDowntheToilet from '../Images/Design/TheYearMyLifeWentDowntheToiletBookCover.jpg'
 import WhenYouWishUponaLantern from '../Images/Design/WhenYouWishUponaLanternBookCover.jpg'
 
-const Design = props => {
+export default function Design(){
+	const [open, setOpen] = useState(false);
+
 	return(
 		<div>
 			<div class="design-grid-container-main">
@@ -312,6 +316,11 @@ const Design = props => {
 			</div>
 
 			<div className="design-mobile">
+				<div className="mobileNav">
+					<Burger open={open} setOpen={setOpen}/>
+					<MobileNavBar open={open} setOpen={setOpen}/>
+				</div>
+				<div className="mobileContent">					
 				<a href="/BookDesign/WishUponLantern"><img className="designImage"src={WhenYouWishUponaLantern} loading="lazy"/></a>
 				<a href="/BookDesign/IslandsofElsewhere"><img className="designImage"src={IslandsofElsewhere} loading="lazy"/></a>
 				<a href="/BookDesign/AsYouWalkonBy"><img className="designImage"src={WalkonBy} loading="lazy"/></a>
@@ -346,10 +355,9 @@ const Design = props => {
 				<a href="/BookDesign/MagicHouse"><img className="designImage"src={MagicHouse} /></a>
 				<a href="/BookDesign/Podcast"><img className="designImage"src={Podcast} /></a>
 				<a href="/BookDesign/BubbleTea"><img className="designImage"src={BubbleTea} /></a>*/}
+				</div>
 			</div>
 		</div>
 
 	)
 }
-
-export default Design
