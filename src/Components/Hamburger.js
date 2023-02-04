@@ -1,5 +1,7 @@
 import React from 'react';
 import { StyledBurger } from './Hamburgerstyled';
+import { bool, func } from 'prop-types';
+
 
 const Burger = ({open, setOpen}) => {
   return (

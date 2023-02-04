@@ -10,6 +10,8 @@ import {
 	faLinkedin,
 	faInstagram
 } from "@fortawesome/free-brands-svg-icons"
+import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
+
 
 class NavBar extends Component{
 	
@@ -45,11 +47,9 @@ class NavBar extends Component{
 			    <div id="navIcons">
 			        <a href="https://www.linkedin.com/in/kaitlin-yang-98447386/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size='1x' /></a>
 			        <a href="https://www.instagram.com/kaitlin.k.draws/" target="_blank"><FontAwesomeIcon icon={faInstagram} size='1x' /></a>
-			    </div>
+					<a href="mailto:kaitlin.k.yang@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} size='1x' /></a>			    
+				</div>
 
-			    <div id="navContact">
-			        <a href="mailto:kaitlin.k.yang@gmail.com">kaitlin.k.yang@gmail.com</a>
-			    </div> 
 			</div>
 		</div>
 
