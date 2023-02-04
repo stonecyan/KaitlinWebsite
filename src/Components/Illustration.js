@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import {Link} from 'react-router-dom'
 import {withRouter} from 'react-router'
 import './Illustration.css'
+import Burger from './Hamburger.js'
+import MobileNavBar from './MobileNavBar.js'
 
 import SecretSantaSociety from '../Images/Illustration/SecretSantaSocietyChildrensBookIllustration.jpg'
 import RapBattle from '../Images/Illustration/RapBattlePoster.jpg'
@@ -23,7 +25,9 @@ import RabbitStickers from '../Images/Illustration/RabbitStickers.jpg'
 import MiniBuddha from '../Images/Illustration/MiniBuddha.png'
 
 
-const Illustration = props => {
+export default function Illustration(){
+	const [open, setOpen] = useState(false);
+
 	return(
 		<div>
 			<div className="illustration-grid-container">
@@ -178,6 +182,10 @@ const Illustration = props => {
 
 		    </div>
 	    	<div className="illustration-mobile">
+				<div className="mobileNav">
+					<Burger open={open} setOpen={setOpen}/>
+					<MobileNavBar open={open} setOpen={setOpen}/>
+				</div>
 	    		<Link to="/Illustration/ChristmasCard"><img className="gridImage" src={ChristmasCard} loading="lazy"/></Link>
 	    		<Link to="/Illustration/StarvingPanda"><img className="gridImage" src={StarvingPanda} loading="lazy"/></Link>
 	    		<Link to="/Illustration/Emperor"><img className="gridImage" src={Emperor} loading="lazy"/></Link>
@@ -202,5 +210,3 @@ const Illustration = props => {
 		
 	);
 };
-
-export default Illustration

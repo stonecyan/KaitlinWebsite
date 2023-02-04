@@ -1,9 +1,11 @@
 @media (max-width: 450px){
-	.design-grid-container{
+	.design-grid-container-main{
 		display: none;
 	}
 	.design-mobile{
-		display: block;
+		display: grid;
+		margin-top: 50px;
+		user-select: none;
 	}
   	.designImage {
 	    margin-left: 5%;
@@ -14,6 +16,14 @@
 	}
 	.designOverlay{
 		display: none;
+	}
+	.mobileNav{
+		display: block;
+		height: 50px;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		background-color: white;
 	}
 }
 
