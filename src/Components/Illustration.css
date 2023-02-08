@@ -64,22 +64,21 @@
 
 	
 	#WordsHavePower, #WordsHavePowerOverlay {
-		grid-column: 11/-7;
+		grid-column: 11/-8;
 		grid-row: 1/2; }
 	#WordsHavePowerOverlay {
 		background-color: #fde1be; }
 	#WordsHavePowerOverlay a {
 		padding-top: 30%;
-		height: 50%; }
+	 }
 
 	#YeYe, #YeYeOverlay {
-		grid-column: 1/5;
+		grid-column: 1/4;
 		grid-row: 1/2; }
 	#YeYeOverlay {
 		background-color: #fde1be; }
 	#YeYeOverlay a {
-		padding-top: 30%;
-		height: 50%; }
+		padding-top: 30%;}
 
 	#panda, #pandaOverlay {
 	  grid-column: 11/-5;
