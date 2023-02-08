@@ -1,19 +1,19 @@
 import React from 'react';
 import '../Desktop.css'
 
-import one from '../../Images/Illustration/SecretSantaSociety/1.Book.jpg'
-import two from '../../Images/Illustration/SecretSantaSociety/2.Book Jacket.jpg'
-import three from '../../Images/Illustration/SecretSantaSociety/3.Inner Pattern.jpg'
-import four from '../../Images/Illustration/SecretSantaSociety/4.Highlighted Spread.jpg'
-import five from '../../Images/Illustration/SecretSantaSociety/5.Highlighted Spread.jpg'
-import six from '../../Images/Illustration/SecretSantaSociety/6.Highlighted Spread.jpg'
-import seven from '../../Images/Illustration/SecretSantaSociety/7.Highlighted Spread.jpg'
-import eight from '../../Images/Illustration/SecretSantaSociety/8.Highlighted Spread.jpg'
-import nine from '../../Images/Illustration/SecretSantaSociety/9.Highlighted Spread.jpg'
-import ten from '../../Images/Illustration/SecretSantaSociety/10.Highlighted Spread.jpg'
-import eleven from '../../Images/Illustration/SecretSantaSociety/11.Highlighted Spread.jpg'
+import one from '../../Images/Illustration/WhenWordsHavePower/Cover.jpg'
+import two from '../../Images/Illustration/WhenWordsHavePower/FinalCase_KY.jpg'
+import three from '../../Images/Illustration/WhenWordsHavePower/WordsHavePower_p1.jpg'
+import four from '../../Images/Illustration/WhenWordsHavePower/WordsHavePower_p4-5.jpg'
+import five from '../../Images/Illustration/WhenWordsHavePower/WordsHavePower_p12-13.jpg'
+import six from '../../Images/Illustration/WhenWordsHavePower/WordsHavePower_p14-15.jpg'
+import seven from '../../Images/Illustration/WhenWordsHavePower/WordsHavePower_p16-17.jpg'
+import eight from '../../Images/Illustration/WhenWordsHavePower/WordsHavePower_p22-23.jpg'
+import nine from '../../Images/Illustration/WhenWordsHavePower/WordsHavePower_p24-25.jpg'
+import ten from '../../Images/Illustration/WhenWordsHavePower/WordsHavePower_p28-29.jpg'
+import eleven from '../../Images/Illustration/WhenWordsHavePower/WordsHavePower_p32.jpg'
 
-function SecretSantaSociety(){
+function WordsHavePower(){
     return(
     	<div class="page">
 		    <div class="illustrationContentPage">
@@ -40,4 +40,4 @@ function SecretSantaSociety(){
     )
 }
 
-export default SecretSantaSociety
+export default WordsHavePower

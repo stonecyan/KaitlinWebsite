@@ -23,6 +23,8 @@ import YogaTiger from '../Images/Illustration/YogaTiger.jpg'
 import GirlStickers from '../Images/Illustration/GirlStickers.jpg'
 import RabbitStickers from '../Images/Illustration/RabbitStickers.jpg'
 import MiniBuddha from '../Images/Illustration/MiniBuddha.png'
+import YeYe from '../Images/Illustration/IntheKitchenwithYeYe.jpg'
+import WordsHavePower from '../Images/Illustration/WhenWordsHavePower/WordsHavePower_p28-29.jpg'
 
 
 export default function Illustration(){
@@ -31,7 +33,23 @@ export default function Illustration(){
 	return(
 		<div>
 			<div className="illustration-grid-container">
-		        <div id="secretSanta" className="illustrationProject">
+				<div id="YeYe" className="illustrationProject">
+		            <img className="gridImage" src={YeYe} loading="lazy"/>
+		        </div>
+		        <div className="illustrationOverlay" id="YeYeOverlay">
+		            <h3>Personal Work</h3>
+		            <Link to="/Illustration/YeYeKitchen">In the Kitchen with YeYe</Link>
+		        </div>
+
+				<div id="WordsHavePower" className="illustrationProject">
+		            <img className="gridImage" src={WordsHavePower} loading="lazy"/>
+		        </div>
+		        <div className="illustrationOverlay" id="WordsHavePowerOverlay">
+		            <h3>children's book</h3>
+		            <Link to="/Illustration/WordsHavePower">When Words Have Power</Link>
+		        </div>
+				
+				<div id="secretSanta" className="illustrationProject">
 		            <img className="gridImage" src={SecretSantaSociety} loading="lazy"/>
 		        </div>
 		        <div className="illustrationOverlay" id="secretSantaOverlay">
