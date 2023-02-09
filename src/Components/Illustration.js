@@ -23,7 +23,7 @@ import YogaTiger from '../Images/Illustration/YogaTiger.jpg'
 import GirlStickers from '../Images/Illustration/GirlStickers.jpg'
 import RabbitStickers from '../Images/Illustration/RabbitStickers.jpg'
 import MiniBuddha from '../Images/Illustration/MiniBuddha.png'
-import YeYe from '../Images/Illustration/IntheKitchenwithYeYe.jpg'
+import YeYe from '../Images/Illustration/IntheKitchenwithYeYe_crop.jpg'
 import WordsHavePower from '../Images/Illustration/WhenWordsHavePower/WordsHavePower_p28-29.jpg'
 
 
@@ -46,7 +46,7 @@ export default function Illustration(){
 		        </div>
 		        <div className="illustrationOverlay" id="WordsHavePowerOverlay">
 		            <h3>children's book</h3>
-		            <Link to="/Illustration/WordsHavePower">When Words Have Power</Link>
+		            <Link to="/Illustration/WhenWordsHavePower">When Words Have Power</Link>
 		        </div>
 				
 				<div id="secretSanta" className="illustrationProject">
@@ -204,6 +204,8 @@ export default function Illustration(){
 					<Burger open={open} setOpen={setOpen}/>
 					<MobileNavBar open={open} setOpen={setOpen}/>
 				</div>
+	    		<Link to="/Illustration/YeYeKitchen"><img className="gridImage" src={YeYe} loading="lazy"/></Link>
+	    		<Link to="/Illustration/WhenWordsHavePower"><img className="gridImage" src={WordsHavePower} loading="lazy"/></Link>
 	    		<Link to="/Illustration/ChristmasCard"><img className="gridImage" src={ChristmasCard} loading="lazy"/></Link>
 	    		<Link to="/Illustration/StarvingPanda"><img className="gridImage" src={StarvingPanda} loading="lazy"/></Link>
 	    		<Link to="/Illustration/Emperor"><img className="gridImage" src={Emperor} loading="lazy"/></Link>

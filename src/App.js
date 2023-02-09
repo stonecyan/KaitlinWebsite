@@ -75,7 +75,7 @@ function App() {
 	    <Router>
 	    	<NavBar />    
 		    <Switch>
-		    	<Route exact path="/" component={Design} />
+		    	<Route exact path="/" component={Illustration} />
 			    <Route exact path="/Illustration" component={Illustration} />
 				<Route exact path="/BookDesign" component={Design} />
 				<Route exact path="/YoungAdult" component={YoungAdult} />

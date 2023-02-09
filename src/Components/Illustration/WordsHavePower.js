@@ -17,17 +17,17 @@ function WordsHavePower(){
     return(
     	<div class="page">
 		    <div class="illustrationContentPage">
-		        <h2>Secret Santa Society</h2>
-		        <p class="contentText">Worked as the illustrator for Michella Hatherill's picture book, "Secret Santa Society with Sonny and Ray", released in December 2018.</p>
+		        <h2>When Words Have Power</h2>
+		        <p class="contentText">
+		        Worked as the illustrator for Lisa Chong's picture book, "When Words Have Power", released in October 2022. Available to purchase through <a href="https://www.amazon.com/When-Words-Have-Power-Chong/dp/151313485X">Amazon</a> and <a href="https://www.barnesandnoble.com/w/when-words-have-power-lisa-chong/1140867002?ean=9781513134857">Barnes & Noble</a>.
+		        </p>
 		        <img class="contentImage" src={one} />
 		        <p class="contentText">Book Jacket:</p>
 		        <img class="contentImage" src={two} />
-		        <p class="contentText">Inner Pattern Spread:</p>
-		        <img class="contentImage" src={three} />
 		        <p class="contentText">Highlighted Spreads:</p>
+		        <img class="contentImage" src={three} />
 		        <img class="contentImage" src={four} />
 		        <img class="contentImage" src={five} />
-		        <p class="contentText">Only highlighted spread in the book that reads vertically to enhance excitement for the big reveal!</p>
 		        <img class="contentImage" src={six} />
 		        <img class="contentImage" src={seven} />
 		        <img class="contentImage" src={eight} />
