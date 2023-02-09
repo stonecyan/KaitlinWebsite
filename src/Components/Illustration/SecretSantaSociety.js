@@ -13,7 +13,7 @@ import nine from '../../Images/Illustration/SecretSantaSociety/9.Highlighted Spr
 import ten from '../../Images/Illustration/SecretSantaSociety/10.Highlighted Spread.jpg'
 import eleven from '../../Images/Illustration/SecretSantaSociety/11.Highlighted Spread.jpg'
 
-function LittleRedRidingHood(){
+function SecretSantaSociety(){
     return(
     	<div class="page">
 		    <div class="illustrationContentPage">
@@ -40,4 +40,4 @@ function LittleRedRidingHood(){
     )
 }
 
-export default LittleRedRidingHood
+export default SecretSantaSociety

@@ -62,18 +62,36 @@
 	  letter-spacing: 2px;
 	  font-weight: 700; }
 
+	
+	#WordsHavePower, #WordsHavePowerOverlay {
+		grid-column: 11/-8;
+		grid-row: 1/2; }
+	#WordsHavePowerOverlay {
+		background-color: #c75500; }
+	#WordsHavePowerOverlay a {
+		padding-top: 20%;
+	 }
+
+	#YeYe, #YeYeOverlay {
+		grid-column: 1/4;
+		grid-row: 1/2; }
+	#YeYeOverlay {
+		background-color: #fde1be; }
+	#YeYeOverlay a {
+		padding-top: 50%;}
+
 	#panda, #pandaOverlay {
 	  grid-column: 11/-5;
-	  grid-row: 1/2; }
+	  grid-row: 2/3; }
 	#pandaOverlay {
-	  background-color: #fddbd1; }
+	  background-color: #e0e0cb; }
 	#pandaOverlay a {
 	  padding-top: 30%;
 	  height: 50%; }
 
 	#secretSanta, #secretSantaOverlay {
 	  grid-column: 1/7;
-	  grid-row: 1/2; }
+	  grid-row: 2/3; }
 	#secretSantaOverlay {
 	  background-color: #eec3b3; }
 	#secretSantaOverlay a {
@@ -82,7 +100,7 @@
 
 	#emperor, #emperorOverlay {
 	  grid-column: 1/6;
-	  grid-row: 2/3; }
+	  grid-row: 3/4; }
 	#emperorOverlay {
 	  background-color: #9cced4; }
 	#emperorOverlay a {
@@ -91,7 +109,7 @@
 
 	#redriding, #redridingOverlay {
 	  grid-column: 11/-6;
-	  grid-row: 2/3; }
+	  grid-row: 3/4; }
 	#redridingOverlay {
 	  background-color: #be442c; }
 	#redridingOverlay a {
@@ -99,95 +117,95 @@
 
 	#christmas, #christmasOverlay {
 	  grid-column: 1/7;
-	  grid-row: 3/4; }
+	  grid-row: 4/5; }
 	#christmasOverlay {
 	  background-color: #7bc79f; }
 	#christmasOverlay a {
 	  padding-top: 21vh; }
 	#ideo, #ideoOverlay {
 	  grid-column: 11/-5;
-	  grid-row: 3/4; }
+	  grid-row: 4/5; }
 	#ideoOverlay {
 	  background-color: #20343b; }
 	#ideoOverlay a {
 	  padding-top: 20vh; }
 
-
+	#potatochips, #potatochipsOverlay {
+	grid-column: 1/5;
+	grid-row: 5/6; }
+	#potatochipsOverlay {
+	background-color: #5c735e; }
+	#potatochipsOverlay a {
+	padding-top: 30vh;
+	height: 55%; }	
+	#covid, #covidOverlay {
+	grid-column: 11/-7;
+	grid-row: 5/6; }
+	#covidOverlay {
+	background-color: #edd9a7; }
+	#covidOverlay a {
+	padding-top: 30vh; }
 
 	#buddha, #buddhaOverlay {
 	  grid-column: 1/6;
-	  grid-row: 5/6; }
+	  grid-row: 6/7; }
 	#buddhaOverlay {
 	  background-color: #f0aeaf; }
 	#buddhaOverlay a {
-	  padding-top: 20vh; }
+	  padding-top: 30vh; }
 	#sick, #sickOverlay {
 	  grid-column: 1/6;
-	  grid-row: 5/6; }
+	  grid-row: 6/7; }
 	#sickOverlay {
 	  background-color: #aaa9a9; }
 	#sickOverlay a {
 	  padding-top: 20vh; }
 	#bear, #bearOverlay {
 	  grid-column: 1/6;
-	  grid-row: 6/7; }
+	  grid-row: 7/8; }
 	#bearOverlay {
 	  background-color: #97c4af; }
 	#bearOverlay a {
-	  padding-top: 20vh; }
+	  padding-top: 25vh; }
 	#veggie, #veggieOverlay {
 	  grid-column: 8/11;
-	  grid-row: 8/9; }
+	  grid-row: 9/10; }
 	#veggieOverlay {
 	  background-color: #e9c36a; }
 	#veggieOverlay a {
-	  padding-top: 20vh; }
-	#potatochips, #potatochipsOverlay {
-	  grid-column: 1/5;
-	  grid-row: 4/5; }
-	#potatochipsOverlay {
-	  background-color: #5c735e; }
-	#potatochipsOverlay a {
-	  padding-top: 20vh;
-	  height: 55%; }	
-	#covid, #covidOverlay {
-	  grid-column: 11/-7;
-	  grid-row: 4/5; }
-	#covidOverlay {
-	  background-color: #edd9a7; }
-	#covidOverlay a {
-	  padding-top: 20vh; }
+	  padding-top: 25vh; }
+	
 	#girlsticker, #girlstickerOverlay {
 	  grid-column: 11/-6;
-	  grid-row: 5/6; }
+	  grid-row: 6/7; }
 	#girlstickerOverlay {
 	  background-color: #6e846f; }
 	#girlstickerOverlay a {
-	  padding-top: 20vh; }
+	  padding-top: 30vh; }
 	#rabbitsticker, #rabbitstickerOverlay {
 	  grid-column: 11/-6;
-	  grid-row: 6/7; }
+	  grid-row: 7/8; }
 	#rabbitstickerOverlay {
 	  background-color: #eacfa4; }
 	#rabbitstickerOverlay a {
-	  padding-top: 20vh; }
+	  padding-top: 25vh; }
 	#medschool, #medschoolOverlay {
 	  grid-column: 4/8;
-	  grid-row: 7/8; }
+	  grid-row: 8/9; }
 	#medschoolOverlay {
 	  background-color: #373a45; }
 	#medschoolOverlay a {
 	  padding-top: 40vh; }	
 	#minniegary, #minniegaryOverlay {
 	  grid-column: 1/4;
-	  grid-row: 7/8; }
+	  grid-row: 8/9; }
 	#minniegaryOverlay {
 	  background-color: #f68e73; }
 	#minniegaryOverlay a {
 	  padding-top: 40vh; }
 	#minibuddha, #minibuddhaOverlay {
 	  grid-column: 8/11;
-	  grid-row: 7/8; }
+	  grid-row: 8/9; }
 	#minibuddhaOverlay {
 	  background-color: #edd288; }
 	#minibuddhaOverlay a {
@@ -195,14 +213,14 @@
 
 	#rapBattle, #rapBattleOverlay {
 	  grid-column: 1/4;
-	  grid-row: 9/10; }
+	  grid-row: 10/11; }
 	#rapBattleOverlay {
 	  background-color: #25323c; }
 	#rapBattleOverlay a {
-	  padding-top: 20vh; }	
+	  padding-top: 30vh; }	
 	#yogatiger, #yogatigerOverlay {
 	  grid-column: 1/8;
-	  grid-row: 8/9; }
+	  grid-row: 9/10; }
 	#yogatigerOverlay {
 	  background-color: #97b492; }
 	#yogatigerOverlay a {

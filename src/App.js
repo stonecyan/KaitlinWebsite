@@ -66,6 +66,8 @@ import PotatoChips from './Components/Illustration/PotatoChips.js'
 import TigerYoga from './Components/Illustration/TigerYoga.js'
 import BuddhaStatues from './Components/Illustration/MiniBuddha.js'
 import RabbitStickers from './Components/Illustration/RabbitStickers.js'
+import YeYeKitchen from './Components/Illustration/Grandpa.js'
+import WordsHavePower from './Components/Illustration/WordsHavePower.js'
 
 
 function App() {
@@ -73,7 +75,7 @@ function App() {
 	    <Router>
 	    	<NavBar />    
 		    <Switch>
-		    	<Route exact path="/" component={Design} />
+		    	<Route exact path="/" component={Illustration} />
 			    <Route exact path="/Illustration" component={Illustration} />
 				<Route exact path="/BookDesign" component={Design} />
 				<Route exact path="/YoungAdult" component={YoungAdult} />
@@ -138,6 +140,9 @@ function App() {
 				<Route path="/Illustration/TigerYoga" component={TigerYoga} />
 				<Route path="/Illustration/BuddhaStatues" component={BuddhaStatues} />
 				<Route path="/Illustration/RabbitCharacterSamples" component={RabbitStickers} />
+				<Route path="/Illustration/YeYeKitchen" component={YeYeKitchen} />
+				<Route path="/Illustration/WhenWordsHavePower" component={WordsHavePower} />
+
 
 		    </Switch>
 	    </Router>
