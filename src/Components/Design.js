@@ -11,12 +11,10 @@ import MrWalker from '../Images/Design/MrWalkerStepsOutBookCover.jpg'
 import OneSmartSheep from '../Images/Design/OneSmartSheepBookCover.jpg'
 import SherlockBonesSeaCreature from '../Images/Design/SherlockBonesSeaCreatureBookCover.jpg'
 import RescueLakeWild from '../Images/Design/RescueAtLakeWildBookCover.jpg'
-import EvenOdd from '../Images/Design/EvenandOddBookCover.jpg'
 import ASingleShard from '../Images/Design/ASingleShardBookCover.jpg'
 import Feather from '../Images/Design/OfAFeatherBookCover.jpg'
 import SherlockBones from '../Images/Design/SherlockBonesBookCover.jpg'
 import MrComplain from '../Images/Design/MrComplainBookCover.jpg'
-import LightsWonderRock from '../Images/Design/LightsonWonderRockBookCover.jpg'
 import GhostCrutchfield from '../Images/Design/GhostofCrutchfieldHallBookCover.jpg'
 import ClosedForSeason from '../Images/Design/ClosedForTheSeasonBookCover.jpg'
 import DollGarden from '../Images/Design/DollinTheGardenBookCover.jpg'
@@ -30,7 +28,6 @@ import Wayward from '../Images/Design/WaywardCreaturesBookCover.jpg'
 import PrincessUnlimited from '../Images/Design/PrincessUnlimitedBookCover.jpg'
 import Graceling from '../Images/Design/GracelingBookCover.jpg'
 import WTBFB from '../Images/Design/WTBFBBookCover.jpg'
-import HNTFIL from '../Images/Design/HNTFILBookCover.jpg'
 import MicahSummers from '../Images/Design/99BoyfriendsofMicahSummersBookCover.jpg'
 import BeautyandtheBesharam from '../Images/Design/BeautyandtheBesharamBookCover.jpg'
 import RethinktheInternet from '../Images/Design/RethinktheInternetBookCover.jpg'
@@ -46,6 +43,19 @@ import HiddenDragon from '../Images/Design/TheHiddenDragonBookCover.jpg'
 import IslandsofElsewhere from '../Images/Design/TheIslandsofElsewhereBookCover.jpg'
 import YearMyLifeWentDowntheToilet from '../Images/Design/TheYearMyLifeWentDowntheToiletBookCover.jpg'
 import WhenYouWishUponaLantern from '../Images/Design/WhenYouWishUponaLanternBookCover.jpg'
+import AGalaxyofWhales from '../Images/Design/AGalaxyofWhalesBookCover.jpg'
+import AverilOffline from '../Images/Design/AverilOfflineBookCover.jpg'
+import CursedBoysandBrokenHearts from '../Images/Design/CursedBoysandBrokenHeartsBookCover.jpg'
+import FromLittleTokyoWithLove from '../Images/Design/FromLittleTokyoWithLoveBookCover.jpg'
+import LightEnoughtoFloat from '../Images/Design/LightEnoughtoFloatBookCover.jpg'
+import RoosterandtheDancingDiablo from '../Images/Design/RoosterandtheDancingDiabloBookCover.jpg'
+import RulesforRuleBreaking from '../Images/Design/RulesforRuleBreakingBookCover.jpg'
+import SuddenlyaMurder from '../Images/Design/SuddenlyaMurderBookCover.jpg'
+import TheBreakupLists from '../Images/Design/TheBreakupListsBookCover.jpg'
+import TheCurseofEelgrassBog from '../Images/Design/TheCurseofEelgrassBogBookCover.jpg'
+import WarriorGirl from '../Images/Design/WarriorGirlBookCover.jpg'
+import YourLonelyNightsareOver from '../Images/Design/YourLonelyNightsareOverBookCover.jpg'
+
 
 export default function Design(){
 	const [open, setOpen] = useState(false);
@@ -54,9 +64,21 @@ export default function Design(){
 		<div>
 			<div class="design-grid-container-main">
 				<div class="designProject">
-		    		<img className="designImage"src={WhenYouWishUponaLantern} loading="lazy"/>
+		    		<img className="designImage"src={LightEnoughtoFloat} loading="lazy"/>
 		    		<div class="designOverlay">
-		    			<a href="/BookDesign/WishUponLantern"></a>
+		    			<a href="/BookDesign/LightEnoughtoFloat"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={RulesforRuleBreaking} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/RulesforRuleBreaking"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={FromLittleTokyoWithLove} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/FromLittleTokyoWithLove"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
@@ -65,18 +87,93 @@ export default function Design(){
 		    			<a href="/BookDesign/IslandsofElsewhere"></a>
 		    		</div>
 		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={WhenYouWishUponaLantern} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/WishUponLantern"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={YourLonelyNightsareOver} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/YourLonelyNightsareOver"></a>
+		    		</div>
+		    	</div>
 				<div class="designProject">
 		    		<img className="designImage"src={WalkonBy} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/AsYouWalkonBy"></a>
 		    		</div>
 		    	</div>
-				<div class="designProject">
+		    	<div class="designProject">
+		    		<img className="designImage"src={SuddenlyaMurder} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/SuddenlyaMurder"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={AverilOffline} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/AverilOffline"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={RoosterandtheDancingDiablo} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/RoosterandtheDancingDiablo"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
 		    		<img className="designImage"src={LosMonstruos} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/LosMonstruos"></a>
 		    		</div>
 		    	</div>
+				<div class="designProject">
+		    		<img className="designImage"src={AGalaxyofWhales} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/AGalaxyofWhales"></a>
+		    		</div>
+		    	</div>
+		    	
+				<div class="designProject">
+		    		<img className="designImage"src={CursedBoysandBrokenHearts} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/CursedBoysandBrokenHearts"></a>
+		    		</div>
+		    	</div>
+		    	
+		    	
+		    	
+				
+		    	<div class="designProject">
+		    		<img className="designImage"src={TheBreakupLists} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/TheBreakupLists"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={TheCurseofEelgrassBog} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/TheCurseofEelgrassBog"></a>
+		    		</div>
+		    	</div>
+				<div class="designProject">
+		    		<img className="designImage"src={WarriorGirl} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/WarriorGirl"></a>
+		    		</div>
+		    	</div>
+		    	
+
+
+
+
+
+
+				
+
+				
 				<div class="designProject">
 		    		<img className="designImage"src={YearMyLifeWentDowntheToilet} loading="lazy"/>
 		    		<div class="designOverlay">
@@ -209,12 +306,7 @@ export default function Design(){
 		    			<a href="/BookDesign/PrincessUnlimited"></a>
 		    		</div>
 		    	</div>
-		    	<div class="designProject">
-		    		<img className="designImage"src={HNTFIL} loading="lazy"/>
-		    		<div class="designOverlay">
-		    			<a href="/BookDesign/HowNotToFallinLove"></a>
-		    		</div>
-		    	</div>
+
 		    	<div class="designProject">
 		    		<img className="designImage"src={SherlockBones} loading="lazy"/>
 		    		<div class="designOverlay">
@@ -245,18 +337,7 @@ export default function Design(){
 		    			<a href="/BookDesign/OneSmartSheep"></a>
 		    		</div>
 		    	</div>
-		    	<div class="designProject">
-		    		<img className="designImage"src={LightsWonderRock} loading="lazy"/>
-		    		<div class="designOverlay">
-		    			<a href="/BookDesign/LightsWonderRock"></a>
-		    		</div>
-		    	</div>
-		    	<div class="designProject">
-		    		<img className="designImage"src={EvenOdd} loading="lazy"/>
-		    		<div class="designOverlay">
-		    			<a href="/BookDesign/EvenOdd"></a>
-		    		</div>
-		    	</div>
+
 		    	<div class="designProject">
 		    		<img className="designImage"src={GhostCrutchfield} loading="lazy"/>
 		    		<div class="designOverlay">
@@ -320,10 +401,25 @@ export default function Design(){
 					<Burger open={open} setOpen={setOpen}/>
 					<MobileNavBar open={open} setOpen={setOpen}/>
 				</div>
-				<div className="mobileContent">					
-				<a href="/BookDesign/WishUponLantern"><img className="designImage"src={WhenYouWishUponaLantern} loading="lazy"/></a>
+				<div className="mobileContent">
+				<a href="/BookDesign/LightEnoughtoFloat"><img className="designImage"src={LightEnoughtoFloat} loading="lazy"/></a>
+				<a href="/BookDesign/RulesforRuleBreaking"><img className="designImage"src={RulesforRuleBreaking} loading="lazy"/></a>
+				<a href="/BookDesign/FromLittleTokyoWithLove"><img className="designImage"src={FromLittleTokyoWithLove} loading="lazy"/></a>
 				<a href="/BookDesign/IslandsofElsewhere"><img className="designImage"src={IslandsofElsewhere} loading="lazy"/></a>
+				<a href="/BookDesign/WishUponLantern"><img className="designImage"src={WhenYouWishUponaLantern} loading="lazy"/></a>
 				<a href="/BookDesign/AsYouWalkonBy"><img className="designImage"src={WalkonBy} loading="lazy"/></a>
+				<a href="/BookDesign/YourLonelyNightsareOver"><img className="designImage"src={YourLonelyNightsareOver} loading="lazy"/></a>
+
+				<a href="/BookDesign/AGalaxyofWhales"><img className="designImage"src={AGalaxyofWhales} loading="lazy"/></a>
+				<a href="/BookDesign/AverilOffline"><img className="designImage"src={AverilOffline} loading="lazy"/></a>
+				<a href="/BookDesign/CursedBoysandBrokenHearts"><img className="designImage"src={CursedBoysandBrokenHearts} loading="lazy"/></a>
+				<a href="/BookDesign/RoosterandtheDancingDiablo"><img className="designImage"src={RoosterandtheDancingDiablo} loading="lazy"/></a>
+				<a href="/BookDesign/SuddenlyaMurder"><img className="designImage"src={SuddenlyaMurder} loading="lazy"/></a>
+				<a href="/BookDesign/TheBreakupLists"><img className="designImage"src={TheBreakupLists} loading="lazy"/></a>
+				<a href="/BookDesign/TheCurseofEelgrassBog"><img className="designImage"src={TheCurseofEelgrassBog} loading="lazy"/></a>
+				<a href="/BookDesign/WarriorGirl"><img className="designImage"src={WarriorGirl} loading="lazy"/></a>
+
+
 				<a href="/BookDesign/LosMonstruos"><img className="designImage"src={LosMonstruos} loading="lazy"/></a>
 				<a href="/BookDesign/YearMyLifeWentDowntheToilet"><img className="designImage"src={YearMyLifeWentDowntheToilet} loading="lazy"/></a>
 				<a href="/BookDesign/99BoyfriendsofMicahSummers"><img className="designImage"src={MicahSummers} loading="lazy"/></a>
@@ -339,13 +435,11 @@ export default function Design(){
 				<a href="/BookDesign/Graceling"><img className="designImage"src={Graceling} loading="lazy"/></a>
 				<a href="/BookDesign/WhereTheBlackFlowersBloom"><img className="designImage"src={WTBFB} loading="lazy"/></a>
 				<a href="/BookDesign/PrincessUnlimited"><img className="designImage"src={PrincessUnlimited} loading="lazy"/></a>
-				<a href="/BookDesign/HowNotToFallinLove"><img className="designImage"src={HNTFIL} loading="lazy"/></a>
 				<a href="/BookDesign/SherlockBones"><img className="designImage"src={SherlockBones} loading="lazy"/></a>
 				<a href="/BookDesign/SherlockBonesSeaCreature"><img className="designImage"src={SherlockBonesSeaCreature} loading="lazy"/></a>
 				<a href="/BookDesign/MrWalker"><img className="designImage"src={MrWalker} loading="lazy"/></a>
 				<a href="/BookDesign/MrComplain"><img className="designImage"src={MrComplain} loading="lazy"/></a>
 				<a href="/BookDesign/OneSmartSheep"><img className="designImage"src={OneSmartSheep} loading="lazy"/></a>
-				<a href="/BookDesign/LightsWonderRock"><img className="designImage"src={LightsWonderRock} loading="lazy"/></a>
 				<a href="/BookDesign/GhostCrutchfield"><img className="designImage"src={GhostCrutchfield} loading="lazy"/></a>
 				<a href="/BookDesign/ClosedForSeason"><img className="designImage"src={ClosedForSeason} loading="lazy"/></a>
 				<a href="/BookDesign/TimeForAndrew"><img className="designImage"src={TimeForAndrew} loading="lazy"/></a>

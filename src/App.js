@@ -47,6 +47,20 @@ import HiddenDragon from './Components/Design/HiddenDragon.js'
 import IslandsofElsewhere from './Components/Design/IslandsofElsewhere'
 import YearMyLifeWentDowntheToilet from './Components/Design/YearMyLifeWentDowntheToilet.js'
 import WishUponLantern from './Components/Design/WishUponLantern.js'
+import AGalaxyofWhales from './Components/Design/AGalaxyofWhales.js'
+import AverilOffline from './Components/Design/AverilOffline.js'
+import CursedBoysandBrokenHearts from './Components/Design/CursedBoysandBrokenHearts.js'
+import FromLittleTokyoWithLove from './Components/Design/FromLittleTokyoWithLove.js'
+import LightEnoughtoFloat from './Components/Design/LightEnoughtoFloat.js'
+import RoosterandtheDancingDiablo from './Components/Design/RoosterandtheDancingDiablo.js'
+import RulesforRuleBreaking from './Components/Design/RulesforRuleBreaking.js'
+import SuddenlyaMurder from './Components/Design/SuddenlyaMurder.js'
+import TheBreakupLists from './Components/Design/TheBreakupLists.js'
+import TheCurseofEelgrassBog from './Components/Design/TheCurseofEelgrassBog.js'
+import WarriorGirl from './Components/Design/WarriorGirl.js'
+import YourLonelyNightsareOver from './Components/Design/YourLonelyNightsareOver.js'
+
+
 
 import BasketballAnimals from './Components/Illustration/BasketballAnimals.js'
 import ChristmasCard from './Components/Illustration/ChristmasCard.js'
@@ -120,6 +134,20 @@ function App() {
 				<Route path="/BookDesign/IslandsofElsewhere" component={IslandsofElsewhere} />
 				<Route path="/BookDesign/YearMyLifeWentDowntheToilet" component={YearMyLifeWentDowntheToilet} />
 				<Route path="/BookDesign/WishUponLantern" component={WishUponLantern} />
+				<Route path="/BookDesign/AGalaxyofWhales" component={AGalaxyofWhales} />
+				<Route path="/BookDesign/AverilOffline" component={AverilOffline} />
+				<Route path="/BookDesign/CursedBoysandBrokenHearts" component={CursedBoysandBrokenHearts} />
+				<Route path="/BookDesign/FromLittleTokyoWithLove" component={FromLittleTokyoWithLove} />
+				<Route path="/BookDesign/LightEnoughtoFloat" component={LightEnoughtoFloat} />
+				<Route path="/BookDesign/RoosterandtheDancingDiablo" component={RoosterandtheDancingDiablo} />
+				<Route path="/BookDesign/RulesforRuleBreaking" component={RulesforRuleBreaking} />
+				<Route path="/BookDesign/SuddenlyaMurder" component={SuddenlyaMurder} />
+				<Route path="/BookDesign/TheBreakupLists" component={TheBreakupLists} />
+				<Route path="/BookDesign/TheCurseofEelgrassBog" component={TheCurseofEelgrassBog} />
+				<Route path="/BookDesign/WarriorGirl" component={WarriorGirl} />
+				<Route path="/BookDesign/YourLonelyNightsareOver" component={YourLonelyNightsareOver} />
+
+
 
 
 				<Route path="/Illustration/BasketballAnimals" component={BasketballAnimals} />

@@ -2,7 +2,7 @@ import React from 'react';
 import '../Desktop.css'
 
 import Islands from '../../Images/Design/PenguinBooks/TheIslandsofElsewhere.jpg'
-import Jacket from '../../Images/Design/PenguinBooks/TheIslandsofElsewhereJacket.jpg'
+import Jacket from '../../Images/Design/PenguinBooks/TheIslandsofElsewhereBookJacket.jpg'
 
 function IslandsofElsewhere(){
 	return(

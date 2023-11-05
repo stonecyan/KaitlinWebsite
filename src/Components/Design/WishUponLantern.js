@@ -2,6 +2,8 @@ import React from 'react';
 import '../Desktop.css'
 
 import Cover from '../../Images/Design/PenguinBooks/WhenYouWishUponaLantern.jpg'
+import Jacket from '../../Images/Design/PenguinBooks/WhenYouWishUponaLanternBookJacket.jpg'
+
 
 function WishUponLantern(){
 	return(
@@ -15,6 +17,8 @@ function WishUponLantern(){
 		            <br />
 		            <p class="contentTextHMH2 ItalicText" >Illustration by Kat Tsai</p>
 		        </div>
+		        <br />
+		        <img class="contentImage" src={Jacket} />
 		    </div>
 		</div>
 	)
