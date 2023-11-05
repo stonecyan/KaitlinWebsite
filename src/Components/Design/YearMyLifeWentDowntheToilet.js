@@ -2,6 +2,8 @@ import React from 'react';
 import '../Desktop.css'
 
 import Cover from '../../Images/Design/PenguinBooks/TheYearMyLifeWentDowntheToilet.jpg'
+import Jacket from '../../Images/Design/PenguinBooks/TheYearMyLifeWentDowntheToiletBookJacket.jpg'
+
 
 function YearMyLifeWentDowntheToilet(){
 	return(
@@ -15,6 +17,8 @@ function YearMyLifeWentDowntheToilet(){
 		            <br />
 		            <p class="contentTextHMH2 ItalicText" >Illustration by Aishwarya Tandon</p>
 		        </div>
+		        <br />
+		        <img class="contentImage" src={Jacket} />
 		    </div>
 		</div>
 	)

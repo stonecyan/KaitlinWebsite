@@ -14,6 +14,16 @@ import ZylaandKai from '../Images/Design/ZylaandKaiBookCover.jpg'
 import MostDazzlingGirlinBerlin from '../Images/Design/MostDazzlingGirlinBerlinBookCover.jpg'
 import WalkonBy from '../Images/Design/AsYouWalkonByBookCover.jpg'
 import WishUponLantern from '../Images/Design/WhenYouWishUponaLanternBookCover.jpg'
+import LightEnoughtoFloat from '../Images/Design/LightEnoughtoFloatBookCover.jpg'
+import RulesforRuleBreaking from '../Images/Design/RulesforRuleBreakingBookCover.jpg'
+import FromLittleTokyoWithLove from '../Images/Design/FromLittleTokyoWithLoveBookCover.jpg'
+import YourLonelyNightsareOver from '../Images/Design/YourLonelyNightsareOverBookCover.jpg'
+import SuddenlyaMurder from '../Images/Design/SuddenlyaMurderBookCover.jpg'
+import TheBreakupLists from '../Images/Design/TheBreakupListsBookCover.jpg'
+import CursedBoysandBrokenHearts from '../Images/Design/CursedBoysandBrokenHeartsBookCover.jpg'
+
+
+
 
 
 const YoungAdult = props => {
@@ -21,15 +31,57 @@ const YoungAdult = props => {
 		<div>
 			<div class="design-grid-container">
 				<div class="designProject">
+		    		<img className="designImage"src={LightEnoughtoFloat} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/LightEnoughtoFloat"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={RulesforRuleBreaking} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/RulesforRuleBreaking"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={FromLittleTokyoWithLove} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/FromLittleTokyoWithLove"></a>
+		    		</div>
+		    	</div>
+				<div class="designProject">
 		    		<img className="designImage"src={WishUponLantern} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/WishUponLantern"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={YourLonelyNightsareOver} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/YourLonelyNightsareOver"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
 		    		<img className="designImage"src={WalkonBy} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/AsYouWalkonBy"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={SuddenlyaMurder} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/SuddenlyaMurder"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={TheBreakupLists} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/TheBreakupLists"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={CursedBoysandBrokenHearts} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/CursedBoysandBrokenHearts"></a>
 		    		</div>
 		    	</div>
 				

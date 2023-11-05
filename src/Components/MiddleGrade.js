@@ -42,6 +42,11 @@ import LosMonstruos from '../Images/Design/LosMonstruosBookCover.jpg'
 import HiddenDragon from '../Images/Design/TheHiddenDragonBookCover.jpg'
 import IslandsofElsewhere from '../Images/Design/TheIslandsofElsewhereBookCover.jpg'
 import YearMyLifeWentDowntheToilet from '../Images/Design/TheYearMyLifeWentDowntheToiletBookCover.jpg'
+import AverilOffline from '../Images/Design/AverilOfflineBookCover.jpg'
+import RoosterandtheDancingDiablo from '../Images/Design/RoosterandtheDancingDiabloBookCover.jpg'
+import AGalaxyofWhales from '../Images/Design/AGalaxyofWhalesBookCover.jpg'
+import TheCurseofEelgrassBog from '../Images/Design/TheCurseofEelgrassBogBookCover.jpg'
+import WarriorGirl from '../Images/Design/WarriorGirlBookCover.jpg'
 
 
 
@@ -55,16 +60,47 @@ const MiddleGrade = props => {
 		    			<a href="/BookDesign/IslandsofElsewhere"></a>
 		    		</div>
 		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={AverilOffline} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/AverilOffline"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={RoosterandtheDancingDiablo} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/RoosterandtheDancingDiablo"></a>
+		    		</div>
+		    	</div>
+
 				<div class="designProject">
 		    		<img className="designImage"src={LosMonstruos} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/LosMonstruos"></a>
 		    		</div>
 		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={AGalaxyofWhales} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/AGalaxyofWhales"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={TheCurseofEelgrassBog} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/TheCurseofEelgrassBog"></a>
+		    		</div>
+		    	</div>
 				<div class="designProject">
 		    		<img className="designImage"src={YearMyLifeWentDowntheToilet} loading="lazy"/>
 		    		<div class="designOverlay">
 		    			<a href="/BookDesign/YearMyLifeWentDowntheToilet"></a>
+		    		</div>
+		    	</div>
+		    	<div class="designProject">
+		    		<img className="designImage"src={WarriorGirl} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/WarriorGirl"></a>
 		    		</div>
 		    	</div>
 				<div class="designProject">
