@@ -55,6 +55,8 @@ import TheBreakupLists from '../Images/Design/TheBreakupListsBookCover.jpg'
 import TheCurseofEelgrassBog from '../Images/Design/TheCurseofEelgrassBogBookCover.jpg'
 import WarriorGirl from '../Images/Design/WarriorGirlBookCover.jpg'
 import YourLonelyNightsareOver from '../Images/Design/YourLonelyNightsareOverBookCover.jpg'
+import SincerelyDiary from '../Images/Design/SincerelyDiaryBookCover.jpg'
+
 
 
 export default function Design(){
@@ -63,6 +65,12 @@ export default function Design(){
 	return(
 		<div>
 			<div class="design-grid-container-main">
+				<div class="designProject">
+		    		<img className="designImage"src={SincerelyDiary} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/SincerelyDiary"></a>
+		    		</div>
+		    	</div>
 				<div class="designProject">
 		    		<img className="designImage"src={LightEnoughtoFloat} loading="lazy"/>
 		    		<div class="designOverlay">
@@ -402,6 +410,7 @@ export default function Design(){
 					<MobileNavBar open={open} setOpen={setOpen}/>
 				</div>
 				<div className="mobileContent">
+				<a href="/BookDesign/SincerelyDiary"><img className="designImage"src={SincerelyDiary} loading="lazy"/></a>
 				<a href="/BookDesign/LightEnoughtoFloat"><img className="designImage"src={LightEnoughtoFloat} loading="lazy"/></a>
 				<a href="/BookDesign/RulesforRuleBreaking"><img className="designImage"src={RulesforRuleBreaking} loading="lazy"/></a>
 				<a href="/BookDesign/FromLittleTokyoWithLove"><img className="designImage"src={FromLittleTokyoWithLove} loading="lazy"/></a>

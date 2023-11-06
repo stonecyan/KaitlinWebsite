@@ -25,6 +25,9 @@ import RabbitStickers from '../Images/Illustration/RabbitStickers.jpg'
 import MiniBuddha from '../Images/Illustration/MiniBuddha.png'
 import YeYe from '../Images/Illustration/IntheKitchenwithYeYe_crop.jpg'
 import WordsHavePower from '../Images/Illustration/WhenWordsHavePower/WordsHavePower_p28-29.jpg'
+import LeviNapkin from '../Images/Illustration/Levi_napkin_blush.jpg'
+import SincerelyDiary from '../Images/Design/PenguinBooks/SincerelyDiary/SincerelyDiary.jpg'
+
 
 
 export default function Illustration(){
@@ -33,6 +36,13 @@ export default function Illustration(){
 	return(
 		<div>
 			<div className="illustration-grid-container">
+				<div id="SincerelyDiary" className="illustrationProject">
+		            <img className="gridImage" src={SincerelyDiary} loading="lazy"/>
+		        </div>
+		        <div className="illustrationOverlay" id="SincerelyDiaryOverlay">
+		            <h3>Commission</h3>
+		            <Link to="/Illustration/SincerelyDiary">Sincerely Diary</Link>
+		        </div>
 				<div id="YeYe" className="illustrationProject">
 		            <img className="gridImage" src={YeYe} loading="lazy"/>
 		        </div>
@@ -195,6 +205,14 @@ export default function Illustration(){
 		        <div className="illustrationOverlay" id="minibuddhaOverlay">
 		            <h3>Commission</h3>
 		            <Link to="/Illustration/BuddhaStatues">Buddha Statues</Link>
+		        </div>
+
+		        <div id="levinapkin" className="imageOverlay">
+		            <img className="gridImage" src={LeviNapkin} loading="lazy"/>
+		        </div>
+		        <div className="illustrationOverlay" id="levinapkinOverlay">
+		            <h3>Commission</h3>
+		            <Link to="/Illustration/WeddingNapkinDesign">Wedding Napkin Design</Link>
 		        </div>
 
 

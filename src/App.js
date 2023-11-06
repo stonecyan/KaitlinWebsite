@@ -59,6 +59,7 @@ import TheBreakupLists from './Components/Design/TheBreakupLists.js'
 import TheCurseofEelgrassBog from './Components/Design/TheCurseofEelgrassBog.js'
 import WarriorGirl from './Components/Design/WarriorGirl.js'
 import YourLonelyNightsareOver from './Components/Design/YourLonelyNightsareOver.js'
+import SincerelyDiary from './Components/Design/SincerelyDiary.js'
 
 
 
@@ -82,6 +83,7 @@ import BuddhaStatues from './Components/Illustration/MiniBuddha.js'
 import RabbitStickers from './Components/Illustration/RabbitStickers.js'
 import YeYeKitchen from './Components/Illustration/Grandpa.js'
 import WordsHavePower from './Components/Illustration/WordsHavePower.js'
+import LeviNapkin from './Components/Illustration/LeviNapkin.js'
 
 
 function App() {
@@ -146,6 +148,7 @@ function App() {
 				<Route path="/BookDesign/TheCurseofEelgrassBog" component={TheCurseofEelgrassBog} />
 				<Route path="/BookDesign/WarriorGirl" component={WarriorGirl} />
 				<Route path="/BookDesign/YourLonelyNightsareOver" component={YourLonelyNightsareOver} />
+				<Route path="/BookDesign/SincerelyDiary" component={SincerelyDiary} />
 
 
 
@@ -170,6 +173,10 @@ function App() {
 				<Route path="/Illustration/RabbitCharacterSamples" component={RabbitStickers} />
 				<Route path="/Illustration/YeYeKitchen" component={YeYeKitchen} />
 				<Route path="/Illustration/WhenWordsHavePower" component={WordsHavePower} />
+				<Route path="/Illustration/WeddingNapkinDesign" component={LeviNapkin} />
+				<Route path="/Illustration/SincerelyDiary" component={SincerelyDiary} />
+
+
 
 
 		    </Switch>
