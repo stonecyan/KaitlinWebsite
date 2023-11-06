@@ -20,7 +20,6 @@ export default function About(){
 				<h1 className="aboutTitle">About Me</h1>
 				<div className="aboutColumn">
 					<img id="aboutImage" src={Kaitlin} />
-					<Link to={Resume} id="resumeDownload" target="_blank" download>download my resume here</ Link>
 				</div>
 				<div className="aboutColumn" id="aboutDescription">
 					<p> Hi! My name is Kaitlin. I am a children's book designer by day and illustrator by night.</p>
