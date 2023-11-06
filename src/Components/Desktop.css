@@ -85,6 +85,19 @@
   .buddhaStatues{
     column-count: 3;
   }
+  .interiorIllustrationGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+    grid-template-rows: repeat(1, max-content);
+    grid-gap: 10px;
+  }
+  .interiorDesignGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
+    grid-template-rows: repeat(1, max-content);
+    grid-gap: 10px;
+  }
+  
 }
 @media (max-width: 450px){
     .illustrationContentPage h2 {

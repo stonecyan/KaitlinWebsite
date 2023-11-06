@@ -116,19 +116,27 @@
 	  padding-top: 20%; }
 
 	#christmas, #christmasOverlay {
-	  grid-column: 1/7;
+	  grid-column: 11/-8;
 	  grid-row: 4/5; }
 	#christmasOverlay {
 	  background-color: #7bc79f; }
 	#christmasOverlay a {
 	  padding-top: 21vh; }
 	#ideo, #ideoOverlay {
-	  grid-column: 11/-5;
-	  grid-row: 4/5; }
+	  grid-column: 1/4;
+	  grid-row: 9/10; }
 	#ideoOverlay {
 	  background-color: #20343b; }
 	#ideoOverlay a {
 	  padding-top: 20vh; }
+
+	#SincerelyDiary, #SincerelyDiaryOverlay {
+	  grid-column: 1/4;
+	  grid-row: 4/5; }
+	#SincerelyDiaryOverlay {
+	  background-color: #8ccfce; }
+	#SincerelyDiaryOverlay a {
+	  padding-top: 30vh; }
 
 	#potatochips, #potatochipsOverlay {
 	grid-column: 1/5;
@@ -169,7 +177,7 @@
 	  padding-top: 25vh; }
 	#veggie, #veggieOverlay {
 	  grid-column: 8/11;
-	  grid-row: 9/10; }
+	  grid-row: 10/11; }
 	#veggieOverlay {
 	  background-color: #e9c36a; }
 	#veggieOverlay a {
@@ -212,18 +220,30 @@
 	  padding-top: 40vh; }	
 
 	#rapBattle, #rapBattleOverlay {
-	  grid-column: 1/4;
+	  grid-column: 5/8;
 	  grid-row: 10/11; }
 	#rapBattleOverlay {
 	  background-color: #25323c; }
 	#rapBattleOverlay a {
 	  padding-top: 30vh; }	
+
+	#levinapkin, #levinapkinOverlay {
+	  grid-column: 1/5;
+	  grid-row: 10/11; }
+	#levinapkinOverlay {
+	  background-color: #ffdecf; }
+	#levinapkinOverlay a {
+	  padding-top: 30vh; }	
+
 	#yogatiger, #yogatigerOverlay {
-	  grid-column: 1/8;
+	  grid-column: 11/-8;
 	  grid-row: 9/10; }
 	#yogatigerOverlay {
 	  background-color: #97b492; }
 	#yogatigerOverlay a {
 	  padding-top: 20vh; }	
+
+
+
 
 }
