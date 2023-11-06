@@ -47,6 +47,7 @@ import RoosterandtheDancingDiablo from '../Images/Design/RoosterandtheDancingDia
 import AGalaxyofWhales from '../Images/Design/AGalaxyofWhalesBookCover.jpg'
 import TheCurseofEelgrassBog from '../Images/Design/TheCurseofEelgrassBogBookCover.jpg'
 import WarriorGirl from '../Images/Design/WarriorGirlBookCover.jpg'
+import SincerelyDiary from '../Images/Design/SincerelyDiaryBookCover.jpg'
 
 
 
@@ -54,6 +55,12 @@ const MiddleGrade = props => {
 	return(
 		<div>
 			<div class="design-grid-container">
+				<div class="designProject">
+		    		<img className="designImage"src={SincerelyDiary} loading="lazy"/>
+		    		<div class="designOverlay">
+		    			<a href="/BookDesign/SincerelyDiary"></a>
+		    		</div>
+		    	</div>
 				<div class="designProject">
 		    		<img className="designImage"src={IslandsofElsewhere} loading="lazy"/>
 		    		<div class="designOverlay">
