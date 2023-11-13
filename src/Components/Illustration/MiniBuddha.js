@@ -15,7 +15,7 @@ function MiniBuddha(){
 		    <div class="illustrationContentPage">
 		        <h2>Buddha Statues</h2>
 		        <p class="contentText"></p>
-		        <div class="buddhaStatues">	
+		        <div class="threeColumn">	
 		        	<img class="contentImage" src={Buddha2} />
 		        	<img class="contentImage" src={Buddha3} />
 		        	<img class="contentImage" src={Buddha4} />

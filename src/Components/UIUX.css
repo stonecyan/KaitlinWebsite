@@ -1,0 +1,81 @@
+@media (max-width: 450px){
+	.uiux-grid-container-main{
+		display: none;
+	}
+	.uiux-mobile{
+		display: grid;
+		margin-top: 50px;
+		user-select: none;
+	}
+  	.uiuxImage {
+	    margin-left: 5%;
+	    margin-right: 5%;
+	    width: 90%;
+	    height: auto;
+	    margin-bottom: 5%; 
+	}
+	.uiuxOverlay{
+		display: none;
+	}
+	.mobileNav{
+		display: block;
+		height: 50px;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		background-color: white;
+	}
+}
+
+@media (min-width: 451px){
+	.uiux-grid-container-main{
+	    display: grid;
+	    grid-template-columns: repeat(auto-fill, minmax(600px, max-content));
+	    grid-template-rows: repeat(1, max-content);
+	    overflow:visible;
+	    margin-left: 250px;
+	    grid-gap: 10px;
+	}
+
+	.uiux-mobile{
+		display: none;
+	}
+
+	.uiuxProject{
+	    position: relative;
+	}
+
+	.uiuxImage{
+	    width: 100%;
+	    height: 100%;
+	    z-index: -1;
+	}
+
+	.uiuxOverlay{
+	    position: absolute;
+	    text-align: center;
+	    width: 100%;
+	    height: 100%;
+	    left: 0;
+	    top: 0;
+	    opacity: 0;
+	}
+
+	.uiuxOverlay a{
+	    display: inline-block;
+	    width: 100%;
+	    height: 100%;
+	    text-decoration: none;
+	    color: grey;
+	    background-color: white;
+	    text-align: center;
+	    font-size: 2vw;
+	    font-family: "Source Sans Pro", sans-serif;
+	    z-index:1;
+	    padding-top: 33%;
+	}
+
+	.uiuxOverlay:hover{
+	    opacity: 0.5;
+	}
+}
