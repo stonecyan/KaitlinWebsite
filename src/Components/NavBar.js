@@ -26,6 +26,7 @@ class NavBar extends Component{
 				    <Router>
 				        <ul className="navItemsMain">
 				            <li><a href="/Illustration">illustration</a></li>
+				            <li><a href="/Design">design</a></li>
 				            <li><a  href="/BookDesign">book design</a>
 					            <ul>
 					            <li id="youngAdult"><a href="/YoungAdult">young adult</a></li>

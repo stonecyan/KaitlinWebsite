@@ -1,8 +1,6 @@
 import React from 'react';
-import  { Breakpoint, BreakpointProvider } from 'react-socks';
 import NavBar from "./Components/NavBar.js"
-import { BrowserRouter as Router, Switch, Route, withRouter} from 'react-router-dom';
-import { setDefaultBreakpoints } from 'react-socks';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Illustration from './Components/Illustration.js'
 import Design from './Components/Design.js'
@@ -10,6 +8,7 @@ import About from './Components/About.js'
 import YoungAdult from './Components/YoungAdult.js'
 import MiddleGrade from './Components/MiddleGrade.js'
 import PictureBooks from './Components/PictureBooks.js'
+import UIUX from './Components/UIUX.js'
 
 import EvenOdd from './Components/Design/EvenOdd.js'
 import SherlockBonesSeaCreature from './Components/Design/SherlockBonesSeaCreature.js'
@@ -85,6 +84,11 @@ import YeYeKitchen from './Components/Illustration/Grandpa.js'
 import WordsHavePower from './Components/Illustration/WordsHavePower.js'
 import LeviNapkin from './Components/Illustration/LeviNapkin.js'
 
+import Bobabar from './Components/UIUX/Bobabar.js'
+import StrengthMagazine from './Components/UIUX/StrengthMagazine.js'
+import TapNY from './Components/UIUX/TapNY.js'
+import WelcomeWeek from './Components/UIUX/WelcomeWeek.js'
+
 
 function App() {
   	return (
@@ -98,6 +102,13 @@ function App() {
 				<Route path="/MiddleGrade" component={MiddleGrade} />
 				<Route path="/PictureBooks" component={PictureBooks} />
 				<Route path="/About" component={About} />
+				<Route exact path="/Design" component={UIUX} />
+
+				<Route path="/Design/Bobabar" component={Bobabar} />
+				<Route path="/Design/StrengthMagazine" component={StrengthMagazine} />
+				<Route path="/Design/TAPNY" component={TapNY} />
+				<Route path="/Design/StyleGuides" component={WelcomeWeek} />
+
 
 				<Route path="/BookDesign/EvenOdd" component={EvenOdd} />
 				<Route path="/BookDesign/SherlockBonesSeaCreature" component={SherlockBonesSeaCreature} />

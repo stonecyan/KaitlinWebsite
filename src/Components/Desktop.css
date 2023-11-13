@@ -32,6 +32,11 @@
     width: 100%;
     display: block;
     margin-bottom: 50px; }
+  .contentVideo{
+    width: 100%;
+    display: block;
+    margin-bottom: 50px; 
+  }
   #issuu {
     margin-bottom: 50px; }
   .contentText {
@@ -82,7 +87,7 @@
   .ItalicText{
     font-style: italic;
   }
-  .buddhaStatues{
+  .threeColumn{
     column-count: 3;
   }
   .interiorIllustrationGrid{
