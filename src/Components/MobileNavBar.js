@@ -22,7 +22,8 @@ const MobileNavBar = ({open}) => {
 				<Router>
 					<ul className="navItemsMain">
 						<li><a href="/Illustration">illustration</a></li>
-						<li><a  href="/BookDesign">book design</a></li>
+						<li><a href="/Design">design</a></li>
+						<li><a href="/BookDesign">book design</a></li>
 						<li className="navItemsMain"><a href="/About">about</a></li>
 					</ul>
 					
