@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useState} from "react";
+import Burger from '../Hamburger.js'
+import MobileNavBar from '../MobileNavBar.js'
 import '../Desktop.css'
 
 import Creature from '../../Images/Design/HMHBooks/WaywardCreatures.jpg'
@@ -6,9 +8,15 @@ import Jacket from '../../Images/Design/HMHBooks/WaywardCreaturesJacket.jpg'
 import Alternatives from '../../Images/Design/HMHBooks/WaywardCreaturesAlternatives.jpg'
 
 function WaywardCreatures(){
+	const [open, setOpen] = useState(false);
+
 	return(
 		<div class="page">
 		    <div class="designContentPageBook">
+		    	<div className="mobileNav">
+					<Burger open={open} setOpen={setOpen}/>
+					<MobileNavBar open={open} setOpen={setOpen}/>
+				</div>
 		        <div class="contentHMH">
 		            <img class="contentImage" src={Creature} />
 		            <p class="contentTextHMHTitle">Wayward Creatures</p>
