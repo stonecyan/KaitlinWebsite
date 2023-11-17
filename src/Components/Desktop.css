@@ -6,7 +6,8 @@
     height: 100%;
     margin: auto;
     text-align: center;
-    max-width: 900px; }
+    max-width: 900px;
+    z-index:-10; }
   .illustrationContentPage h2, .designContentPage h2 {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
@@ -33,7 +34,7 @@
     display: block;
     margin-bottom: 50px; }
   .contentVideo{
-    width: 100%;
+    max-width: 100%;
     display: block;
     margin-bottom: 50px; 
   }
@@ -102,6 +103,9 @@
     grid-template-rows: repeat(1, max-content);
     grid-gap: 10px;
   }
+  .mobileNav{
+      display: none;
+    }
   
 }
 @media (max-width: 450px){
@@ -122,6 +126,15 @@
       height: auto;
       margin-bottom: 5%;
     }
+    .contentVideo{
+      max-width: 100%;
+      display: block;
+      z-index:-10;
+    }
+    .designContent{
+      padding-top: 50px;
+    }
+
 }
 
 

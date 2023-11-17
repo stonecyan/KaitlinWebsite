@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useState} from "react";
 import '../Desktop.css'
+import Burger from '../Hamburger.js'
+import MobileNavBar from '../MobileNavBar.js'
 
 import DesignProcess from '../../Images/UIUX/TapNY/TAPNYSwagDesignProcess.jpeg'
 import DesignLogo from '../../Images/UIUX/TapNY/TAPNYSwagDesignLogo.jpeg'
@@ -9,9 +11,15 @@ import Design3 from '../../Images/UIUX/TapNY/TAPNYSwagDesign3.jpeg'
 
 
 function TapNY(){
+	const [open, setOpen] = useState(false);
 	return(
 		<div class="page">
-		    <div class="designContentPageBook">
+			<div className="mobileNav">
+				<Burger open={open} setOpen={setOpen}/>
+				<MobileNavBar open={open} setOpen={setOpen}/>
+			</div>
+		    <div class="designContent">
+		    	
 		    	<div class="contentHMH">
 		            <img class="contentImage" src={DesignProcess} />
 		            <img class="contentImage" src={DesignLogo} />
