@@ -23,9 +23,6 @@ function Bobabar(){
 		    <div class="designContent">
 	            <img class="contentImage" src={Cover} />
 	            <video class="contentVideo" autoplay="autoplay" muted loop><source src={AppVideo} type="video/mp4"></source></video>
-	            <script>
-				    document.getElementById('video').play();
-				</script>
 	            <img class="contentImage" src={Wireframe} />
 	            <img class="contentImage" src={UIframe} />
 
