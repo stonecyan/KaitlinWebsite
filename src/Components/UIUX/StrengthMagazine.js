@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useState} from "react";
 import '../Desktop.css'
+import Burger from '../Hamburger.js'
+import MobileNavBar from '../MobileNavBar.js'
 
 import SM1 from '../../Images/UIUX/StrengthMagazine/StrengthMagazineSpread1.jpg'
 import SM2 from '../../Images/UIUX/StrengthMagazine/StrengthMagazineSpread2.jpg'
@@ -13,9 +15,14 @@ import styleGuide from '../../Images/UIUX/StrengthMagazine/StrengthMagazineStyle
 
 
 function StrengthMagazine(){
+	const [open, setOpen] = useState(false);
 	return(
 		<div class="page">
-		    <div class="designContentPageBook">
+			<div className="mobileNav">
+					<Burger open={open} setOpen={setOpen}/>
+					<MobileNavBar open={open} setOpen={setOpen}/>
+			</div>
+		    <div class="designContent">
 		    	<div class="contentHMH">
 		            <img class="contentImage" src={SM1} />
 		            <img class="contentImage" src={SM2} />
