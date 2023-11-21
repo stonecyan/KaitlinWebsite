@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useState} from "react";
+import Burger from '../Hamburger.js'
+import MobileNavBar from '../MobileNavBar.js'
 import '../Desktop.css'
 
 import onea from '../../Images/Illustration/Capstone/11.jpg'
@@ -37,8 +39,14 @@ import twentyfive from '../../Images/Illustration/Capstone/25.jpg'
 import twentysix from '../../Images/Illustration/Capstone/26.jpg'
 
 function Emperor(){
+	const [open, setOpen] = useState(false);
+
     return(
     	<div class="page">
+			<div className="mobileNav">
+				<Burger open={open} setOpen={setOpen}/>
+				<MobileNavBar open={open} setOpen={setOpen}/>
+			</div>
 		    <div class="illustrationContentPage">
 		        <h2>Honesty, Devotion, Benevolence</h2>
 		        <p class="contentText">For my Senior Thesis, I created an illustrated children’s book with an educational purpose. The theme is similar to Aesop’s fables familiar to children in Western culture, however, I wanted to make this project personal and relevant to the culture and values I grew up with in Taiwan. The three stories each represent one of the main value systems in Confucianism, which are‬ benevolence, devotion, and honesty. I love these stories because they remind of my childhood and taught me fundamental moral values at a young age. They were crucial to my character development, and I am grateful to share them with children around the world.</p>

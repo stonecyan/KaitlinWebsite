@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useState} from "react";
+import Burger from '../Hamburger.js'
+import MobileNavBar from '../MobileNavBar.js'
 import '../Desktop.css'
 
 import Buddha1 from '../../Images/Illustration/MiniBuddhas/ElephantBuddha.jpg'
@@ -10,8 +12,14 @@ import Buddha6 from '../../Images/Illustration/MiniBuddhas/Buddha5.png'
 import Buddha7 from '../../Images/Illustration/MiniBuddhas/Buddha6.png'
 
 function MiniBuddha(){
+	const [open, setOpen] = useState(false);
+
     return(
     	<div class="page">
+			<div className="mobileNav">
+				<Burger open={open} setOpen={setOpen}/>
+				<MobileNavBar open={open} setOpen={setOpen}/>
+			</div>
 		    <div class="illustrationContentPage">
 		        <h2>Buddha Statues</h2>
 		        <p class="contentText"></p>

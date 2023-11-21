@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useState} from "react";
+import Burger from '../Hamburger.js'
+import MobileNavBar from '../MobileNavBar.js'
 import '../Desktop.css'
 
 import one from '../../Images/Illustration/Basketball Animal Series/inktober1.jpg'
@@ -12,8 +14,14 @@ import bird from '../../Images/Illustration/Basketball Animal Series/bird2.jpg'
 import giraffe from '../../Images/Illustration/Basketball Animal Series/giraffe bball.jpg'
 
 function BasketballAnimals(){
+	const [open, setOpen] = useState(false);
+
     return(
     	<div class="page">
+			<div className="mobileNav">
+				<Burger open={open} setOpen={setOpen}/>
+				<MobileNavBar open={open} setOpen={setOpen}/>
+			</div>
 		    <div class="illustrationContentPage">	
 		        <h2>Basketball + Animal Series</h2>
 		        <img class="contentImage" src={one} />

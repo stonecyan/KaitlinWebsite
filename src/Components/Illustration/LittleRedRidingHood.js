@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useState} from "react";
+import Burger from '../Hamburger.js'
+import MobileNavBar from '../MobileNavBar.js'
 import '../Desktop.css'
 
 import one from '../../Images/Illustration/Little Red Riding Hood/Scene 1.jpg'
@@ -16,8 +18,14 @@ import twenty from '../../Images/Illustration/Little Red Riding Hood/Scene 20.jp
 import twentysix from '../../Images/Illustration/Little Red Riding Hood/Scene 26.jpg'
 
 function LittleRedRidingHood(){
+	const [open, setOpen] = useState(false);
+
     return(
     	<div class="page">
+			<div className="mobileNav">
+				<Burger open={open} setOpen={setOpen}/>
+				<MobileNavBar open={open} setOpen={setOpen}/>
+			</div>
 		    <div class="illustrationContentPage">
 		        <h2>Little Red Riding Hood</h2>
 		        <p class="contentText">Worked as a contractor for Gakko Inc, an educational technology start-up that thrives to create meaningful experiences for early learners. I illustrated and assisted with animating the classic story, Little Red Riding Hood, for an expansion of their existing smart phone and tablet app, Moji Moji. </p>
