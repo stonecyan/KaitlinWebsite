@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useState} from "react";
+import Burger from '../Hamburger.js'
+import MobileNavBar from '../MobileNavBar.js'
 import '../Desktop.css'
 
 import Cover from '../../Images/Design/PenguinBooks/SincerelyDiary/SincerelyDiary.jpg'
@@ -25,9 +27,15 @@ import InteriorDesign4 from '../../Images/Design/PenguinBooks/SincerelyDiary/Sin
 
 
 function SincerelyDiary(){
+	const [open, setOpen] = useState(false);
+
 	return(
 		<div class="page">
 		    <div class="designContentPageBook">
+		    	<div className="mobileNav">
+					<Burger open={open} setOpen={setOpen}/>
+					<MobileNavBar open={open} setOpen={setOpen}/>
+				</div>
 		        <div class="contentHMH">
 		            <img class="contentImage" src={Cover} />
 		            <p class="contentTextHMHTitle">Sincerely Diary</p>

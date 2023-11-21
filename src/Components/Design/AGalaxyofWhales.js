@@ -10,11 +10,11 @@ function AGalaxyofWhales(){
 	const [open, setOpen] = useState(false);
 	return(
 		<div class="page">
+			<div className="mobileNav">
+				<Burger open={open} setOpen={setOpen}/>
+				<MobileNavBar open={open} setOpen={setOpen}/>
+			</div>
 		    <div class="designContentPageBook">
-		    	<div className="mobileNav">
-					<Burger open={open} setOpen={setOpen}/>
-					<MobileNavBar open={open} setOpen={setOpen}/>
-				</div>
 		        <div class="contentHMH">
 		            <img class="contentImage" src={Cover} />
 		            <p class="contentTextHMHTitle">A Galaxy of Whales</p>

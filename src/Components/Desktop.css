@@ -131,7 +131,7 @@
       display: block;
       z-index:-10;
     }
-    .designContent{
+    .designContent, .designContentPageBook{
       padding-top: 50px;
     }
 

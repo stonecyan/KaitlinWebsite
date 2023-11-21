@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useState} from "react";
+import Burger from '../Hamburger.js'
+import MobileNavBar from '../MobileNavBar.js'
 import '../Desktop.css'
 
 import one from '../../Images/Illustration/WhenWordsHavePower/Cover.jpg'
@@ -14,8 +16,14 @@ import ten from '../../Images/Illustration/WhenWordsHavePower/WordsHavePower_p28
 import eleven from '../../Images/Illustration/WhenWordsHavePower/WordsHavePower_p32.jpg'
 
 function WordsHavePower(){
+	const [open, setOpen] = useState(false);
+
     return(
     	<div class="page">
+			<div className="mobileNav">
+				<Burger open={open} setOpen={setOpen}/>
+				<MobileNavBar open={open} setOpen={setOpen}/>
+			</div>
 		    <div class="illustrationContentPage">
 		        <h2>When Words Have Power</h2>
 		        <p class="contentText">

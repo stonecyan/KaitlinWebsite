@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useState} from "react";
+import Burger from '../Hamburger.js'
+import MobileNavBar from '../MobileNavBar.js'
 import '../Desktop.css'
 
 import one from '../../Images/Illustration/SecretSantaSociety/1.Book.jpg'
@@ -14,8 +16,14 @@ import ten from '../../Images/Illustration/SecretSantaSociety/10.Highlighted Spr
 import eleven from '../../Images/Illustration/SecretSantaSociety/11.Highlighted Spread.jpg'
 
 function SecretSantaSociety(){
+	const [open, setOpen] = useState(false);
+
     return(
     	<div class="page">
+			<div className="mobileNav">
+				<Burger open={open} setOpen={setOpen}/>
+				<MobileNavBar open={open} setOpen={setOpen}/>
+			</div>
 		    <div class="illustrationContentPage">
 		        <h2>Secret Santa Society</h2>
 		        <p class="contentText">Worked as the illustrator for Michella Hatherill's picture book, "Secret Santa Society with Sonny and Ray", released in December 2018.</p>

@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useState} from "react";
+import Burger from '../Hamburger.js'
+import MobileNavBar from '../MobileNavBar.js'
 import '../Desktop.css'
 
 import poster from '../../Images/Illustration/RapBattle/Poster V6.jpg'
@@ -14,8 +16,14 @@ import nine from '../../Images/Illustration/RapBattle/Scan 9.jpeg'
 import mockup from '../../Images/Illustration/RapBattle/Poster_Mockup.jpg'
 
 function RapBattle(){
+	const [open, setOpen] = useState(false);
+
     return(
     	<div class="page">
+			<div className="mobileNav">
+				<Burger open={open} setOpen={setOpen}/>
+				<MobileNavBar open={open} setOpen={setOpen}/>
+			</div>
 		    <div class="illustrationContentPage" id="rapBattlePage">
 		        <h2>Autumn Moon Rap Battle Poster</h2>
 		        <p class="contentText">Commissioned to illustrate and design a promotional poster for an annual event <a id="rapLink" href="https://franklin.ucbtheatre.com/show/6398">“An Autumn Moon Rap Battle”</a> presented by Asian AF and Dopetown 3000. The poster was hung around town and event venue for the month of the event.  </p>

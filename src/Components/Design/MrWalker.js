@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useState} from "react";
+import Burger from '../Hamburger.js'
+import MobileNavBar from '../MobileNavBar.js'
 import '../Desktop.css'
 
 import Walker from '../../Images/Design/HMHBooks/MrWalkerStepsOut.jpg'
@@ -7,9 +9,14 @@ import Case from '../../Images/Design/HMHBooks/MrWalkerCase.jpg'
 import Interior from '../../Images/Design/HMHBooks/MrWalkerInterior.jpg'
 
 function MrWalker(){
+	const [open, setOpen] = useState(false);
 	return(
 		<div class="page">
 		    <div class="designContentPageBook">
+		   		<div className="mobileNav">
+					<Burger open={open} setOpen={setOpen}/>
+					<MobileNavBar open={open} setOpen={setOpen}/>
+				</div>
 		        <div class="contentHMH">
 		            <img class="contentImage" src={Walker} />
 		            <p class="contentTextHMHTitle">Mr. Walker Steps Out</p>

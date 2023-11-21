@@ -25,10 +25,9 @@ function Bobabar(){
 	            <video class="contentVideo" autoplay="autoplay" muted loop><source src={AppVideo} type="video/mp4"></source></video>
 	            <img class="contentImage" src={Wireframe} />
 	            <img class="contentImage" src={UIframe} />
-
-		            <img class="contentImage" src={Process1} />
-		            <img class="contentImage" src={Process2} />
-		            <img class="contentImage" src={Process3} />		
+	            <img class="contentImage" src={Process1} />
+	            <img class="contentImage" src={Process2} />
+	            <img class="contentImage" src={Process3} />		
 
 		    </div>
 		</div>
