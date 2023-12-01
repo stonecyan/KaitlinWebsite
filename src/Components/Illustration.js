@@ -18,7 +18,7 @@ import StarvingPanda from '../Images/Illustration/StarvingPanda.jpg'
 import PotatoChips from '../Images/Illustration/PotatoChipsCover.jpg'
 import Covid from '../Images/Illustration/Covid.jpg'
 import MedSchool from '../Images/Illustration/MedSchool.jpg'
-import MinnieGary from '../Images/Illustration/MinnieGary.jpg'
+import MinnieGary from '../Images/Illustration/MinnieGaryCover.jpg'
 import YogaTiger from '../Images/Illustration/YogaTiger.jpg'
 import GirlStickers from '../Images/Illustration/GirlStickers.jpg'
 import RabbitStickers from '../Images/Illustration/RabbitStickers.jpg'
@@ -26,7 +26,8 @@ import MiniBuddha from '../Images/Illustration/MiniBuddha.png'
 import YeYe from '../Images/Illustration/IntheKitchenwithYeYe_crop.jpg'
 import WordsHavePower from '../Images/Illustration/WhenWordsHavePower/WordsHavePower_p28-29.jpg'
 import LeviNapkin from '../Images/Illustration/Levi_napkin_blush.jpg'
-import SincerelyDiary from '../Images/Design/PenguinBooks/SincerelyDiary/SincerelyDiary.jpg'
+import SincerelyDiary from '../Images/Illustration/SincerelyDiaryBookJacket.jpg'
+import BookReviewEditorial from '../Images/Illustration/BookReviewEditorial.jpg'
 
 
 
@@ -36,6 +37,14 @@ export default function Illustration(){
 	return(
 		<div>
 			<div className="illustration-grid-container">
+				<div id="BookReviewEditorial" className="illustrationProject">
+		            <img className="gridImage" src={BookReviewEditorial} loading="lazy"/>
+		        </div>
+		        <div className="illustrationOverlay" id="BookReviewEditorialOverlay">
+		            <h3>Personal Work</h3>
+		            <Link to="/Illustration/BookReviewEditorial">Book Review Editorial</Link>
+		        </div>
+
 				<div id="SincerelyDiary" className="illustrationProject">
 		            <img className="gridImage" src={SincerelyDiary} loading="lazy"/>
 		        </div>
@@ -43,6 +52,7 @@ export default function Illustration(){
 		            <h3>Commission</h3>
 		            <Link to="/Illustration/SincerelyDiary">Sincerely Diary</Link>
 		        </div>
+
 				<div id="YeYe" className="illustrationProject">
 		            <img className="gridImage" src={YeYe} loading="lazy"/>
 		        </div>
@@ -172,7 +182,7 @@ export default function Illustration(){
 		        </div>
 		        <div className="illustrationOverlay" id="minniegaryOverlay">
 		            <h3>Commission</h3>
-		            <Link to="/Illustration/MinnieGary">Customized Couple Sticker</Link>
+		            <Link to="/Illustration/MinnieGary">Customized <br/> Couple Sticker</Link>
 		        </div>
 
 		        <div id="yogatiger" className="imageOverlay">

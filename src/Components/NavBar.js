@@ -20,7 +20,7 @@ class NavBar extends Component{
 		<div>
 			
 			<div id="navigation" className="navigation">
-			    <img className="weblogo" src={LogoSelfPortrait} />
+			    <a href="/Illustration"><img className="weblogo" src={LogoSelfPortrait} /></a>
 			    <img className="mobilelogo" src={LogoPicture} />
 			    <div className="navItems">
 				    <Router>

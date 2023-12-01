@@ -83,6 +83,7 @@ import RabbitStickers from './Components/Illustration/RabbitStickers.js'
 import YeYeKitchen from './Components/Illustration/Grandpa.js'
 import WordsHavePower from './Components/Illustration/WordsHavePower.js'
 import LeviNapkin from './Components/Illustration/LeviNapkin.js'
+import BookReviewEditorial from './Components/Illustration/BookReviewEditorial.js'
 
 import Bobabar from './Components/UIUX/Bobabar.js'
 import StrengthMagazine from './Components/UIUX/StrengthMagazine.js'
@@ -186,6 +187,7 @@ function App() {
 				<Route path="/Illustration/WhenWordsHavePower" component={WordsHavePower} />
 				<Route path="/Illustration/WeddingNapkinDesign" component={LeviNapkin} />
 				<Route path="/Illustration/SincerelyDiary" component={SincerelyDiary} />
+				<Route path="/Illustration/BookReviewEditorial" component={BookReviewEditorial} />
 
 
 

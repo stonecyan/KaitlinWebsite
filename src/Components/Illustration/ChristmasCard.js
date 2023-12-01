@@ -3,8 +3,8 @@ import Burger from '../Hamburger.js'
 import MobileNavBar from '../MobileNavBar.js'
 import '../Desktop.css'
 
-import Christmas from '../../Images/Illustration/ChristmasCard.jpg'
-import Card from '../../Images/Illustration/Christmas Card/ChristmasCard.jpg'
+import Christmas from '../../Images/Illustration/Christmas Card/ChristmasCard.jpg'
+import Card from '../../Images/Illustration/Christmas Card/ChristmasCardEnvelope.jpg'
 
 function ChristmasCard(){
 	const [open, setOpen] = useState(false);
