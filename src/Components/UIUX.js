@@ -9,6 +9,8 @@ import Bobabar from '../Images/UIUX/Bobabar/BobabarCover.jpg'
 import StrengthMagazine from '../Images/UIUX/StrengthMagazine/StrengthMagazineSpread1.jpg'
 import TapNY from '../Images/UIUX/TapNY/TAPNYSwagDesignCover.jpeg'
 import WelcomeWeek from '../Images/UIUX/WelcomeWeek/WelcomeWeekCover.jpg'
+import FASNYLogo from '../Images/UIUX/FASNYLogo/FASNYLogoFinal.png'
+
 
 
 
@@ -28,6 +30,12 @@ export default function UIUX(){
 		    		<img className="uiuxImage"src={StrengthMagazine} loading="lazy"/>
 		    		<div class="uiuxOverlay">
 		    			<a href="/Design/StrengthMagazine"></a>
+		    		</div>
+		    	</div>
+				<div class="uiuxProject">
+		    		<img className="uiuxImage"src={FASNYLogo} loading="lazy"/>
+		    		<div class="uiuxOverlay">
+		    			<a href="/Design/FASNYLogo"></a>
 		    		</div>
 		    	</div>
 		    	<div class="uiuxProject">
