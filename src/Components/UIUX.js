@@ -61,6 +61,8 @@ export default function UIUX(){
 				<a href="/Design/Bobabar"><img className="designImage"src={Bobabar} loading="lazy"/></a>
 				<a href="/Design/StrengthMagazine"><img className="designImage"src={StrengthMagazine} loading="lazy"/></a>
 				<a href="/Design/TAPNY"><img className="designImage"src={TapNY} loading="lazy"/></a>
+				<a href="/Design/FASNYLogo"><img className="designImage"src={FASNYLogo} loading="lazy"/></a>
+
 				<a href="/Design/StyleGuides"><img className="designImage"src={WelcomeWeek} loading="lazy"/></a>
 
 				</div>

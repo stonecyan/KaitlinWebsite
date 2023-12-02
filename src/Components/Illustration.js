@@ -234,14 +234,18 @@ export default function Illustration(){
 				</div>
 	    		<Link to="/Illustration/YeYeKitchen"><img className="gridImage" src={YeYe} loading="lazy"/></Link>
 	    		<Link to="/Illustration/WhenWordsHavePower"><img className="gridImage" src={WordsHavePower} loading="lazy"/></Link>
-	    		<Link to="/Illustration/ChristmasCard"><img className="gridImage" src={ChristmasCard} loading="lazy"/></Link>
-	    		<Link to="/Illustration/StarvingPanda"><img className="gridImage" src={StarvingPanda} loading="lazy"/></Link>
+	    		<Link to="/Illustration/BookReviewEditorial"><img className="gridImage" src={BookReviewEditorial} loading="lazy"/></Link>
 	    		<Link to="/Illustration/Emperor"><img className="gridImage" src={Emperor} loading="lazy"/></Link>
 	    		<Link to="/Illustration/LittleRedRidingHood"><img className="gridImage" src={LittleRed} loading="lazy"/></Link>
 	    		<Link to="/Illustration/SecretSantaSociety"><img className="gridImage" src={SecretSantaSociety} loading="lazy"/></Link>
+	    		<Link to="/Illustration/SincerelyDiary"><img className="gridImage" src={SincerelyDiary} loading="lazy"/></Link>
+	    		<Link to="/Illustration/StarvingPanda"><img className="gridImage" src={StarvingPanda} loading="lazy"/></Link>
+
 	    		<Link to="/Illustration/IDEO"><img className="gridImage" src={IDEO} loading="lazy"/></Link>
 	    		<Link to="/Illustration/PotatoChips"><img className="gridImage" src={PotatoChips} loading="lazy"/></Link>
 	    		<Link to="/Illustration/COVID"><img className="gridImage" src={Covid} loading="lazy"/></Link>
+	    		<Link to="/Illustration/ChristmasCard"><img className="gridImage" src={ChristmasCard} loading="lazy"/></Link>
+
 	    		<Link to="/Illustration/Buddha"><img className="gridImage" src={MomBuddha} loading="lazy"/></Link>
 	    		<Link to="/Illustration/GirlCharacterSamples"><img className="gridImage" src={GirlStickers} loading="lazy"/></Link>
 	    		<Link to="/Illustration/BasketballAnimals"><img className="gridImage" src={BearBasketball} loading="lazy"/></Link>
@@ -252,6 +256,7 @@ export default function Illustration(){
 	    		<Link to="/Illustration/TigerYoga"><img className="gridImage" src={YogaTiger} loading="lazy"/></Link>
 	    		<Link to="/Illustration/RapBattle"><img className="gridImage" src={RapBattle} loading="lazy"/></Link>   
 	    		<Link to="/Illustration/VeggieAnimals"><img className="gridImage" src={VeggieAnimal} loading="lazy"/></Link>
+
 
 	    	</div>
 		</div>
