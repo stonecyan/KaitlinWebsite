@@ -118,8 +118,9 @@
       text-align: center;
       margin-left: 5%;
       margin-right: 5%; }
-    .contentText {
+    .contentText, .contentTextHMH, .contentTextHMH2, .contentTextHMHTitle {
       margin: 2% 5%; }
+
     .contentImage{
       margin-left: 5%;
       margin-right: 5%;
