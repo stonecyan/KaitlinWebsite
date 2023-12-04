@@ -13,7 +13,7 @@ function BookReviewEditorial(){
 		    <div class="illustrationContentPage">
 		        <h2>Book Review Editorial</h2>
 				<p class="contentText">
-				Book reviews are important to a book’s success. In this self driven project, I focused on turning this concepts into a visually compelling, modern, and playful image.
+				Book reviews are important to a book’s success. In this self driven project, I focused on turning this concept into a visually compelling, modern, and playful image.
 		        </p>
 		        <img class="contentImage" src={BookReviewEd} />
 				<p class="contentText">Initial Thumbnails:</p>
