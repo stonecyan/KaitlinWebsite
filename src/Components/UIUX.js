@@ -10,6 +10,7 @@ import StrengthMagazine from '../Images/UIUX/StrengthMagazine/StrengthMagazineSp
 import TapNY from '../Images/UIUX/TapNY/TAPNYSwagDesignCover.jpeg'
 import WelcomeWeek from '../Images/UIUX/WelcomeWeek/WelcomeWeekCover.jpg'
 import FASNYLogo from '../Images/UIUX/FASNYLogo/FASNYLogoFinal.png'
+import FoodIcons from '../Images/UIUX/FoodIcons/FoodIconsCover.jpg'
 
 
 
@@ -20,6 +21,13 @@ export default function UIUX(){
 	return(
 		<div>
 			<div class="uiux-grid-container-main">
+				<div class="uiuxProject">
+		    		<img className="uiuxImage"src={FoodIcons} loading="lazy"/>
+		    		<div class="uiuxOverlay">
+		    			<a href="/Design/FoodIcons"></a>
+		    		</div>
+		    	</div>
+
 				<div class="uiuxProject">
 		    		<img className="uiuxImage"src={Bobabar} loading="lazy"/>
 		    		<div class="uiuxOverlay">
@@ -58,12 +66,14 @@ export default function UIUX(){
 					<MobileNavBar open={open} setOpen={setOpen}/>
 				</div>
 				<div className="mobileContent">
-				<a href="/Design/Bobabar"><img className="designImage"src={Bobabar} loading="lazy"/></a>
-				<a href="/Design/StrengthMagazine"><img className="designImage"src={StrengthMagazine} loading="lazy"/></a>
-				<a href="/Design/TAPNY"><img className="designImage"src={TapNY} loading="lazy"/></a>
-				<a href="/Design/FASNYLogo"><img className="designImage"src={FASNYLogo} loading="lazy"/></a>
+					<a href="/Design/FoodIcons"><img className="designImage"src={FoodIcons} loading="lazy"/></a>
 
-				<a href="/Design/StyleGuides"><img className="designImage"src={WelcomeWeek} loading="lazy"/></a>
+					<a href="/Design/Bobabar"><img className="designImage"src={Bobabar} loading="lazy"/></a>
+					<a href="/Design/StrengthMagazine"><img className="designImage"src={StrengthMagazine} loading="lazy"/></a>
+					<a href="/Design/TAPNY"><img className="designImage"src={TapNY} loading="lazy"/></a>
+					<a href="/Design/FASNYLogo"><img className="designImage"src={FASNYLogo} loading="lazy"/></a>
+
+					<a href="/Design/StyleGuides"><img className="designImage"src={WelcomeWeek} loading="lazy"/></a>
 
 				</div>
 			</div>

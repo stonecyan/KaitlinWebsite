@@ -90,6 +90,7 @@ import StrengthMagazine from './Components/UIUX/StrengthMagazine.js'
 import TapNY from './Components/UIUX/TapNY.js'
 import WelcomeWeek from './Components/UIUX/WelcomeWeek.js'
 import FASNYLogo from './Components/UIUX/FASNYLogo.js'
+import FoodIcons from './Components/UIUX/FoodIcons.js'
 
 
 function App() {
@@ -111,6 +112,7 @@ function App() {
 				<Route path="/Design/TAPNY" component={TapNY} />
 				<Route path="/Design/StyleGuides" component={WelcomeWeek} />
 				<Route path="/Design/FASNYLogo" component={FASNYLogo} />
+				<Route path="/Design/FoodIcons" component={FoodIcons} />
 
 
 				<Route path="/BookDesign/EvenOdd" component={EvenOdd} />
